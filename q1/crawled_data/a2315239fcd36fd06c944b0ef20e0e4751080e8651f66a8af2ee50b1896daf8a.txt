@@ -1,0 +1,1108 @@
+
+
+<!doctype html>
+<html lang="en">
+<head>
+        <script src="https://www.datadoghq-browser-agent.com/datadog-rum.js" type="text/javascript"></script>
+        <script>
+            window.DD_RUM && window.DD_RUM.init({
+                clientToken: 'pub7f11f2dac3cf6bd13861448869a7a692',
+                applicationId: '3bd930da-5814-45ce-9c67-984ae6fcc9e5',
+                site: 'datadoghq.com',
+                datacenter: 'us',
+                service: 'ui.public',
+                env: 'pd',
+                sampleRate: 10
+            });
+        </script>
+    <meta http-equiv="X-UA-Compatible" content="IE=EDGE" /><title>
+	Wilfrid Laurier University - Calendar
+</title><link href="/Fonts/material-icons/iconfont/material-icons.css" rel="stylesheet" /><link href="/Fonts/material-icons/css/material-icons.css" rel="stylesheet" /><link href="/Fonts/FontAwesome/font-awesome.css" type="text/css" rel="stylesheet" /><link rel="stylesheet" href="/Fonts/FontAwesome/font-awesome-5.1.1/css/all.css" /><link rel="stylesheet" href="/Fonts/FontAwesome/font-awesome-5.1.1/css/v4-shims.css" /><link rel="icon" type="image/x-icon" href="/images/BrightlyPNG.png" />
+
+    <script type="text/javascript" src="/scripts/vendor/jQuery/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="/scripts/vendor/moment.min.js"></script>
+    <script type="text/javascript" src="/scripts/vendor/modernizr-2.6.2.js"></script>
+    <script type="text/javascript" src="/scripts/core.js?v=2021.1.0"></script>
+    <script type="text/javascript" src="/scripts/widgetsupport.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script type="text/javascript">
+        $(window).resize(function () { if ($("#gadget").css('display') != 'none') { ActiveData.Gadgets.Resized(); } });
+        $(function () { $("input:password").each(function () { $(this).attr('autocomplete', 'off'); }); });
+    </script>
+
+    <!-- jQuery Datepicker -->
+    <link href="/scripts/vendor/jquery/ui/themes/smoothness/jquery-ui.css" type="text/css" rel="stylesheet" /><script type="text/javascript">ActiveData.Variables = {"site":{"route":"","name":"Wilfrid Laurier University","layoutDirectory":"/layouts/Community/Default Site/Active Data Default","private":false,"culture":"en-US","useColorCoding":false,"googleApiKey":"","mapboxApiKey":""},"tenant":{"route":"wlu","name":"Wilfrid Laurier University"},"runtime":{"baseUrl":"https://events.dudesolutions.com","listUrl":"https://events.dudesolutions.com/wlu/","adminUrl":"https://events.dudesolutions.com/admin/wlu/default.aspx","isDetails":false,"isList":true,"isGadget":false,"view":"grid.xslt"},"user":{"isLoggedIn":false},"filter":{"startRange":"2/1/2023 12:00:00 AM","endRange":"2/28/2023 12:00:00 AM","keywords":"","categories":[],"locations":[]},"layout":{"sitelogo":"https://calendarmedia.blob.core.windows.net/assets/ab3c71ed-0dde-41ef-bd66-567bc66596ba.jpg","sitelogourl":"","tagline":"Calendar of Events","css":"\u003cstyle type=\u0027text/css\u0027\u003e\r\n/* primary font color no background */\r\n#search_range,\r\n#sidebar h3,\r\n#view-search a.here,\r\n#view-search #search-link,\r\n#view-search span,\r\n#view-search h3,\r\n.adx-modal h2,\r\n.date,\r\n.list-event-locale a,\r\n.list-event-preview h3 a,\r\n.quick-link-container ul li a,\r\n#theme-event-detail-view #event-details-main-content h2,\r\n.accordion-header,\r\nth,\r\na#back-to-events,\r\nfooter a, \r\n.core-title,\r\n#search_results \u003e div \u003e h2,\r\ndiv.event-pagination \u003e ul \u003e li \u003e a, div.event-pagination \u003e ul \u003e li \u003e a:visited, div.event-pagination \u003e ul \u003e li \u003e a:focus,\r\na:any-link,\r\n.core-inline-products-action a,\r\n.event-detail-contact-person a,\r\n.full-schedule-container h3 a,\r\n.accordion-content \u003e div,\r\n.ep-popuptext \u003e div {\r\n    color: #330072 !important;\r\n}\r\n\r\na:-webkit-any-link {\r\n    color: #330072 !important;\r\n}\r\n\r\n/* secondary font color no background */\r\n#view-search a,\r\n#event-favorite-container #event-favorite,\r\n.list-event-date,\r\n.list-event-locale, .list-event-locale p a[itemprop=\"url\"] span, .list-event-locale p,\r\n.list-event-preview p,\r\n.list-event-preview,\r\n.event-detail-date p,\r\n.event-detail-contact-person p,\r\n#event-detail-copy,\r\n.results-none p,\r\nfooter p,\r\n.custom-field-label,\r\n.event-attachments,\r\n.core-inline-products tbody td,\r\n.accordion-content \u003e div.event-attachments,\r\n.accordion-content \u003e div.event-keywords,\r\n.share-it-accordion-content h4,\r\n#search-link em,\r\n#month tbody .next .date, \r\n#month tbody .previous .date ,\r\n.list2 .list-event:nth-of-type(even) .list-event-preview h4 a,\r\n.list2 .list-event:nth-of-type(even) .quick-link-container ul li a,\r\n.list2 .list-event:nth-of-type(even) .list-event-preview p {\r\n    color: #330072 !important;\r\n}\r\n\r\n/* background */\r\nbody {\r\n    background: #330072 !important;\r\n    background-repeat: unset !important;\r\n    background-position: unset !important;\r\n    background-attachment: fixed !important;\r\n    background-size: initial !important;\r\n}\r\n\r\n/* no background */\r\n.wrap {\r\n    background-color: #FFFFFF !important;\r\n    padding-left: 15px;\r\n    padding-right: 15px;\r\n    padding-top: 10px;\r\n}\r\n\r\nnav#main {\r\n    padding-left: 30px;\r\n    padding-right: 15px;\r\n}\r\n\r\nnav#main,\r\nimg#publicBody_imgLogoImage {\r\n    margin-left: -15px;\r\n    margin-top: -10px;\r\n}\r\n\r\n/*primary background color + primary font color */\r\n.list2 #main-content h3,\r\n.list2 #main-content h3 a,\r\n#core_registration .core-button-submit,\r\n#calendar-month,\r\n.list-event-link a,\r\n.wrapper-dropdown.active,\r\n.core-button-submit,\r\ndiv.event-pagination \u003e ul \u003e li \u003e span, div.event-pagination \u003e ul \u003e li \u003e a:hover,\r\n.ep-popup .ep-adx-primary-action a,\r\n#core_signin .core-button-container .core-button-submit,\r\n#core_signup .core-button-container .core-button-submit,\r\n#core_search .core-button-container .core-button-submit,\r\n#core_search .core-button-container .core-button-clear,\r\n#core_guest_registration a, #core_profile_registration a,\r\n#core_order_confirmation .core-button-submit,\r\n#top-main .wrap,\r\n#mobile-nav-link i {\r\n    background-color: #FFFFFF !important;\r\n    color: #330072 !important;\r\n}\r\n\r\n/* Navigation Bar */\r\n.ep-nav {\r\n    background-color: #E4E4E4 !important;\r\n}\r\n.ep-nav .navitem {\r\n    background-color: #E4E4E4 !important;\r\n    color: #330072 !important;\r\n}\r\n.ep-nav .navitem-highlight {\r\n    background-color: #CFCFCF !important;\r\n    color: #330072 !important;\r\n}\r\n.ep-nav .navitem:hover {\r\n    background-color: #CFCFCF !important;\r\n    color: #330072 !important;\r\n}\r\n.ep-nav .navmenu {\r\n    background-color: #EFEFEF !important;\r\n    color: #330072 !important;\r\n}\r\n.ep-nav .navmenu-highlight {\r\n    background-color: #330072 !important;\r\n    color: #FFFFFF !important;\r\n}\r\n.ep-nav .navmenu:hover {\r\n    background-color: #330072 !important;\r\n    color: #FFFFFF !important;\r\n}\r\n\r\n/*banner background + banner font color*/\r\nheader,\r\nnav#main,\r\nnav#main ul li a,\r\n#header-slogan {\r\n    background-color: #FFFFFF !important;\r\n    color: #330072 !important;\r\n}\r\n\r\n#calendar-month .month-jump,\r\n#calendar-month h2,\r\n.wrapper-dropdown.active #custom_viewby {\r\n    color: #330072 !important;\r\n}\r\n\r\n/*secondary background color + secondary font color */\r\n.list2 .list-event:nth-of-type(odd),\r\n#month thead,\r\n#search-box {\r\n    background-color: #330072 !important;\r\n}\r\n\r\n.list2 .list-event:nth-of-type(odd) .list-event-preview h4 a,\r\n.list2 .list-event:nth-of-type(odd) .quick-link-container ul li a,\r\n.list2 .list-event:nth-of-type(odd) .list-event-preview p,\r\n#month thead,\r\n#month thead tr th,\r\n#search-box label,\r\n#search-box a {\r\n    color: #FFFFFF !important;\r\n}\r\n\u003c/style\u003e","js":"\u003cscript type=\"text/javascript\"\u003e\u003c/script\u003e","highlighted":"\u003cscript type=\"text/javascript\"\u003e$(function () {ADX.Get({filter: { Highlighted: \"Y\", View: \"highlighted.xslt\" },success: function (response) {$(\"#featuredEvents ul\").append(response.data);}});});\u003c/script\u003e\u003cdiv id=\"featuredEvents\" class=\"clearfix\"\u003e\u003cul style=\"margin:0;padding:0;\"\u003e\u003c/ul\u003e\u003c/div\u003e","disqus":"","view":{"list":"list.xslt","grid":"grid.xslt","list2":"list2.xslt"},"location":{"include-parent":""},"defaultview":"grid.xslt","gridviewshowmore":"Disabled","eventsperpage":"125","navBar":"","brandingTool":""},"event":{"route":""}}</script>
+    <!-- Meta Tags -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <!-- Mobile Meta Tags -->
+    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Author  -->
+    <!-- TODO: Determine Who the Context Author Is -->
+    <meta name="author" content="Dude Solutions, Inc., https://www.dudesolutions.com/" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="/Layouts/Community/Default Site/Active Data Default/css/style.css?v=2020.05.12" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/Layouts/Community/Default Site/Active Data Default/css/core.css?v=2020.05.12" type="text/css" media="screen" />
+    <link rel="stylesheet" href="/Layouts/Community/Default Site/Active Data Default/css/layout.css" type="text/css" media="screen" />
+    
+    <link href="/scripts/vendor/jquery/ui/themes/smoothness/jquery-ui.css" type="text/css" rel="stylesheet" />
+    <link rel="stylesheet" href="/Layouts/Community/Default Site/Active Data Default/css/print.css?v2018.1.0" type="text/css" media="print" />
+
+    <script type="text/javascript">
+        var getQueryString = function ( field, url ) {
+            var href = url ? url : window.location.href;
+            var reg = new RegExp( '[?&]' + field + '=([^&#]*)', 'i' );
+            var string = reg.exec(href);
+            return string ? string[1] : null;
+        };
+
+        if (self !== top && !getQueryString('preview')) {
+            var link = document.createElement('link');
+            link.type = 'text/css';
+            link.href = '/Layouts/Community/Default Site/Active Data Default/css/widget.css';
+            link.rel = "stylesheet";
+            document.getElementsByTagName('head')[0].appendChild(link);
+        }
+    </script>
+
+    <!-- Header Scripts -->
+    <script src="/Layouts/Community/Default Site/Active Data Default/js/core.handles.js"></script>
+
+    <!-- AddThis Button BEGIN -->
+    <!-- https://www.addthis.com/academy/optimizing-addthis-performance/ : add the “async” attribute to the addthis_widget.js script tag -->
+    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xa-52b8419d5904e2aa" async="async"></script>
+
+    <script type="text/javascript"></script><style type='text/css'>
+/* primary font color no background */
+#search_range,
+#sidebar h3,
+#view-search a.here,
+#view-search #search-link,
+#view-search span,
+#view-search h3,
+.adx-modal h2,
+.date,
+.list-event-locale a,
+.list-event-preview h3 a,
+.quick-link-container ul li a,
+#theme-event-detail-view #event-details-main-content h2,
+.accordion-header,
+th,
+a#back-to-events,
+footer a, 
+.core-title,
+#search_results > div > h2,
+div.event-pagination > ul > li > a, div.event-pagination > ul > li > a:visited, div.event-pagination > ul > li > a:focus,
+a:any-link,
+.core-inline-products-action a,
+.event-detail-contact-person a,
+.full-schedule-container h3 a,
+.accordion-content > div,
+.ep-popuptext > div {
+    color: #330072 !important;
+}
+
+a:-webkit-any-link {
+    color: #330072 !important;
+}
+
+/* secondary font color no background */
+#view-search a,
+#event-favorite-container #event-favorite,
+.list-event-date,
+.list-event-locale, .list-event-locale p a[itemprop="url"] span, .list-event-locale p,
+.list-event-preview p,
+.list-event-preview,
+.event-detail-date p,
+.event-detail-contact-person p,
+#event-detail-copy,
+.results-none p,
+footer p,
+.custom-field-label,
+.event-attachments,
+.core-inline-products tbody td,
+.accordion-content > div.event-attachments,
+.accordion-content > div.event-keywords,
+.share-it-accordion-content h4,
+#search-link em,
+#month tbody .next .date, 
+#month tbody .previous .date ,
+.list2 .list-event:nth-of-type(even) .list-event-preview h4 a,
+.list2 .list-event:nth-of-type(even) .quick-link-container ul li a,
+.list2 .list-event:nth-of-type(even) .list-event-preview p {
+    color: #330072 !important;
+}
+
+/* background */
+body {
+    background: #330072 !important;
+    background-repeat: unset !important;
+    background-position: unset !important;
+    background-attachment: fixed !important;
+    background-size: initial !important;
+}
+
+/* no background */
+.wrap {
+    background-color: #FFFFFF !important;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+}
+
+nav#main {
+    padding-left: 30px;
+    padding-right: 15px;
+}
+
+nav#main,
+img#publicBody_imgLogoImage {
+    margin-left: -15px;
+    margin-top: -10px;
+}
+
+/*primary background color + primary font color */
+.list2 #main-content h3,
+.list2 #main-content h3 a,
+#core_registration .core-button-submit,
+#calendar-month,
+.list-event-link a,
+.wrapper-dropdown.active,
+.core-button-submit,
+div.event-pagination > ul > li > span, div.event-pagination > ul > li > a:hover,
+.ep-popup .ep-adx-primary-action a,
+#core_signin .core-button-container .core-button-submit,
+#core_signup .core-button-container .core-button-submit,
+#core_search .core-button-container .core-button-submit,
+#core_search .core-button-container .core-button-clear,
+#core_guest_registration a, #core_profile_registration a,
+#core_order_confirmation .core-button-submit,
+#top-main .wrap,
+#mobile-nav-link i {
+    background-color: #FFFFFF !important;
+    color: #330072 !important;
+}
+
+/* Navigation Bar */
+.ep-nav {
+    background-color: #E4E4E4 !important;
+}
+.ep-nav .navitem {
+    background-color: #E4E4E4 !important;
+    color: #330072 !important;
+}
+.ep-nav .navitem-highlight {
+    background-color: #CFCFCF !important;
+    color: #330072 !important;
+}
+.ep-nav .navitem:hover {
+    background-color: #CFCFCF !important;
+    color: #330072 !important;
+}
+.ep-nav .navmenu {
+    background-color: #EFEFEF !important;
+    color: #330072 !important;
+}
+.ep-nav .navmenu-highlight {
+    background-color: #330072 !important;
+    color: #FFFFFF !important;
+}
+.ep-nav .navmenu:hover {
+    background-color: #330072 !important;
+    color: #FFFFFF !important;
+}
+
+/*banner background + banner font color*/
+header,
+nav#main,
+nav#main ul li a,
+#header-slogan {
+    background-color: #FFFFFF !important;
+    color: #330072 !important;
+}
+
+#calendar-month .month-jump,
+#calendar-month h2,
+.wrapper-dropdown.active #custom_viewby {
+    color: #330072 !important;
+}
+
+/*secondary background color + secondary font color */
+.list2 .list-event:nth-of-type(odd),
+#month thead,
+#search-box {
+    background-color: #330072 !important;
+}
+
+.list2 .list-event:nth-of-type(odd) .list-event-preview h4 a,
+.list2 .list-event:nth-of-type(odd) .quick-link-container ul li a,
+.list2 .list-event:nth-of-type(odd) .list-event-preview p,
+#month thead,
+#month thead tr th,
+#search-box label,
+#search-box a {
+    color: #FFFFFF !important;
+}
+</style>
+    <script type="text/javascript">      
+        //Layout Config: Disqus
+        var disqus_shortname = "";
+    </script>
+
+    <script type="text/javascript">
+        //Layout Config: navBar
+        var navConfig = "<item key=\"navBar\" label=\"Navigation Bar\" type=\"ref\" description=\"NavigationBar\">\r\n  <item label=\"Featured Events\" hasDropDown=\"False\">\r\n    <link name=\"Featured Events\" destination=\"https://events.dudesolutions.com/wlu/page/quicklinks/?id=f9b3ef3c-fc74-4805-810f-e4973fb91893\" />\r\n  </item>\r\n  <item label=\"Important Dates\" hasDropDown=\"False\">\r\n    <link name=\"Important Dates\" destination=\"https://events.dudesolutions.com/wlu/page/quicklinks/?id=d7c6c1f5-fd38-4039-a259-1b4ef866c442\" />\r\n  </item>\r\n  <item label=\"Events by Type\" hasDropDown=\"True\">\r\n    <link name=\"Academic\" destination=\"https://events.dudesolutions.com/wlu/page/quicklinks/?id=914866d7-3e04-4884-a244-7be50146b319\" />\r\n    <link name=\"Arts &amp; Culture\" destination=\"https://events.dudesolutions.com/wlu/page/quicklinks/?id=fbb9715a-ea43-4466-b681-1fe14ea46f86\" />\r\n    <link name=\"Conference\" destination=\"https://events.dudesolutions.com/wlu/page/quicklinks/?id=389afee3-5cc4-4d62-8a31-a1bac70687b6\" />\r\n    <link name=\"Information session\" destination=\"https://events.dudesolutions.com/wlu/page/quicklinks/?id=771d146a-700a-4cc5-8eff-5075aa1c615f\" />\r\n    <link name=\"Research\" destination=\"https://events.dudesolutions.com/wlu/page/quicklinks/?id=f83467f3-9d4b-4990-b506-5d95c7381688\" />\r\n    <link name=\"Seminars &amp; Workshops\" destination=\"https://events.dudesolutions.com/wlu/page/quicklinks/?id=102ec302-7233-4516-8564-befc5aca51c9\" />\r\n    <link name=\"Wellness\" destination=\"https://events.dudesolutions.com/wlu/page/quicklinks/?id=4ffd5e34-bc73-4e55-a89b-1478965e65cd\" />\r\n  </item>\r\n  <item label=\"Events by Audience\" hasDropDown=\"True\">\r\n    <link name=\"Alumni\" destination=\"https://events.dudesolutions.com/wlu/page/quicklinks/?id=6dc81de9-d6c3-432f-9b52-c9be2d46a514\" />\r\n    <link name=\"Community Members\" destination=\"https://events.dudesolutions.com/wlu/page/quicklinks/?id=11cfa5c5-a1b6-45db-80dd-96e274ab84db\" />\r\n    <link name=\"Current Students\" destination=\"https://events.dudesolutions.com/wlu/page/quicklinks/?id=f0d57594-d8c1-4c1f-a13b-49654c8ebd36\" />\r\n    <link name=\"Donors, Friends, Supporters\" destination=\"https://events.dudesolutions.com/wlu/page/quicklinks/?id=e344026b-888e-4ebc-b458-5b069afd0406\" />\r\n    <link name=\"Faculty &amp; Staff\" destination=\"https://events.dudesolutions.com/wlu/page/quicklinks/?id=6e8080b8-3721-44cf-925e-1899cd0515d0\" />\r\n    <link name=\"Future Students\" destination=\"https://events.dudesolutions.com/wlu/page/quicklinks/?id=298d39b7-2858-40e0-8575-e1dd57018f18\" />\r\n    <link name=\"Parents\" destination=\"https://events.dudesolutions.com/wlu/page/quicklinks/?id=d716f447-13dc-4219-a7f8-873d2d8ea4b3\" />\r\n  </item>\r\n</item>";
+        $(function () { if (navConfig.length > 0) { renderNavbar(navConfig); } });
+    </script>
+
+    
+
+<meta property="og:title" content="Wilfrid Laurier University"/>
+<meta property="og:url" content="https://events.dudesolutions.com/wlu/"/>
+<meta property="og:image" content="https://calendarmedia.blob.core.windows.net/assets/ab3c71ed-0dde-41ef-bd66-567bc66596ba.jpg"/>
+
+<meta property="og:description" content="Wilfrid Laurier University" />
+
+
+
+    
+    
+
+
+    <style type="text/css">
+        .display-more { text-align: center; padding: 10px; font-size: 20px; }
+        .display-more span { cursor: pointer; }
+    </style>
+
+    <script type="text/javascript">
+        ActiveData.EventList.Transform = ActiveData.Variables.runtime.view;
+
+        $(function () {
+            // Set required attributes for gadgets in sidebar
+            $(".list-shareit .supersocialshare").attr("data-url", ActiveData.Variables.runtime.searchUrl);
+            $("a.gadget-link, a.adx-share-sendtogoogle").attr("data-gadgetsite", ActiveData.Variables.site.route);
+
+            // Set view styles
+            if (ActiveData.Variables.runtime.view.indexOf("grid") > -1) {
+                // Grid, make full-width                
+                $("#main-content").css({ "width": "100%", "max-width": "100%" });
+            } else if (ActiveData.Variables.runtime.view.indexOf("list2") > -1) {
+                // List, show sidebar
+                $("#sidebar").removeClass("hide");
+                $("#theme-list-view").addClass("list2");
+                $("#main-content").addClass("list");
+            } else if (ActiveData.Variables.runtime.view.indexOf("list") > -1) {
+                // Summary, show sidebar
+                $("#sidebar").removeClass("hide");
+                $("#theme-list-view").addClass("right-sidebar");
+                $("#main-content").addClass("summary");
+            }
+        });
+
+        function CommitEventFavorite(guid) {
+            //Create a parameters object needed for the request
+            var lParams = { "tenant": "", "site": "" };
+            lParams["tenant"] = ActiveData.Variables.tenant.route;
+            lParams["site"] = ActiveData.Variables.site.route;
+            lParams["get"] = "favorite";
+            lParams["guid"] = guid;
+
+            //Create the URL that will make the call
+            var lUrl = ActiveData.Variables.runtime.baseUrl + "/handlers/query.ashx?" + $.param(lParams);
+
+            $.ajax({
+                type: "POST",
+                url: lUrl,
+                dataType: "jsonp",
+                async: true, cache: false,
+                success: function (response) {
+                   $(top.location).attr('href', response.data);
+                }
+            });
+        }
+    </script>
+
+
+    <script src="/scripts/vendor/jquery/ui/jquery-ui.min.js" type="text/javascript"></script>
+<script type="text/javascript">var _gaq = _gaq || [];_gaq.push(['_setAccount', 'UA-4286537-12']);_gaq.push(['_trackPageview']);(function() {var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);})();</script><script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-104972143-1', 'auto', 'dsiAnalytics');
+ga('dsiAnalytics.send', 'pageview', '/wlu/?view=');
+</script>
+</head>
+<body id="core_public_body">
+    <form method="post" action="/wlu/?view=" id="frmPublicMaster">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMjEwNDQyMTMxMw9kFgJmD2QWAmYPZBYCZg9kFgQCAQ9kFgICDA9kFgJmD2QWAmYPFgIeBFRleHQF1wIKCjxtZXRhIHByb3BlcnR5PSJvZzp0aXRsZSIgY29udGVudD0iV2lsZnJpZCBMYXVyaWVyIFVuaXZlcnNpdHkiLz4KPG1ldGEgcHJvcGVydHk9Im9nOnVybCIgY29udGVudD0iaHR0cHM6Ly9ldmVudHMuZHVkZXNvbHV0aW9ucy5jb20vd2x1LyIvPgo8bWV0YSBwcm9wZXJ0eT0ib2c6aW1hZ2UiIGNvbnRlbnQ9Imh0dHBzOi8vY2FsZW5kYXJtZWRpYS5ibG9iLmNvcmUud2luZG93cy5uZXQvYXNzZXRzL2FiM2M3MWVkLTBkZGUtNDFlZi1iZDY2LTU2N2JjNjY1OTZiYS5qcGciLz4KCjxtZXRhIHByb3BlcnR5PSJvZzpkZXNjcmlwdGlvbiIgY29udGVudD0iV2lsZnJpZCBMYXVyaWVyIFVuaXZlcnNpdHkiIC8+ZAIDD2QWAmYPFgIeBmFjdGlvbgULL3dsdS8/dmlldz0WAgIDD2QWAgIDD2QWBGYPZBYEAgEPZBYGAgEPFgIeCWlubmVyaHRtbAUOVklFVyBCWTogTW9udGhkAhkPD2QWAh4KYXJpYS1sYWJlbAUIcHJldmlvdXNkAhsPD2QWAh8DBQRuZXh0ZAICD2QWAmYPZBYEAgYPD2QWAh4Hb25DbGljawUTVHJhY2tTZWFyY2hDbGljaygpO2QCCg8WAh4HVmlzaWJsZWhkAgEPZBYEZg8WAh8CBThXZWRuZXNkYXksIEZlYnJ1YXJ5IDEsIDIwMjMgLSBUdWVzZGF5LCBGZWJydWFyeSAyOCwgMjAyM2QCAg8WAh8FaBYIAgEPFgIfBWhkAgMPFgIfBWhkAgUPDxYCHwVoZGQCBw8PFgIfBWhkZGSja2MDVBBXKuxmahMIBdepEGVLgMW/bCKrDWP3R89aRg==" />
+
+
+<script src="/ScriptResource.axd?d=SPodwtXor-Zvpd0HG0Y_8Z9e52nBr_cGj3dnA0DqYteNxz16ZYwQLugW5wbbWtitnyJkFXOg7sdqRgQn6rl6fnwnkhKYUbfXiIZSf7W1nb8FR2bkmFHozNtPuGy-4V7az9siv7Cwj8lahq49zBERAGOo_byJqzcVgTqCngxOmKs1&amp;t=49337fe8" type="text/javascript"></script>
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
+        
+        
+    <a class="skip-nav" href="#main-content" id="skipNav" tabindex="-1">Skip to main content</a>
+
+    <!-- Layout Header -->
+    <header id="top-main" class="clearfix">
+        <div class="wrap">
+            <a href="#" id="mobile-nav-link" aria-label="mobile navigation link">
+                <i class="fa fa-bars open"></i>
+                <i class="fa fa-times close"></i>
+            </a>
+            <nav id="main" class="main clearfix" aria-label="Main Navigation">
+                <ul><li><a href="/wlu/login/"  >Sign In</a></li><li><a href="" onClick="window.print();return false;" >Print</a></li></ul>
+            </nav>
+            <h1 id="logo">
+                <a href="/wlu/" aria-label="Wilfrid Laurier University">
+                    <img id="publicBody_imgLogoImage" src="https://calendarmedia.blob.core.windows.net/assets/ab3c71ed-0dde-41ef-bd66-567bc66596ba.jpg" alt="Wilfrid Laurier University" />
+                </a>
+            </h1>
+            <h2 id="header-slogan">Calendar of Events</h2>
+        </div>
+        <div class="nav-container">
+            <div style="clear: both;" class="ep-nav">
+                <div class="wrap nav-wrap">
+                    <div id="ep-dynamic-nav"></div>
+                </div>
+            </div>
+            <div style="clear: both;" class="ep-nav nav-more">
+                <div class="wrap nav-wrap">
+                    <div id="ep-dynamic-nav-more"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <header id="widget-top-main" class="clearfix">
+        <div class="wrap">
+            <nav id="widget-main" class="main clearfix">
+                <ul><li><a href="" onClick="redirectToLogIn('https://events.dudesolutions.com/wlu/login/', 'signin-widget');return false;" >Sign In</a></li></ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="wrap main" >
+        <!-- Layout Body -->
+        
+    <!-- featured events -->
+    <script type="text/javascript">$(function () {ADX.Get({filter: { Highlighted: "Y", View: "highlighted.xslt" },success: function (response) {$("#featuredEvents ul").append(response.data);}});});</script><div id="featuredEvents" class="clearfix"><ul style="margin:0;padding:0;"></ul></div>
+    <!-- End featuredEvents -->
+
+    
+
+<section id="view-search" class="clearfix">
+    <nav id="view-type" aria-label="Calendar Navigation">
+        <ul id="publicBody_siteBody_UCEventSearch_view_type_list">
+            <li>
+                <h3>View Type: </h3>
+            </li>
+            <!-- Old list view is now titled "Summary View" -->
+            <li id="publicBody_siteBody_UCEventSearch_li_list_view"><a href="/wlu/?view=list&search=y" aria-label="Summary View" id="list-view" class="view-icon "><em class="icon-list-alt"></em><span>Summary View</span></a></li>
+
+            <li id="publicBody_siteBody_UCEventSearch_li_grid_view"><a href="/wlu/?view=grid&search=y" aria-label="Calendar View" id="calendar-view" class="view-icon here"><em class="icon-calendar"></em><span>Grid View</span></a></li>
+            <!-- New list view added 1/16/2014 -->
+            <li id="publicBody_siteBody_UCEventSearch_li_list2_view"><a href="/wlu/?view=list2&search=y" aria-label="List View" id="list2-view" class="view-icon "><em class="icon-list"></em><span>List View</span></a></li>
+        </ul>
+    </nav>
+    
+    <section class="list-subscribe" style="display: none">
+        <h3>Subscribe</h3>
+        <ul style="padding-left: 5px;" class="subscribe-section">
+            <li>
+                <a class="gadget-link" data-gadgetaction="Subscribe" data-gadgetsite="" data-sharetype="rss" data-query="duration=1months" id="rss-icon" aria-label="RSS Subscription, link opens in a new window">
+                    <img alt="Add to RSS" class="core-sidebar-subscribe-icon" src="/Layouts/Community/Default%20Site/Active%20Data%20Default/images/rss-icon2.png"></img>
+                </a>
+            </li>
+            <li>
+                <a class="adx-share-sendtogoogle" data-sharetype="ical" data-gadgetsite="" data-query="duration=1months" data-analytics="SendtoGoogle" aria-label="Add to Google Calendar, link opens in a new window" target="_blank">
+                    <img alt="Add to Google Calendar" class="core-sidebar-subscribe-icon" src="/Layouts/Community/Default%20Site/Active%20Data%20Default/images/share-icons/google.png"></img>
+                </a>
+            </li>
+            <li>
+                <a class="gadget-link add-calendar" data-gadgetaction="Subscribe" data-gadgetsite="" aria-label="iCal Subscription, link opens in a new window" data-query="duration=1months" data-sharetype="ical">
+                    <img alt="Add to Calendar" class="core-sidebar-subscribe-icon" src="/Layouts/Community/Default%20Site/Active%20Data%20Default/images/share-icons/outlook.png"></img>
+                </a>
+            </li>
+            <li>
+                <a class="gadget-link" aria-label="Add Notifications, link opens in a new window" data-gadgetaction="Alert" data-gadgetsite="">
+                    <img alt="Email" class="core-sidebar-subscribe-icon" src="/Layouts/Community/Default%20Site/Active%20Data%20Default/images/notifications_icon.png"></img>
+                </a>
+            </li>
+        </ul>
+    </section>
+
+    
+<div id="view-by-container">
+    <div id="view-by" class="wrapper-dropdown">
+        <span id="custom_viewby">VIEW BY: Month</span>
+        <ul class="dropdown" tabindex="1">
+            <li>
+                <a id="publicBody_siteBody_UCEventSearch_ViewBy_lbtnDay" title="Events for Today" href="javascript:__doPostBack(&#39;ctl01$ctl00$ctl00$publicBody$siteBody$UCEventSearch$ViewBy$lbtnDay&#39;,&#39;&#39;)">Day</a>
+            </li>
+            <li>
+                <a id="publicBody_siteBody_UCEventSearch_ViewBy_lbtnWeek" title="Events for this Week" href="javascript:__doPostBack(&#39;ctl01$ctl00$ctl00$publicBody$siteBody$UCEventSearch$ViewBy$lbtnWeek&#39;,&#39;&#39;)">Week</a>
+            </li>
+            <li>
+                <a id="publicBody_siteBody_UCEventSearch_ViewBy_lbtnMonth" title="Events for this Month" href="javascript:__doPostBack(&#39;ctl01$ctl00$ctl00$publicBody$siteBody$UCEventSearch$ViewBy$lbtnMonth&#39;,&#39;&#39;)">Month</a>
+            </li>
+            <li>
+                <a id="publicBody_siteBody_UCEventSearch_ViewBy_lbtnYear" title="Events for this Year" href="javascript:__doPostBack(&#39;ctl01$ctl00$ctl00$publicBody$siteBody$UCEventSearch$ViewBy$lbtnYear&#39;,&#39;&#39;)">Year</a>
+            </li>
+            <li>
+                <a id="publicBody_siteBody_UCEventSearch_ViewBy_lbtnNext7" title="Events for the Next 7 Days" href="javascript:__doPostBack(&#39;ctl01$ctl00$ctl00$publicBody$siteBody$UCEventSearch$ViewBy$lbtnNext7&#39;,&#39;&#39;)">Next 7</a>
+            </li>
+            <li>
+                <a id="publicBody_siteBody_UCEventSearch_ViewBy_lbtnNext14" title="Events for the Next 14 Days" href="javascript:__doPostBack(&#39;ctl01$ctl00$ctl00$publicBody$siteBody$UCEventSearch$ViewBy$lbtnNext14&#39;,&#39;&#39;)">Next 14</a>
+            </li>
+            <li>
+                <a id="publicBody_siteBody_UCEventSearch_ViewBy_lbtnNext30" title="Events for the Next 30 Days" href="javascript:__doPostBack(&#39;ctl01$ctl00$ctl00$publicBody$siteBody$UCEventSearch$ViewBy$lbtnNext30&#39;,&#39;&#39;)">Next 30</a>
+            </li>
+            <li>
+                <a id="publicBody_siteBody_UCEventSearch_ViewBy_lbtnNext60" title="Events for the Next 60 Days" href="javascript:__doPostBack(&#39;ctl01$ctl00$ctl00$publicBody$siteBody$UCEventSearch$ViewBy$lbtnNext60&#39;,&#39;&#39;)">Next 60</a>
+            </li>
+            <li>
+                <a id="publicBody_siteBody_UCEventSearch_ViewBy_lbtnNext90" title="Events for the Next 90 Days" href="javascript:__doPostBack(&#39;ctl01$ctl00$ctl00$publicBody$siteBody$UCEventSearch$ViewBy$lbtnNext90&#39;,&#39;&#39;)">Next 90</a>
+            </li>
+            <li>
+                <a id="publicBody_siteBody_UCEventSearch_ViewBy_lbtnNext180" title="Events for the Next 5 Months" href="javascript:__doPostBack(&#39;ctl01$ctl00$ctl00$publicBody$siteBody$UCEventSearch$ViewBy$lbtnNext180&#39;,&#39;&#39;)">Next 180</a>
+            </li>
+            <li>
+                <a id="publicBody_siteBody_UCEventSearch_ViewBy_lbtnNext365" title="Events for the Next 12 Months" href="javascript:__doPostBack(&#39;ctl01$ctl00$ctl00$publicBody$siteBody$UCEventSearch$ViewBy$lbtnNext365&#39;,&#39;&#39;)">Next 365</a>
+            </li>
+        </ul>
+    </div>
+    <a id="view_by_prev" title="Previous" aria-label="previous" href="javascript:__doPostBack(&#39;ctl01$ctl00$ctl00$publicBody$siteBody$UCEventSearch$ViewBy$view_by_prev&#39;,&#39;&#39;)"><em class="icon-chevron-left"></em><span class="font-awesome-508"><</span>&nbsp;&nbsp;&nbsp;</a>
+    <a id="view_by_next" title="Next" aria-label="next" href="javascript:__doPostBack(&#39;ctl01$ctl00$ctl00$publicBody$siteBody$UCEventSearch$ViewBy$view_by_next&#39;,&#39;&#39;)"><span class="font-awesome-508">></span><em class="icon-chevron-right"></em></a>
+    <input type="hidden" name="ctl01$ctl00$ctl00$publicBody$siteBody$UCEventSearch$ViewBy$hdnCurrentRange" id="publicBody_siteBody_UCEventSearch_ViewBy_hdnCurrentRange" value="Month" />
+    <input type="hidden" name="ctl01$ctl00$ctl00$publicBody$siteBody$UCEventSearch$ViewBy$hdnCurrentRangeStartDate" id="publicBody_siteBody_UCEventSearch_ViewBy_hdnCurrentRangeStartDate" value="2/1/2023" />
+    <input type="hidden" name="ctl01$ctl00$ctl00$publicBody$siteBody$UCEventSearch$ViewBy$hdnCurrentRangeEndDate" id="publicBody_siteBody_UCEventSearch_ViewBy_hdnCurrentRangeEndDate" value="2/28/2023" />
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            //Grid view click next/prev
+            $("#main-content").on("click", ".next-month", function () {
+                var current = $(this).attr("data-month");
+                javascript: __doPostBack('grid_next_month', current)
+            });
+
+            $("#main-content").on("click", ".prev-month", function () {
+                var current = $(this).attr("data-month");
+                javascript: __doPostBack('grid_previous_month', current)
+            });
+
+            //Grid view focused on next/prev and press enter
+            $("#main-content").on("keypress", ".next-month", function (e) {
+                if (e) {
+                    if (e.which == 13) {
+                        var current = $(this).attr("data-month");
+                        javascript: __doPostBack('grid_next_month', current)
+                    }
+                }
+            });
+
+            $("#main-content").on("keypress", ".prev-month", function (e) {
+                if (e) {
+                    if (e.which == 13) {
+                        var current = $(this).attr("data-month");
+                        javascript: __doPostBack('grid_previous_month', current)
+                    }
+                }
+            });
+        });
+    </script>
+
+</div>
+
+    
+
+    <button id="search-link" aria-label="Search" aria-label="Toggle Search Options" aria-expanded="false" aria-controls="search-box"><em class="icon-search"></em><span> Search</span></button>
+</section>
+
+<section id="search-box" class="clearfix">
+    
+<!-- Start Event Search -->
+<script type="text/javascript">
+    $(function () {
+        //Register jQueryUI calendar grid
+
+        //$('.js-calendar').datepicker({
+        //    inline: true,         
+        //    altfield: '.js-date-input',         
+        //    onchangemonthyear: function (year, month, inst) {
+        //        settimeout(function () {                 // add href prev/next anchors can receive tab focus                 
+        //            $('.ui-datepicker-prev, .ui-datepicker-next').attr("href", "#");
+        //        }, 50);
+        //    }
+        //});  // add href prev/next anchors can receive tab focus $('.ui-datepicker-prev, .ui-datepicker-next').attr("href", "#"); 
+
+        //Register jQueryUI calendar for end date selector
+        $(".core-search-end-date").datepicker({
+            maxDate: (new Date(2099, 12 - 1, 31)),
+            minDate: new Date($(".core-search-start-date").val()),
+            onClose: function (dateText, inst) {
+                this.hasDatepickerFocus = false;
+                $(this).datepicker('setDate', $(this).datepicker('getDate')); // manual input validation
+            }
+        }).focus(function () {
+            var element = this;
+            setTimeout(function() { // setTimeout is  needed b/c `$(".core-search-end-date").datepicker()` is called from `onClose` of  $(".core-search-start-date")
+                if (element.hasDatepickerFocus) {
+                    element.hasDatepickerFocus = false;
+                } else {
+                    setDatetimeTripper(element);
+                    element.hasDatepickerFocus = true;
+                }
+            });
+        });
+
+        //Register jQueryUI calendar for start date selector
+        $(".core-search-start-date").datepicker({
+            minDate: (new Date(1980, 1 - 1, 1)),
+            maxDate: (new Date(2099, 12 - 1, 31)),
+            onClose: function (dateText, inst) {
+                $(this).datepicker('setDate', $(this).datepicker('getDate')); // manual input validation
+                this.hasDatepickerFocus = false;
+                $(".core-search-end-date").datepicker("option", "minDate", new Date(dateText));
+            }
+        }).focus(function () {
+            if (this.hasDatepickerFocus) {
+                this.hasDatepickerFocus = false;
+            } else {
+                setDatetimeTripper(this);
+                this.hasDatepickerFocus = true;
+            }
+        });
+
+        $("#core_search_category a").on("click", function () {
+            ActiveData.Gadgets.Show({ 'action': 'Category', title: "Category", filter: { "Resize": "Y" } });
+            $(".core-search-category").val("");
+        });
+        $("#core_search_location a").on("click", function () {
+            ActiveData.Gadgets.Show({ 'action': 'Location', title: "Location", filter: { "Resize": "Y" } });
+            $(".core-search-location").val("");
+        });
+
+        $("#core_search_proximity input[type='text']").autocomplete({
+            minLength: 2,
+            source: function (request, response) {
+                $("#core_search_proximity input[type='hidden']").val("");
+                $.ajax({
+                    url: "/handlers/locationsearch.ashx?max=10&input=" + $("#core_search_proximity input[type='text']").val(),
+                    dataType: 'jsonp',
+                    success: function (data) {
+                        response($.map(data, function (item) {
+                            if (item.Latitude != 0 & item.Longitude != 0)
+                            {
+                                return {
+                                    label: item.City + ', ' + item.Region,
+                                    val: item.Latitude + ',' + item.Longitude
+                                }
+                            }
+                            else {
+                                return {
+                                    label: 'No Results',
+                                    val: ''
+                                }
+                            }
+                        }))
+                        $("#core_search_proximity input[type='hidden']").val("")
+                    }
+                });
+            },
+            select: function (event, ui) {
+                if (ui.item.val != '') {
+                    $("#core_search_proximity input[type='hidden']").val(ui.item.val);
+                }
+                else {
+                    $("#core_search_proximity input[type='text']").val("");
+                    event.preventDefault();
+                }
+            },
+            delay:500
+        });
+
+
+        $("#core_search_proximity input[type='text']").bind("change", function (e) {
+            var val=$("#core_search_proximity input[type='text']").val();
+            if (!val)
+            {
+                $("#core_search_proximity input[type='hidden']").val("");
+            }
+        });
+
+        //Adjust the classes used by the search
+        switch ($("#core_search > div").length - 1) {
+            case 5: $("#core_search").addClass("five-fields"); break;
+            case 4: $("#core_search").addClass("four-fields"); break;
+            case 3: $("#core_search").addClass("three-fields"); break;
+            case 2: $("#core_search").addClass("two-fields"); break;
+            case 1: $("#core_search").addClass("one-fields"); break;
+        }
+
+
+
+        /*  ghost text for proximity fields  */
+        var proximity_text = "events near";
+        if (!$("#core_search_proximity input[type='text']").val() | $("#core_search_proximity input[type='text']").val() == proximity_text)
+        {
+            $("#core_search_proximity input[type='text']").val(proximity_text);
+            $("#core_search_proximity input[type='text']").addClass("ghost-text");
+        }
+
+        $("#core_search_proximity input[type='text']").bind("focus", function (e) {
+            if($("#core_search_proximity input[type='text']").hasClass("ghost-text"))
+            {
+                $("#core_search_proximity input[type='text']").removeClass("ghost-text");
+                $("#core_search_proximity input[type='text']").val("");
+            }
+        });
+
+        $("#core_search_proximity input[type='text']").bind("blur", function (e) {
+            if (!$("#core_search_proximity input[type='text']").val()) {
+                $("#core_search_proximity input[type='text']").val(proximity_text);
+                $("#core_search_proximity input[type='text']").addClass("ghost-text");
+            }
+        });
+
+        var proximity_radius_text = "from city state zip";
+
+        if (!$("#core_search_proximity_radius input[type='text']").val() | $("#core_search_proximity_radius input[type='text']").val() == proximity_radius_text) {
+            $("#core_search_proximity_radius input[type='text']").val(proximity_radius_text);
+            $("#core_search_proximity_radius input[type='text']").addClass("ghost-text");
+        }
+
+        $("#core_search_proximity_radius input[type='text']").bind("focus", function (e) {
+            if ($("#core_search_proximity_radius input[type='text']").hasClass("ghost-text")) {
+                $("#core_search_proximity_radius input[type='text']").removeClass("ghost-text");
+                $("#core_search_proximity_radius input[type='text']").val("");
+            }
+        });
+
+        $("#core_search_proximity_radius input[type='text']").bind("blur", function (e) {
+            if (!$("#core_search_proximity_radius input[type='text']").val()) {
+                $("#core_search_proximity_radius input[type='text']").val(proximity_radius_text);
+                $("#core_search_proximity_radius input[type='text']").addClass("ghost-text");
+            }
+        });
+
+        
+        $("#core_search_submit input[type='submit']").on("click", function () {
+            if ($("#core_search_proximity_radius input[type='text']").hasClass("ghost-text")) {
+                $("#core_search_proximity_radius input[type='text']").val("");
+            }
+            if($("#core_search_proximity input[type='text']").hasClass("ghost-text"))
+            {
+                $("#core_search_proximity input[type='text']").val("");
+            }
+        });
+
+    });
+
+    function doSearch()
+    {
+        if(ActiveData.Variables.runtime.isDetails)
+        {
+            window.location= ActiveData.Variables.runtime.listUrl + "?search=y";
+        }
+        else {
+            //if (window.parent.ADX) {
+            //    //Hide the gadget if possible
+            //    window.parent.ActiveData.Gadgets.Hide();
+            //}
+            window.parent.document.getElementById("frmPublicMaster").submit();
+        }
+    }
+
+    function TrackSearchClick() {
+        var startDate = $(".core-search-start-date").val();
+        var endDate = $(".core-search-end-date").val();
+        var keyword = $(".core-search-keywords").val();
+        if (typeof _gaq != 'undefined') {
+            _gaq.push(['_trackEvent', 'Event Search', 'Date Range', startDate + ' ' + endDate]);
+            _gaq.push(['_trackEvent', 'Event Search', 'Keywords', keyword]);
+        }
+    }
+
+    ActiveData.Variables.runtime.searchUrl = 'http://events.dudesolutions.com/wlu/?startdate=2/1/2023&enddate=2/28/2023';
+
+</script>
+
+
+<style>
+    .ui-autocomplete {
+        max-height: 210px;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    * html .ui-autocomplete {
+        height: 100px;
+    }
+
+    .ghost-text {
+        color: #ccc;
+    }
+</style>
+
+
+<div id="core_search" class="core-primary-container"><div id="core_search_start_date" class="core-input-container"><label for="publicBody_siteBody_UCEventSearch_UCEventSearch_txtStartDate" id="publicBody_siteBody_UCEventSearch_UCEventSearch_lblStartDate" class="core-label">Start Date</label><input name="ctl01$ctl00$ctl00$publicBody$siteBody$UCEventSearch$UCEventSearch$txtStartDate" type="text" value="2/1/2023" id="publicBody_siteBody_UCEventSearch_UCEventSearch_txtStartDate" class="core-search-start-date core-text" /></div><div id="core_search_end_date" class="core-input-container"><label for="publicBody_siteBody_UCEventSearch_UCEventSearch_txtEndDate" id="publicBody_siteBody_UCEventSearch_UCEventSearch_lblEndDate" class="core-label">End Date</label><input name="ctl01$ctl00$ctl00$publicBody$siteBody$UCEventSearch$UCEventSearch$txtEndDate" type="text" value="2/28/2023" id="publicBody_siteBody_UCEventSearch_UCEventSearch_txtEndDate" class="core-search-end-date core-text" /></div><div id="core_search_keywords" class="core-input-container"><label for="publicBody_siteBody_UCEventSearch_UCEventSearch_txtKeywords" id="publicBody_siteBody_UCEventSearch_UCEventSearch_lblKeywords" class="core-label">Keyword</label><input name="ctl01$ctl00$ctl00$publicBody$siteBody$UCEventSearch$UCEventSearch$txtKeywords" type="text" maxlength="1000" id="publicBody_siteBody_UCEventSearch_UCEventSearch_txtKeywords" class="core-search-keywords core-text" /></div><div id="core_search_category" class="core-input-container"><label for="publicBody_siteBody_UCEventSearch_UCEventSearch_ddlCategory" id="publicBody_siteBody_UCEventSearch_UCEventSearch_lblCategory" class="core-label">Category</label><select name="ctl01$ctl00$ctl00$publicBody$siteBody$UCEventSearch$UCEventSearch$ddlCategory" id="publicBody_siteBody_UCEventSearch_UCEventSearch_ddlCategory" class="search-category core-dropdown">
+	<option selected="selected" value="">Select</option>
+	<option value="72e17f6eec054aa0b3c78e7922de19ed">Academic</option>
+	<option value="0b0c412af5df4cbd8c05fe4e8b68f915">-Faculty of Arts</option>
+	<option value="22b2254876a845c3b382a9d9a9534586">-Faculty of Graduate and Postdoctoral Studies</option>
+	<option value="38705f65ba63451b82df1846833d9fee">--ASPIRE</option>
+	<option value="8c72ab21b11d4e51b07586bbd07647b7">--Dissertation</option>
+	<option value="df3b6d0f868f4599ac1bc5fc38f2a370">--Research</option>
+	<option value="4b92b37276c34c2ca9052e52463c0e70">--Thesis</option>
+	<option value="d830d88cba6541dd9880729bd8f4d4da">-Faculty of Human and Social Sciences</option>
+	<option value="499f7f4b22d94e1989b3b7623d9c17c6">-Faculty of Liberal Arts</option>
+	<option value="e98e7a0707a6402ca211ab722061b419">-Faculty of Music</option>
+	<option value="9a6033dbba6b411382d811a3efd86f2b">-Faculty of Science</option>
+	<option value="09867152a5cc48b49c576201d2d95b5a">-Faculty of Social Work</option>
+	<option value="cc2c567581cc44478154452627e128f2">-International Policy and Governance</option>
+	<option value="075987c393c145dc8296010261c65593">-Lazaridis School of Business and Economics</option>
+	<option value="49bae9248371480d8f31ba9c0f69df87">--Management PhD/MSc</option>
+	<option value="ae7047d1cd1f419fb31e93be89f9cc0a">--MBA</option>
+	<option value="942c724acb7949e9b8e275fa83147626">--MFin</option>
+	<option value="829fda0b635a4fda9d7cedf98d62836f">--MMA</option>
+	<option value="0466d3a63d754c50872176ecbfb9257e">-Martin Luther University College</option>
+	<option value="2bca3e7c4498460c80cd4d9f9166a0fb">Arts and Culture</option>
+	<option value="23963bb0ee8c41738f2f912710512b4a">-Art Exhibit</option>
+	<option value="6a4c7c5bcf82484db44141ce0e66872e">-Concert</option>
+	<option value="8c08de714be148c3aed81a8394c39254">-Film Screening</option>
+	<option value="f9d0180b607d4731b414413eac76c49c">-Theatre Production</option>
+	<option value="b8f8f5bd6e38416088075e75843c0856">Audience</option>
+	<option value="598c0d6bac9143cebc19d5e017297410">-Alumni</option>
+	<option value="bedfbf10a0c94ab7bd77e3bde1d37b89">-Community Members</option>
+	<option value="88fb5fd6819d45b69177177a627216e0">-Current Students</option>
+	<option value="191fd88ec3e2444fb7f1100b6981b3d4">--Graduate</option>
+	<option value="cba4a41d586143f5abc58eb560f6942e">--International</option>
+	<option value="22116203b525468089fc7959f085bca1">--Undergraduate</option>
+	<option value="b2021cbde0b64dc2887bbfecdc8a8bb0">-Donor&#39;s Friends, Supporters</option>
+	<option value="9507c8799b664d828ebf35bd605e0dfc">-Everyone</option>
+	<option value="3ee500b0a0e84599b1046f8635a7aae7">-Faculty &amp; Staff</option>
+	<option value="572619ca3aab48a6804a89a88772519c">-Future Students</option>
+	<option value="d32cc7f2c15b442997ff9a01694f493e">--High School Visits</option>
+	<option value="916823ecd16b4b2291fc3f66a55aa413">--Open House</option>
+	<option value="bfb4f549da7d4d5c9b66a6606a393290">--Tour</option>
+	<option value="70605c357bca4feb91aca31115acf92a">-Parents</option>
+	<option value="9ca4d60392244dd7908f4eab41c135bd">Board of Governors and Senate</option>
+	<option value="3f42af45c83c4e7d84830d524ff1c69c">-Board of Governors</option>
+	<option value="7a82372c74534f70b0af1758e4981956">-Senate</option>
+	<option value="84f6a1e8793f45cc9744e8fc7dfc3c45">Community</option>
+	<option value="097fe272f56f447da8571a2632d2b224">Conferences</option>
+	<option value="357dcaca9ef84dc59976e001fd503617">Convocation</option>
+	<option value="63ca3606d98f4060828136a07a463972">Equity, Diversity &amp; Inclusion</option>
+	<option value="cd4dff9034594369b7a89ebea6c0e864">Featured Events</option>
+	<option value="2ee2126489944bd5b8e77443c2ac5350">-Featured - Current Students</option>
+	<option value="800f10f27eb04727998d385598432d07">-Featured - Laurier</option>
+	<option value="9315796539914a45babd57204fc96197">Important Dates</option>
+	<option value="944efd7774534862b789fae27fe7a791">Indigenous</option>
+	<option value="18dcfa322e4942cc81587676fa41f145">Information Session</option>
+	<option value="0b4e01db39f74a7b9685ed0afff4ee61">Innovation and Entrepreneurship</option>
+	<option value="88a54cce940142079582196763b1c485">Library</option>
+	<option value="100d41cfb73945479cc57cf09418865f">-Makerspace</option>
+	<option value="f748d07f5ec94714b7c4baaeee66a6f1">Misc/Other</option>
+	<option value="1d4ba2a77c954858acd37cd4266bcfac">Music</option>
+	<option value="39f3a5247d24473cb8fa3895ee0068dd">Research</option>
+	<option value="36f2768e0ab34599bc156d1f514f442d">Seminars &amp; Workshops</option>
+	<option value="6e348b64d12c41299360aa9160e7b18c">Sustainability</option>
+	<option value="3239e2b1d61247a684bba71b567212b1">Wellness</option>
+
+</select><a href="javascript:void(0)">Select Multiple</a></div><div id="core_search_location" class="core-input-container"><label for="publicBody_siteBody_UCEventSearch_UCEventSearch_ddlLocation" id="publicBody_siteBody_UCEventSearch_UCEventSearch_lblLocation" class="core-label">Location</label><select name="ctl01$ctl00$ctl00$publicBody$siteBody$UCEventSearch$UCEventSearch$ddlLocation" id="publicBody_siteBody_UCEventSearch_UCEventSearch_ddlLocation" class="search-location core-dropdown">
+	<option selected="selected" value="">Select</option>
+	<option value="7756e138abcc4414be9f5fffb93fca83">Brantford</option>
+	<option value="29e4d0cd81134b8bbc0e7fc1ad286225">-Brantford Campus</option>
+	<option value="6ecaf1a963914a83bc60a264f507f375">-Brantford Public Library</option>
+	<option value="039eeaed2ea4426d85f0082d085f73c1">-Carnegie Building</option>
+	<option value="328ba3784df544b7963b5a2f9271aeb1">--CB 100</option>
+	<option value="7848b609d72c4b94a1d6586557da29d6">-Dalhousie Building</option>
+	<option value="f85a8a67238b42f19252686cca2238e6">-Grand River Hall</option>
+	<option value="3d1b9d73f309499d9c3d2e64aa38c2fc">-Indigenous Student Centre</option>
+	<option value="ea36975c908245fbb347620e943697a9">-Laurier Brantford YMCA</option>
+	<option value="c9ddb9e919414b6bbacfde1384f18215">-Market Darling Centre</option>
+	<option value="ccacc9051b874e4aaa066d51db5ca3c4">-Odeon Theatre</option>
+	<option value="f1471fc409cd420a9adc32fca6285661">-One Market</option>
+	<option value="a2408eff3dab41159ee9d1a742548bd8">-Research and Academic Centre Courtyard</option>
+	<option value="03ce14f3addf4cedb09e3691b6f891fd">-Research and Academic Centre-East</option>
+	<option value="3579baba304a4dc29cfa7bce4a0a3dba">-Research and Academic Centre-West</option>
+	<option value="921e660755f1427e8c4f22cfabdaa87b">-Sanderson Centre for the Performing Arts</option>
+	<option value="bfb83139be7c4b4ba4b8cd120e0ca959">-SC Johnson Building</option>
+	<option value="5507c195315746cca7b6aeada4b147da">-Student Centre</option>
+	<option value="e8d0fcf998c44f1a9af9e29044d02bcf">-Wilkes Hall</option>
+	<option value="9b3bbad887094b4bb0b60f18fa68cf07">Dates</option>
+	<option value="e4cf9172ee5b42be93506366530f1764">-Dates/Deadlines</option>
+	<option value="9bddc0bea38449f28a2835ea97e70fca">Kitchener</option>
+	<option value="427e71bfe5064c629761a0f0d3725549">-Faculty of Social Work</option>
+	<option value="7de40f95ae2545a49678e55320b818f6">Milton</option>
+	<option value="6c1cb8bdc5e347b49a9ae7c7e93248ac">-Milton Education Village Innovation Centre</option>
+	<option value="1b6cdc942001477e9c575929692ffdbd">Online</option>
+	<option value="2188186257144d94a83e5e83fa403d13">-MyLearningSpace</option>
+	<option value="d88a4066cb934cc99c8ace5c78f322f4">-Teams</option>
+	<option value="061941b2b8cf4fd0b59a96c3e93e88eb">-Virtual</option>
+	<option value="8b8d794fe0fd4bdc9957f5186d3e7155">-Zoom</option>
+	<option value="4745630b0e9649d2936e2d4c0c584e9a">Toronto</option>
+	<option value="871d6bebc1524897b25f8b67562b6068">-Vantage Venues</option>
+	<option value="30b928417d524803b02dc78d3d5d6e04">Waterloo</option>
+	<option value="4eaffc90cb704dd8b444223119ce2320">-202 Regina Street</option>
+	<option value="b41af7f270df4e39ad669a89da294a44">--R223</option>
+	<option value="771b4e57b4c64ef286aa9b4689b76413">-45 Lodge Street</option>
+	<option value="0c3ddd7d465c44acb5815fd33dae90a7">--LAB 103</option>
+	<option value="f43047c01ae64a31af9e2b5b62988674">-64 University Ave W, Waterloo</option>
+	<option value="5ffe3df3525243ec91beb001917afc76">-75 University Avenue West</option>
+	<option value="6a6c94123a3749dfadfb50c34838a43e">-Aird Building</option>
+	<option value="4d02cab8a141408a83485850dc6eadb8">--Maureen Forrester Recital Hall</option>
+	<option value="c173aab4763149d9a957bf03b26bb6df">-Alumni Hall</option>
+	<option value="949a3f993e0b4ebb83613c8dc41de720">-Arts Building</option>
+	<option value="802f4eab1f1043b7967f98eebdada92b">-Athletics Complex</option>
+	<option value="aee66627f2a441339d9639e96246777f">-Beckett School</option>
+	<option value="c9a4e62741384e3cbca53538660f5c51">-Bricker Academic Building</option>
+	<option value="53ea6dfce1cb49318b60c63c231e6aa5">-Career Centre</option>
+	<option value="3020c1fc7d714335a21135a5b698eb6d">-Centre for International Governance Innovation</option>
+	<option value="2f9228549d0140d38cc9cdfbec550302">-Community and Workplace Partnerships Office</option>
+	<option value="dec133423ca340478fa6accbef648c01">-Delton Glebe Counselling Centre</option>
+	<option value="d8ea038426c747f6a8d3453614d1fc36">-Dr. Alvin Woods Building</option>
+	<option value="61094a96cfb44a0da914b25c310b386c">-Fred Nichols Campus Centre</option>
+	<option value="e3b20056876a4f198b87dbe13695ef1a">-Indigenous Student Centre</option>
+	<option value="e2fb98e4c3a84060bf3ced27bb401258">-Lazaridis Hall</option>
+	<option value="b2d4813a920841dd82dbeee03364bcfe">-Library</option>
+	<option value="2674eb512c9c44428c69f13ba2a054db">-Martin Luther University College</option>
+	<option value="534783c07de44ff5a6a1511c70078faf">-Northdale (66 Hickory St.)</option>
+	<option value="acf0d0b185aa40c48ca8c42e1a22f472">-Paul Martin Centre</option>
+	<option value="655fa924a6c24e4fae68da4b43d01d00">-Peters Building</option>
+	<option value="32c0bcac928c45168d641fff011e598d">-Schlegel Building</option>
+	<option value="a210a12d1a6d486e9d597f0124fbb82d">-Science Building</option>
+	<option value="b4e45e93560242689418a5706a07a507">-Student Services Building</option>
+	<option value="cfdbdb90024c4357957bd200463e9429">-Theatre Auditorium</option>
+	<option value="9fac8c925f024f27ac712d5bc475452c">-University Stadium</option>
+	<option value="cca47b94af664e52bbb17c50f533285f">-Veritas Cafe</option>
+	<option value="467acf63247c48c6a6378a6662a78eaf">-Waterloo Campus</option>
+
+</select><a href="javascript:void(0)">Select Multiple</a></div>
+    <div id="core_search_submit" class="core-button-container">
+        <input type="submit" name="ctl01$ctl00$ctl00$publicBody$siteBody$UCEventSearch$UCEventSearch$btnSearch" value="Search" onclick="TrackSearchClick();" id="btnSearch" class="core-button-search core-button-submit" />
+        <input type="submit" name="ctl01$ctl00$ctl00$publicBody$siteBody$UCEventSearch$UCEventSearch$lbtnClearSearch" value="Clear" id="lbtnClearSearch" class="core-button-clear" />
+        
+    </div>
+</div>
+
+<!-- End Event Search -->
+
+</section>
+
+
+
+    <div id="search_range">Wednesday, February 1, 2023 - Tuesday, February 28, 2023</div>
+
+
+<div style="clear: both;"></div>
+<script type="text/javascript">
+    $(function () {
+        if ($("#search_results").length > 0) {
+            $('#search-box').show();
+        }
+    });
+</script>
+
+
+    <section id="theme-list-view" class="clearfix">
+        <section id="main-content">
+            <!-- URL -->
+            <script>
+                pathArray = window.location.href.split('/'); protocol = pathArray[0]; host = pathArray[2]; base_url = protocol + '//' + host;
+            </script>
+
+            
+            <div class="adx-rendering" data-async="true"></div>
+            <div class="event-pagination"></div>
+        </section>
+
+        <aside id="sidebar" class="hide">
+
+            <section class="list-shareit">
+                <h3>Share It</h3>
+                <div class="supersocialshare" data-networks="linkedin,twitter,facebook" data-url="" data-open="true" data-animate="false"></div>
+
+                <span class="social-share-508">
+                    <a id="social-share-facebook" class="social-share-508">Facebook</a>
+                    <br />
+                    <a id="social-share-twitter" class="social-share-508">Twitter</a>
+                    <br />
+                    <a id="social-share-linkedin" class="social-share-508">LinkedIn</a>
+                </span>
+
+            </section>
+
+            <section class="list-subscribe">
+                <h3>Subscribe</h3>
+                <ul style="padding-left: 5px;" class="subscribe-section">
+                    <li>
+                        <a class="gadget-link" data-gadgetaction="Subscribe" data-gadgetsite="" data-sharetype="rss" data-query="duration=1months" id="rss-icon" aria-label="RSS Subscription, link opens in a new window" href="#">
+                            <img alt="Add to RSS" class="core-sidebar-subscribe-icon" src="/Layouts/Community/Default%20Site/Active%20Data%20Default/images/rss-icon2.png" />
+                        </a>
+                    </li>
+                    <li>
+                        <a class="adx-share-sendtogoogle" data-sharetype="ical" data-gadgetsite="" data-query="duration=1months" data-analytics="SendtoGoogle" aria-label="Add to Google Calendar, link opens in a new window" target="_blank">
+                            <img alt="Add to Google Calendar" class="core-sidebar-subscribe-icon" src="/Layouts/Community/Default%20Site/Active%20Data%20Default/images/share-icons/google.png" />
+                        </a>
+                    </li>
+                    <li>
+                        <a class="gadget-link add-calendar" data-gadgetaction="Subscribe" data-gadgetsite="" aria-label="iCal Subscription, link opens in a new window" data-query="duration=1months" data-sharetype="ical" href="#">
+                            <img alt="Add to Calendar" class="core-sidebar-subscribe-icon" src="/Layouts/Community/Default%20Site/Active%20Data%20Default/images/share-icons/outlook.png" />
+                        </a>
+                    </li>
+                    <li>
+                        <a class="gadget-link" aria-label="Add Notifications, link opens in a new window" data-gadgetaction="Alert" data-gadgetsite="" href="#">
+                            <img alt="Email" class="core-sidebar-subscribe-icon" src="/Layouts/Community/Default%20Site/Active%20Data%20Default/images/notifications_icon.png" />
+                        </a>
+                    </li>
+                </ul>
+            </section>
+
+        </aside>
+    </section>
+
+
+    <!-- Application Syndication Manager -->
+    
+<script type="text/javascript">
+    function TrackSyndicationClick(item) {
+        if (typeof _gaq != 'undefined') {
+            _gaq.push(['_trackEvent', 'Syndication', 'Click', item]);
+        }
+    }
+
+    //$(function () {
+    //    initUCSyndication();
+    //});
+
+    function initUCSyndication() {
+        //Get all links that need to be "linked"
+        var lSite = ActiveData.Variables.site.route;
+        var lTenant = ActiveData.Variables.tenant.route;
+        var lLinksFound = false;
+
+        //Generic Links
+        $(".adx-share-link").each(function () {
+            //Link Items Found
+            var lType = $(this).attr("data-sharetype");
+            var lDataQuery = $(this).attr("data-query");
+
+            if (!lDataQuery) {
+                lDataQuery = $("#hdnQueryParams").val();
+            }
+
+            var lurl = ActiveData.Routes.Generic("page", lType, lDataQuery, lTenant, lSite);
+            if (lType.toLowerCase() == "ical") {
+                var lBaseUrl = ActiveData.Variables.BaseUrl.replace("http://", "webcal://");
+                lurl = lBaseUrl + lurl;
+            }
+            $(this).attr("href", lurl);
+
+        }).click(function () { TrackSyndicationClick($(this).attr("data-analytics")); });
+
+        //Specialized Links
+        $(".adx-share-sendtogoogle").each(function () {
+            //Link Items Found
+            var lType = $(this).attr("data-sharetype");
+            var lDataQuery = $("#hdnQuerySendEventToGoogle").val();
+            var lBaseUrl = ActiveData.Variables.runtime.baseUrl;
+
+            var regex = /^https/i;
+            if (regex.test(lBaseUrl)) {
+                lBaseUrl = "http" + lBaseUrl.substring(5);
+            }
+
+            $(this).attr("href", "https://www.google.com/calendar/render?cid=" + encodeURIComponent(lBaseUrl + ActiveData.Routes.Generic("page", lType, lDataQuery, lTenant, lSite)));
+
+        }).click(function () { TrackSyndicationClick($(this).attr("data-analytics")); });
+
+
+        $(".adx-share-sendeventtogoogle").each(function () {
+            //Link Items Found
+            var lEventData = $("#hdnQuerySendEventToGoogle").val();
+            $(this).attr("href", "http://www.google.com/calendar/event?action=TEMPLATE" + lEventData);
+
+        }).click(function () { TrackSyndicationClick($(this).attr("data-analytics")); });
+    }
+</script>
+<input type="hidden" name="ctl01$ctl00$ctl00$publicBody$siteBody$UCSyndication$hdnQueryParams" id="hdnQueryParams" value="startdate=2/1/2023&amp;enddate=2/28/2023&amp;keywords=&amp;category=&amp;location=" />
+<input type="hidden" name="ctl01$ctl00$ctl00$publicBody$siteBody$UCSyndication$hdnQuerySendEventToGoogle" id="hdnQuerySendEventToGoogle" value="keywords=&amp;sc=&amp;sl=" />
+<!--
+ADD THESE TO YOUR PAGE TO ENABLE FEED LINKS
+-------------------------------------------
+<a class="adx-share-link" data-sharetype="rss" data-analytics="RSS">RSS</a>
+<a class="adx-share-link" data-sharetype="ical" data-analytics="ICAL">iCal</a>
+<a class="adx-share-link" data-sharetype="csv" data-analytics="CSV">CSV</a>
+<a class="adx-share-link" data-sharetype="xml" data-analytics="XML">XML</a>
+<a class="adx-share-sendtogoogle" data-sharetype="ical" data-analytics="SendtoGoogle">Send to Google Calendar</a>
+<a class="adx-share-link" data-sharetype="print" data-analytics="Print">Print</a>
+-->
+
+
+    <!-- On Document Ready -->
+    <script>
+        $(function () {
+            //Application Gadgets
+            ActiveData.Gadgets.RegisterGadgets();
+        });
+    </script>
+
+    <!-- Required Application Element -->
+    
+
+
+
+
+        <!-- Layout Footer -->
+        <footer id="sitefooter">
+            <p>
+                <script type="text/javascript">document.write("Copyright " + new Date().getFullYear() + " ");</script>
+                <a href="https://www.brightlysoftware.com/privacy" target="_blank"><abbr class="footer-link" title="Brightly Software, Inc., link Opens in a new window">Brightly Software, Inc.</abbr> <i class="material-icons" aria-label="Link opens in a new window">launch</i></a></p>
+        </footer>
+    </div>
+
+    <!-- Application Gadget Manager -->
+    <div id="gadget" class="adx-modal">
+    <div class="adx-modal-inner">
+        <div class="adx-modal-canvas">
+            <div id="adx-modal-form" class="core-primary-container"></div>
+            <div id="adx-modal-submit" class="core-primary-container">
+                <div id="adx-modal-recaptcha" class="g-recaptcha" data-sitekey="6LfgZzMUAAAAAIhwoCK7yNalMZitMiQtFg6uDp3o" data-callback="captchaLabelCallback"></></div>
+                <div class="core-button-container">
+                    <a id="lbtnGadgetSubmit" class="core-button-submit" tabindex="0" href="#">Submit</a>
+                </div>
+                <div id="adx-modal-error"></div>
+            </div>
+            <input id="adx-modal-scroll-position" type="hidden" value="" />
+        </div>
+        <a class="adx-close-modal" href="#" title="Close">Close</a>
+    </div>
+</div>
+
+<script>
+    function captchaLabelCallback(response) {
+        var textAreaCheck = document.getElementsByClassName('g-recaptcha-response');
+        if (textAreaCheck.length > 0) {
+            $(textAreaCheck).attr('aria-labelledby', 'g-recaptcha-response');
+        }
+    }
+</script>
+
+    <!-- Footer Scripts -->
+    <script src="/Layouts/Community/Default Site/Active Data Default/js/site-scripts.js?ver=2019.06.25"></script>
+
+    <!-- Social Share -->
+    <script src="/Layouts/Community/Default Site/Active Data Default/js/sss.js?ver=2019.07.10"></script>
+    <script src="/Layouts/Community/Default Site/Active Data Default/js/share-it.js?ver=2016.4.0.6"></script>
+
+
+
+    </form>
+    
+    
+        <iframe tabindex="-1" src="https://survey.dudesolutions.com/transfer.html?remove=tenant&remove=user&remove=userPrivelege&remove=siteId" style="width: 1px; height: 1px; position: absolute; top: -1px; left: -1px;" aria-hidden="true"></iframe>
+    </body>
+</html>

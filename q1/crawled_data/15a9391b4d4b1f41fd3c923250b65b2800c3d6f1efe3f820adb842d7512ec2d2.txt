@@ -1,0 +1,3629 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<meta content="width=device-width,minimum-scale=1,initial-scale=1,maximum-scale=1,user-scalable=no" name="viewport"/>
+		<meta content="" name="application-name"/>
+		<meta content="index,follow" name="robots"/>
+		<meta content="1" name="rating"/>
+		
+		<meta content="At Laurier, community is at the core of who we are and what we do." name="description"/>
+		
+
+		<title>
+			Future Undergraduate Students | Wilfrid Laurier University
+		</title>
+		<!-- Vendor CSS -->
+		<link href="/css/ato/vendor/nprogress.css" rel="stylesheet"/>
+		<link href="/css/ato/vendor/slick.css" rel="stylesheet"/>
+		<link href="/css/ato/vendor/lity.min.css" rel="stylesheet"/>
+		<link href="/css/ato/vendor/datatables.min.css" rel="stylesheet"/>
+		<link href="/css/ato/vendor/jquery-ui.min.css" rel="stylesheet"/>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+		<!-- Custom CSS-->
+		<link href="/css/builds/global-v2.css?refresh=1818" rel="stylesheet"/>
+		<link href="/css/ato/style.css" rel="stylesheet"/>
+		<!-- Icons -->
+		<script src="https://kit.fontawesome.com/92db6e3ea6.js" type="text/javascript"></script>
+		<!--Vendor JS-->
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+		<script src="//code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js" type="text/javascript"></script>
+		<script crossorigin="anonymous" integrity="sha256-lCF+55kMUF+3fO/3BiXui4eiUKcQmtr7ecKSeLVDxIQ=" src="https://code.jquery.com/ui/1.11.0/jquery-ui.min.js" type="text/javascript"></script>
+		<script src="/js/ato/vendor/slick.min.js" type="text/javascript"></script>
+		<script src="/js/ato/vendor/objectFitPolyfill.basic.min.js?refresh=2" type="text/javascript"></script>
+		<script src="/js/ato/vendor/iframeResizer.min.js" type="text/javascript"></script>
+		<script src="/js/ato/vendor/lity.min.js" type="text/javascript"></script>
+		<script src="/js/ato/vendor/datatables.min.js" type="text/javascript"></script>
+		<script src="/js/ato/vendor/datatables.fixedcolumns.min.js" type="text/javascript"></script>
+		<script src="/js/ato/vendor/datatables.fixedheader.min.js" type="text/javascript"></script>
+		<script src="/js/ato/vendor/datatables.buttons.min.js" type="text/javascript"></script>
+		<script src="/js/ato/vendor/jquery.csv.min.js" type="text/javascript"></script>
+		<script src="/js/ato/vendor/nprogress.js" type="text/javascript"></script>
+		<!-- Custom JS -->
+		<script src="/js/ato/iframe.js" type="text/javascript"></script>
+		<!-- Instabot -->
+		
+    <script crossorigin="" src="//widget.instabot.io/jsapi/rokoInstabot.js" type="text/javascript">
+        apiKey: "9+QrqivFhP3QH6L61H2sL+pG+CqbHcn8DlEEtZA1xTQ="
+    </script>
+
+	</head>
+	<body>
+		<!-- Google Tag Manager -->
+<script>
+	
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-T2KRMK');
+    
+</script>
+<!-- End Google Tag Manager -->
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+	<iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-T2KRMK" style="display:none;visibility:hidden;" width="0"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- Facebook Pixel Code -->
+<script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '2905847419700295');
+    fbq('track', 'PageView');
+</script>
+<noscript>
+    
+        <img height="1" src="https://www.facebook.com/tr?id=2905847419700295&ev=PageView&noscript=1" style="display:none" width="1"/>
+    
+</noscript>
+<!-- End Facebook Pixel Code -->
+		<header class="site__header">
+			
+
+
+<div class="header-position-fixed"></div>
+
+	    <div class="look_into_laurier">
+    
+                <div class="look_laurier">
+        	<div class="row desktop">
+    			<div class="large-4 columns">
+    				<h1>Join us at Laurier</h1>
+    				<p class="description">Becoming a Golden Hawk means more than just cheering on our (really good) varsity teams â it means being a student who cares about your community, who works hard in the classroom, and who takes advantage of all the learning opportunities that can happen outside the classroom, too.</p>
+    			</div>
+    		</div>
+    		<div class="row">
+    			<div class="large-4 columns">
+    				<p class="toolkit-header">Steps to Apply</p>
+        			<a class="btn white btn-block" href="/future-students/undergraduate/admissions/index.html">Undergraduate Admissions</a>
+    				<a class="btn white btn-block" href="/academics/faculties/graduate-and-postdoctoral-studies/admissions/index.html">Graduate Admissions</a>
+    			</div>
+    			<div class="upcoming_deadlines desktop">
+    				<ul class="toolkit-boxes">
+    					<li>
+    						<p>Connect with Us</p>
+    						<p>
+    					        <a href="/future-students/undergraduate/index.html#form" target="_blank" title="Open new page to request more information ">Undergraduate Studies</a>
+    						</p>
+    						<p>
+    							<a href="mailto:FGPS@wlu.ca" target="_blank" title="Email Facutly of Graduate and Postdoctoral Studies">Graduate Studies</a>
+    						</p>
+    					</li>
+    					<li>
+    						<p>Show Me the Campus</p>
+    						<p>
+    							<a href="/about/campuses-and-locations/visit-us.html">Come Visit Us</a>
+    						</p>
+    						<p>
+    							<a href="https://www.wlu.ca/future-students/undergraduate/tours-and-events/assets/resources/virtual-tour-waterloo.html" target="_blank" title="Got to Waterloo Campus Virtual Tour">Virtual Tour â Waterloo</a>
+    						</p>
+    						<p>
+    							<a href="https://www.wlu.ca/future-students/undergraduate/tours-and-events/assets/resources/virtual-tour-brantford.html" target="_blank" title="Go to Brantord Campus Virtual Tour">Virtual Tour â Brantford</a>
+    						</p>
+    					</li>
+    					<li>
+    						<p>Explore Our Programs</p>
+    						<p>
+    							<a href="/programs/?filter=undergrad">Undergraduate Programs</a>
+    						</p>
+    						<p>
+    							<a href="/programs/?filter=graduate">Graduate Programs</a>
+    						</p>
+    					</li>
+    				</ul>
+    			</div>
+    		</div>
+    	</div>
+    	
+        <div class="accordion_header">
+            <nav aria-label="Utility Menu" class="row" id="utilityMenu" role="navigation">   
+        	    <div class="utility_bar">
+        	    	        	    	<a class="slide_button btn white" href="#" title="Admissions">
+        	    		Admissions
+        	    	</a>
+        	    	
+        	    	        	    	<div class="utility_menu">
+        	    		<ul id="theMenu" role="menubar">
+            				            				            					
+            					            					            					            					
+            					        					            					
+        				    	<li>
+        			    			<a href="/coronavirus/index.html" target="">COVID-19</a>
+        		    			</li>
+        		    		            					
+            					            					            					            					
+            					        					            					
+        				    	<li>
+        			    			<a href="/future-students/index.html" target="">Future Students</a>
+        		    			</li>
+        		    		            					
+            					            					            					            					
+            					        					            					
+        				    	<li>
+        			    			<a href="https://students.wlu.ca/" target="_blank">Current Students</a>
+        		    			</li>
+        		    		            					
+            					            					            					            					
+            					        					            					
+        				    	<li>
+        			    			<a href="https://lauriercloud.sharepoint.com/" target="_blank">Faculty &amp; Staff</a>
+        		    			</li>
+        		    		            					
+            					            					            					            					
+            					        					            					
+        				    	<li>
+        			    			<a href="http://www.laurieralumni.ca/s/1681/15/start.aspx" target="_blank">Alumni</a>
+        		    			</li>
+        		    		            					
+            					            					            					            					
+            					        					            					
+        				    	<li>
+        			    			<a href="https://give.wlu.ca" target="_blank">Donors</a>
+        		    			</li>
+        		    		        	    		</ul>
+                      
+        	    	</div>
+                
+        	    </div>
+            <a id="menuExpand">
+        	    <div class="menuIcon">
+					<i class="far fa-angle-down"></i>
+    		    </div>
+    	        </a>
+            </nav>
+        </div>
+    </div>
+	        
+        
+    <div class="rowBody">
+        <div class="header">
+        	<div class="large-12 column">
+    			    			<div class="logo">
+    				<a href="/">
+    					<img alt="Laurier" class="header_logo" src="/images/general/desktop_logo.png"/>
+    					<img alt="Laurier" class="mobile_logo" src="/images/general/mobile_logo.png"/>
+    				</a>
+    			</div>
+    			
+    							<div class="searchbar" style="display: none;">
+					<div class="search_overlay_buttons">
+						<div class="overlay_show" style="display: none;">
+							<button class="style_one" type="button">SEARCH</button>
+							<button class="style_two" type="button"><i aria-hidden="true" class="far fa-search"></i></button>
+						</div>
+
+						<div class="overlay_close" style="display: none;">
+							<button class="style_one" type="button">CLOSE</button>
+							<button class="style_two" type="button"><i class="far fa-times"></i></button>
+						</div>
+					</div>
+				</div>
+    			
+    			    			<div class="menu_button">
+    				<div class="title"></div>
+    			</div>
+    		</div>
+    	</div>
+    </div>
+
+			<div class="menu_wrapper"><div><div class="menu top"><div class="rowBody"><div class="row"><nav class="large-12 column"><ul class="flexnav flexnav-show"><li><a data-location="menu" href="/about/index.html">About</a><ul><li><a data-location="menu" href="/about/discover-laurier/index.html" title="Discover Laurier">Discover Laurier</a></li><li><a data-location="menu" href="/about/campuses-and-locations/index.html" title="Campuses &amp; Locations">Campuses &amp; Locations</a></li><li><a data-location="menu" href="/about/working-at-laurier/index.html" title="Working at Laurier">Working at Laurier</a></li><li><a data-location="menu" href="/about/governance/index.html" title="Governance &amp; Leadership">Governance &amp; Leadership</a></li><li><a data-location="menu" href="/about/public-accountability/index.html" title="Public Accountability">Public Accountability</a></li></ul></li><li><a data-location="menu" href="/academics/index.html">Academics &amp; Research</a><ul><li><a data-location="menu" href="/programs/index.html" title="Programs">Programs</a></li><li><a data-location="menu" href="/academics/teaching-and-learning/index.html" title="Teaching &amp; Learning">Teaching &amp; Learning</a></li><li><a data-location="menu" href="/academics/research/index.html" title="Research">Research</a></li><li><a data-location="menu" href="/academics/internationalization/index.html" title="Internationalization">Internationalization</a></li><li><a data-location="menu" href="/academics/faculties/index.html" title="Faculties &amp; Affiliated Institutions ">Faculties &amp; Affiliated Institutions </a></li><li><a data-location="menu" href="/academics/library/index.html" title="Library">Library</a></li></ul></li><li><a data-location="menu" href="/future-students/index.html">Future Students</a><ul><li><a data-location="menu" href="/future-students/undergraduate/index.html" title="Undergraduate Students">Undergraduate Students</a></li><li><a data-location="menu" href="/academics/faculties/graduate-and-postdoctoral-studies/index.html" title="Graduate Students">Graduate Students</a></li><li><a data-location="menu" href="/future-students/undergraduate/applicants/indigenous-students/index.html" title="Indigenous Students">Indigenous Students</a></li><li><a data-location="menu" href="/future-students/undergraduate/applicants/international/index.html" title="International Students">International Students</a></li><li><a data-location="menu" href="/continuing-education/index.html" title="Continuing Education">Continuing Education</a></li><li><a data-location="menu" href="/future-students/undergraduate/tuition-finances/index.html" title="Tuition &amp; Finances">Tuition &amp; Finances</a></li></ul></li><li><a data-location="menu" href="/future-students/undergraduate/experience-laurier/index.html">Experience Laurier</a><ul><li><a data-location="menu" href="/future-students/undergraduate/supports-and-services/athletics-and-recreation.html" title="Athletics &amp; Recreation">Athletics &amp; Recreation</a></li><li><a data-location="menu" href="/future-students/undergraduate/programs/entrepreneurship.html" title="Entrepreneurship">Entrepreneurship</a></li><li><a data-location="menu" href="/future-students/undergraduate/programs/global-engagement-and-exchanges/index.html" title="Global Engagement &amp; Exchanges">Global Engagement &amp; Exchanges</a></li><li><a data-location="menu" href="/future-students/undergraduate/residence/index.html" title="Residence">Residence</a></li><li><a data-location="menu" href="/future-students/undergraduate/supports-and-services/health-and-well-being.html" title="Health &amp; Well-Being">Health &amp; Well-Being</a></li></ul></li><li><span class="nolink">Information For</span><ul><li><a data-location="menu" href="/information-for/visiting-laurier/index.html" title="Visitors">Visitors</a></li><li><a data-location="menu" href="/information-for/community-members/employers/index.html" title="Employers">Employers</a></li><li><a data-location="menu" href="/information-for/parents-and-families/index.html" title="Parents &amp; Families">Parents &amp; Families</a></li><li><a data-location="menu" href="/information-for/community-members/index.html" title="Community Members">Community Members</a></li><li><a data-location="menu" href="/information-for/guidance-counsellors/index.html" title="Guidance Counsellors &amp; Educators">Guidance Counsellors &amp; Educators</a></li></ul></li></ul></nav></div><div class="row"><div class="large-12 columns"><ul class="inline-list"><li><a data-location="menu" href="https://give.wlu.ca" target="_blank" title="">Give</a></li><li><a data-location="menu" href="/news/index.html" title="">News Hub</a></li><li><a data-location="menu" href="https://events.dudesolutions.com/wlu/?view=list2" target="_blank" title="">Events</a></li></ul></div></div></div></div><div class="menu bottom"><div class="rowBody"><div class="look_laurier"><div class="row"><div class="large-4 columns"><p class="toolkit-header">Steps to Apply</p><a class="btn white btn-block" href="/future-students/undergraduate/admissions/index.html">Undergraduate Admissions</a><a class="btn white btn-block" href="/academics/faculties/graduate-and-postdoctoral-studies/admissions/index.html">Graduate Admissions</a></div><div class="upcoming_deadlines desktop"><ul class="toolkit-boxes"><li><p><span>CONNECT WITH US</span></p>
+<ul>
+<li><a href="https://www.wlu.ca/future-students/undergraduate/index.html#form" title="Open new page to request more information ">Undergraduate Studies</a></li>
+<li><a href="mailto:FGPS@wlu.ca" rel="noopener" target="_blank" title="Email Facutly of Graduate and Postdoctoral Studies">Graduate Studies</a></li>
+</ul></li><li><p><strong>Show Me the Campus</strong></p>
+<ul>
+<li><a href="/future-students/undergraduate/experience-laurier/tours.html">Come Visit Us</a></li>
+<li><a href="https://www.wlu.ca/future-students/undergraduate/tours-and-events/assets/resources/virtual-tour-waterloo.html" rel="noopener" target="_blank" title="Got to Waterloo Campus Virtual Tour">Virtual Tour&#160;&#8211; Waterloo</a></li>
+<li><a href="https://www.wlu.ca/future-students/undergraduate/tours-and-events/assets/resources/virtual-tour-brantford.html" rel="noopener" target="_blank" title="Go to Brantord Campus Virtual Tour">Virtual Tour&#160;&#8211; Brantford</a></li>
+</ul></li><li><p><strong>Explore Our Programs</strong></p>
+<ul>
+<li><a href="/programs/?filter=undergrad">Undergraduate Programs</a></li>
+<li><a href="/programs/?filter=graduate">Graduate Programs</a></li>
+</ul></li></ul></div></div></div></div></div></div></div>
+		</header>
+		<div class="site__content">
+			<div class="header__fill"></div>
+			<div class="story__here">
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<style>
+    .body,
+    .ato-component {
+        background: #ffffff;
+    }
+    
+    /* <![CDATA[ */
+        
+ 
+/* Header FS title flex start - media queries at bottom */
+
+    .video-full-screen > .inner .title {
+      top: auto !important;
+      display: flex !important;
+      justify-content: flex-start;
+      align-items: center;
+    }
+
+    div.goldBox {
+        position: relative; 
+       /* background: #fffaf2; 
+        padding: 22px 28px; 
+        box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); 
+        text-align: left; 
+        transform: translateY(60px);
+        text-shadow: none;*/
+    }
+    
+     div.goldBox > h1 {
+      margin-bottom: 10px;
+      line-height: 1 !important;
+      margin-top: 0px;
+      font-size: 53px; 
+      /*font-family: 'Calluna', 'Times New Roman', serif !important;*/
+      color: #000; 
+      text-shadow: none;
+    }
+
+    div.goldBox > span  {
+      font-size: 28px;
+      text-shadow: none; 
+      font-family: marydale, sans-serif; 
+      color: #330072;
+    }
+
+    .video-controls.middle {
+      transform: translate(-50%, -50px) !important;
+    }
+/* Header FS title flex end */
+ 
+ 
+
+    
+
+    /* general page stylings start */
+
+    /*.ato__components h2 {*/
+    /*  font-size: 40px;*/
+    /*  font-family: Calluna, "Times New Roman", sans-serif;*/
+    /*  margin-bottom: 25px;*/
+    /*  line-height: 1.2;*/
+    /*}*/
+    /*.ato__components h2.black {*/
+    /*  color: #000;*/
+    /*}*/
+    .ato__components h2.white {
+      color: #fff;
+    }
+
+    /* buttons */
+    .ato__components button.call__action.purple-dark,
+    .ato__components button.call__action.purple-light {
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+      border: none !important;
+    }
+    .ato__components button.call__action.purple-dark:hover,
+    .ato__components button.call__action.purple-light:hover, .ato__components button.call__action.purple-dark:focus,
+    .ato__components button.call__action.purple-light:focus {
+      border: none !important;
+      background: #924DA7 !important;
+      color: #fff !important;
+    }
+    
+     .pathwayFootnote {
+      font-size: 14px !important;
+    }
+    
+    /* for fullwidth image in text component */
+    .fullWidthContainer {
+      position: relative;
+      width: 100vw;
+      left: 50%;
+      right: 50%;
+      margin-left: -50vw;
+      margin-right: -50vw;
+      padding: 125px 25px;
+      background-size: cover !important;
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      overflow: hidden;
+      z-index: 0;
+      min-height: 65vh;
+    }
+
+    /* for removing component padding on fullwidth images */
+    .noTopBottomPadding {
+      padding: 0px 30px !important;
+    }
+
+    /* multicomponent bg image */
+    .bgImage {
+      background-size: cover !important;
+      padding: 160px 30px !important;
+      background-attachment: fixed !important;
+    }
+    
+    .mapBg {
+    background-size: contain !important;
+    background-attachment: scroll !important;
+    }
+        
+    /* general page stylings end */
+
+
+
+
+
+/** specific styling for this page **/
+    img.arrowGraphic {
+      margin-top: 21px;
+      max-width: 194px;
+    }
+
+    .ato-component.laurier-instagram {
+      background: #fff;
+    }
+    
+    /* gold leaf - pathways */
+    div.goldLeaf {
+      position: relative;
+      text-align: right;
+      margin-bottom: -116px;
+    }
+
+    div.goldLeaf img {
+      transform: translate(138px, -69px) rotate(28deg);
+      transition: 0.3s;
+      max-width: 115px;
+    }
+
+    div.goldLeaf img:hover {
+      transform: translate(139px, -79px) rotate(32deg);
+    }
+    
+    div.formBoxStyle {
+        padding: 45px;
+    }
+
+/* Mobile media queries */
+
+    @media screen and (max-width: 960px) {
+      img.arrowGraphic {
+        margin-left: auto;
+        margin-right: 100px;
+        transform: translate(20px, -10px) rotate(90deg);
+        display: block;
+      }
+      div.goldLeaf img, div.goldLeaf img:hover {
+        transform: translate(38px, -89px) rotate(24deg);
+        max-width: 90px;
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      img.arrowGraphic {
+        max-width: 111px;
+        margin-right: 0;
+      }
+
+      .video-full-screen > .inner .title .inner h1 {
+        font-size: 4em !important;
+      }
+    }
+
+    @media screen and (max-width: 600px) {
+      div.goldBox > h1 {
+        font-size: 3em !important;
+      }
+    }
+
+    @media screen and (max-width: 444px) {
+      div.goldBox > h1 {
+        font-size: 2.3em !important;
+      }
+      div.formBoxStyle {
+            padding: 15px;
+        }
+    }
+
+    @media screen and (max-width: 380px) {
+      div.goldBox > h1 {
+        font-size: 2em !important;
+      }
+    }
+
+
+    /* ]]> */
+</style>
+
+<script type="text/javascript">
+    var videos = [];
+    var videoInterval = [];
+    var pages= [];
+    var chapterMenu = [];
+    
+    /* <![CDATA[ */
+        
+
+/* fix alignment on video component START */
+/*
+function videoAlign(atMedia) {
+  if (atMedia.matches) { // If media query matches
+	var siteHeaderHeight = $('header.site__header').css('height');
+    $('.video-full-screen video, .video-full-screen img').css('cssText', 'height: calc(100vh - ' + siteHeaderHeight + ') !important; object-position: bottom;');
+  } else {
+var siteHeaderHeight = $('header.site__header').css('height');
+   $('.video-full-screen video, .video-full-screen img').css('cssText', 'height: calc(100vh - ' + siteHeaderHeight + ') !important; object-position: bottom;');
+  }
+}
+
+var atMedia = window.matchMedia("(max-width: 768px)");
+
+atMedia.addListener(videoAlign);
+
+$(document).ready(function() {
+videoAlign(atMedia);
+});
+*/
+/* fix alignment on video component END */
+
+
+/* give class to multicomponent and text component with span tags */
+$(document).ready(function() {
+$('span:contains("bgImage")').closest('.ato-component.multicolumn').addClass('bgImage');
+$('span:contains("mapBg")').closest('.ato-component.multicolumn').addClass('mapBg');
+
+
+$('span:contains("noTopBottomPadding")').closest('.ato-component.main.text').addClass('noTopBottomPadding');
+});
+
+
+ 
+
+    /* ]]> */
+</script>
+
+<div class="ato__components">
+        
+                
+            
+            
+                        
+                    
+    
+      
+          
+    
+    
+    
+            
+    
+        
+    
+          
+    
+    <div class="ato-component full-width-banner" id="full_width_banner_215bc6310a0a563025c3b6e51b839d4b_1" style="background: #fff;">
+      <style>
+        /* <![CDATA[ */
+            #full_width_banner_215bc6310a0a563025c3b6e51b839d4b_1 .inner {
+               padding: 320px 60px 50px;
+            }
+
+            @media screen and (max-width: 600px){
+              #full_width_banner_215bc6310a0a563025c3b6e51b839d4b_1 .inner {
+                padding: 320px 30px 50px;
+              }
+            }
+
+            #full_width_banner_215bc6310a0a563025c3b6e51b839d4b_1 .inner .main-content {
+              max-width: 445px;
+              margin: 0;
+              color: #444444;
+            }
+
+            #full_width_banner_215bc6310a0a563025c3b6e51b839d4b_1 .inner .caption {
+               color: #444444;
+            }
+
+            #full_width_banner_215bc6310a0a563025c3b6e51b839d4b_1 .full-width-gradient {
+                opacity: 0;
+                background: transparent;
+            }
+
+            #full_width_banner_215bc6310a0a563025c3b6e51b839d4b_1 .full-width-image {
+              background: url('https://www.wlu.ca/future-students/undergraduate/assets/images/banners/group-of-students-on-campus-in-the-winter-banner-crop.jpg');
+              background-position: left 10% !important;
+              -webkit-filter: blur(0px);
+              filter: blur(0px);
+            }
+        /* ]]> */
+      </style>
+
+      
+      
+      
+      
+        <style>
+          /* <![CDATA[ */
+              #full_width_banner_215bc6310a0a563025c3b6e51b839d4b_1 .main-content > div {
+                padding: 30px 55px;
+                background: #fffaf2;
+              }
+
+              @media screen and (max-width: 600px) {
+                #full_width_banner_215bc6310a0a563025c3b6e51b839d4b_1 .main-content > div {
+                  padding: 30px;
+                }
+              }
+          /* ]]> */
+        </style>
+      
+      <div class="row">
+          <div class="full-width-gradient"></div>
+          <div class="full-width-image"></div>
+
+          <div class="rowBody">
+              <div class="inner">
+                  <div class="main-content">
+                    <div>
+                      <link href="https://use.typekit.net/swo8vbu.css" rel="stylesheet"/>
+<div class="goldBox">
+<h1>Future <br/>Undergraduate<br/> Students</h1>
+<span>Your future is #Laurier2027</span></div>
+<!-- center image on mobile --> <span style="display: none !important;">fsFwBanner</span>
+<script>// <![CDATA[
+$(document).ready(function() {
+$('span:contains("fsFwBanner")').closest('div.row').attr('id', 'fsFwBanner');
+});
+// ]]></script>
+<style><!--
+@media screen and (max-width:960px) {
+    #fsFwBanner div.full-width-image {
+        background-position: 35% 10% !important;
+    }
+}
+--></style>
+                    </div>
+                  </div>
+
+                  <div class="caption">
+                    <content></content>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+                    
+                        
+                    
+    
+            
+    <div class="ato-component leftnav" id="leftnav_215bc6310a0a563025c3b6e51b839d4b_2">
+        <div class="row">
+            <div class="flexbox rowBody">
+                <div class="col-25 columns sidebar">
+                    <div class="sel-box">
+                        <span class="select_dropdown icon-toggledown">In this section</span>
+                        <ul class="sidenav" id="sidenav-sel-option">
+                            <div id="leftMenu">
+                    
+                                                                                                                                                                                                                                                                                
+                                                                
+                                        
+        
+        
+            
+                
+        
+            <a href="/future-students/undergraduate/index.html" id="activeLink">Future Undergraduate Students</a>
+                                        
+        <ul>
+                            
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <li>
+                                                            
+        
+        
+            
+                
+        
+            <a href="/future-students/undergraduate/experience-laurier/index.html">Experience Laurier</a>
+        
+                                                                                                                                                                    </li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <li>
+                                                            
+        
+        
+            
+                
+        
+            <a href="/future-students/undergraduate/programs/index.html">Programs and Academics</a>
+        
+                                                                                                                                                                    </li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <li>
+                                                            
+        
+        
+            
+                
+        
+            <a href="/future-students/undergraduate/applicants/index.html">Applicant Type</a>
+        
+                                                                                                                                                                    </li>
+                                                                                                                                                                                                                                                                                                                            
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <li>
+                                                            
+        
+        
+            
+                
+        
+            <a href="/future-students/undergraduate/admissions/index.html">Admissions</a>
+        
+                                                                                                                                                                    </li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            <li>
+                                                            
+        
+        
+            
+                
+        
+            <a href="/future-students/undergraduate/supports-and-services/index.html">Supports and Services</a>
+        
+                                                                                                                                                                    </li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        <li>
+                                                            
+        
+        
+            
+                
+        
+            <a href="/future-students/undergraduate/tuition-finances/index.html">Tuition and Finances</a>
+        
+                                                                                                                                                                    </li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+                                                                                                                                                                                                                                                                                                                                                                                                                <li>
+                                                            
+        
+        
+            
+                
+        
+            <a href="/future-students/undergraduate/residence/index.html">Residence</a>
+        
+                                                                                                                                                                    </li>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+                                                                                                                                                                           <li>    
+        
+        
+            
+                
+        
+            <a href="/future-students/undergraduate/contact.html">Contact Us</a>
+    </li>
+                                                                                                                                                    
+                                                                                                                                    </ul>
+                                                            
+                            </div>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="col-75 right-content">
+                    <div class="ato-component text">
+                        <!-- Generated by ai2html v0.100.0 - 2022-09-09 11:26 --> <!-- ai file: _inspired-together-heading.ai -->
+<style media="screen,print"><!--
+#g-inspired-together-box ,
+	#g-inspired-together-box .g-artboard {
+		margin:0;
+	}
+	#g-inspired-together-box p {
+		margin:0;
+	}
+	#g-inspired-together-box .g-aiAbs {
+		position:absolute;
+	}
+	#g-inspired-together-box .g-aiImg {
+		position:absolute;
+		top:0;
+		display:block;
+		width:100% !important;
+	}
+	#g-inspired-together-box .g-aiSymbol {
+		position: absolute;
+		box-sizing: border-box;
+	}
+	#g-inspired-together-box .g-aiPointText p { white-space: nowrap; }
+	#g-inspired-together-artboard_1_copy {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-inspired-together-artboard_1_copy p {
+		font-family:'Calluna', serif;
+		font-weight:600;
+		line-height:29px;
+		height:auto;
+		filter:alpha(opacity=100);
+		-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+		opacity:1;
+		letter-spacing:0em;
+		font-size:24px;
+		text-align:left;
+		color:rgb(255,255,255);
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		position:static;
+	}
+	#g-inspired-together-artboard_1_copy .g-pstyle0 {
+		font-family:marydale, sans-serif;
+		font-weight:400;
+		height:29px;
+		color:rgb(241,169,30);
+	}
+	#g-inspired-together-artboard_1_copy .g-pstyle1 {
+		height:29px;
+	}
+	#g-inspired-together-artboard_1_copy .g-pstyle2 {
+		height:29px;
+		color:rgb(241,169,30);
+	}
+	#g-inspired-together-artboard_1_copy_2 {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-inspired-together-artboard_1_copy_2 p {
+		font-family:'Calluna', serif;
+		font-weight:600;
+		line-height:21px;
+		height:auto;
+		filter:alpha(opacity=100);
+		-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+		opacity:1;
+		letter-spacing:0em;
+		font-size:18px;
+		text-align:left;
+		color:rgb(255,255,255);
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		position:static;
+	}
+	#g-inspired-together-artboard_1_copy_2 .g-pstyle0 {
+		font-family:marydale, sans-serif;
+		font-weight:400;
+		height:21px;
+		color:rgb(241,169,30);
+	}
+	#g-inspired-together-artboard_1_copy_2 .g-pstyle1 {
+		height:21px;
+	}
+	#g-inspired-together-artboard_1_copy_2 .g-pstyle2 {
+		height:21px;
+		color:rgb(241,169,30);
+	}
+	#g-inspired-together-artboard_1_copy_3 {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-inspired-together-artboard_1_copy_3 p {
+		font-family:'Calluna', serif;
+		font-weight:600;
+		line-height:41px;
+		height:auto;
+		filter:alpha(opacity=100);
+		-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+		opacity:1;
+		letter-spacing:0em;
+		font-size:34px;
+		text-align:left;
+		color:rgb(255,255,255);
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		position:static;
+	}
+	#g-inspired-together-artboard_1_copy_3 .g-pstyle0 {
+		font-family:marydale, sans-serif;
+		font-weight:400;
+		height:41px;
+		color:rgb(241,169,30);
+	}
+	#g-inspired-together-artboard_1_copy_3 .g-pstyle1 {
+		height:41px;
+	}
+	#g-inspired-together-artboard_1_copy_3 .g-pstyle2 {
+		height:41px;
+		color:rgb(241,169,30);
+	}
+
+	/* Custom CSS */
+	.ai2html {
+-webkit-font-smoothing: antialiased;
+}
+.ai2html p {
+    overflow: visible !important;
+}
+@media screen and (max-width: 960px) {
+.ato-component.multicolumn .ato-component.main.text.ai2htmlComponent {
+padding: 0;
+}
+}
+--></style>
+<div class="ai2html" id="g-inspired-together-box"><!-- Artboard: artboard_1_copy -->
+<div class="g-artboard" data-aspect-ratio="6.677" data-max-width="444" data-min-width="315" id="g-inspired-together-artboard_1_copy" style="width: 315px; height: 47.1742168694982px;">
+<div></div>
+<img alt="" class="g-aiImg" id="g-inspired-together-artboard_1_copy-img" src="https://www.wlu.ca/future-students/assets/images/inspired-together-graphic.png"/>
+<div class="g-Layer_1 g-aiAbs g-aiPointText" id="g-ai0-1" style="top: 63.5171%; margin-top: -19.5px; left: 34.5074%; width: 106px;">
+<p class="g-pstyle0">together.</p>
+</div>
+<div class="g-Layer_1 g-aiAbs g-aiPointText" id="g-ai0-2" style="top: 54.2304%; margin-top: -15.6px; left: 62.3378%; width: 127px;">
+<p class="g-pstyle1">at Laurier.</p>
+</div>
+<div class="g-Layer_1 g-aiAbs g-aiPointText" id="g-ai0-3" style="top: 54.247%; margin-top: -15.6px; left: 5.7663%; width: 112px;">
+<p class="g-pstyle2">inspired.</p>
+</div>
+</div>
+<!-- Artboard: artboard_1_copy_2 -->
+<div class="g-artboard" data-aspect-ratio="6.588" data-max-width="314" data-min-width="0" id="g-inspired-together-artboard_1_copy_2" style="max-width: 235px; max-height: 36px;">
+<div style="padding: 0 0 15.1786% 0;"></div>
+<img alt="" class="g-aiImg" id="g-inspired-together-artboard_1_copy_2-img" src="https://www.wlu.ca/future-students/assets/images/inspired-together-graphic.png"/>
+<div class="g-Layer_1 g-aiAbs g-aiPointText" id="g-ai1-1" style="top: 61.7852%; margin-top: -14px; left: 34.6762%; width: 84px;">
+<p class="g-pstyle0">together.</p>
+</div>
+<div class="g-Layer_1 g-aiAbs g-aiPointText" id="g-ai1-2" style="top: 53.6991%; margin-top: -11.2px; left: 62.2036%; width: 100px;">
+<p class="g-pstyle1">at Laurier.</p>
+</div>
+<div class="g-Layer_1 g-aiAbs g-aiPointText" id="g-ai1-3" style="top: 53.7142%; margin-top: -11.2px; left: 6.2484%; width: 88px;">
+<p class="g-pstyle2">inspired.</p>
+</div>
+</div>
+<!-- Artboard: artboard_1_copy_3 -->
+<div class="g-artboard" data-aspect-ratio="6.637" data-min-width="445" id="g-inspired-together-artboard_1_copy_3" style="width: 445px; height: 67.0457364609647px;">
+<div></div>
+<img alt="" class="g-aiImg" id="g-inspired-together-artboard_1_copy_3-img" src="https://www.wlu.ca/future-students/assets/images/inspired-together-graphic.png"/>
+<div class="g-Layer_1 g-aiAbs g-aiPointText" id="g-ai2-1" style="top: 60.4473%; margin-top: -27.5px; left: 34.493%; width: 140px;">
+<p class="g-pstyle0">together.</p>
+</div>
+<div class="g-Layer_1 g-aiAbs g-aiPointText" id="g-ai2-2" style="top: 52.2032%; margin-top: -22px; left: 62.3496%; width: 169px;">
+<p class="g-pstyle1">at Laurier.</p>
+</div>
+<div class="g-Layer_1 g-aiAbs g-aiPointText" id="g-ai2-3" style="top: 52.2192%; margin-top: -22px; left: 5.7251%; width: 148px;">
+<p class="g-pstyle2">inspired.</p>
+</div>
+</div>
+<!-- Custom HTML --> <span style="display: none !important;">ai2html</span></div>
+<!-- Custom JS -->
+<script>// <![CDATA[
+$(document).ready(function() {
+$('span:contains("ai2html")').closest('.ato-component.main.text').addClass('ai2htmlComponent');
+});
+/*resizer*/
+(function() {
+        // only want one resizer on the page
+        if (document.documentElement.className.indexOf("g-resizer-v3-init") > -1) return;
+        document.documentElement.className += " g-resizer-v3-init";
+        // require IE9+
+        if (!("querySelector" in document)) return;
+        function resizer() {
+            var elements = Array.prototype.slice.call(document.querySelectorAll(".g-artboard[data-min-width]")),
+                widthById = {};
+            elements.forEach(function(el) {
+                var parent = el.parentNode,
+                    width = widthById[parent.id] || parent.getBoundingClientRect().width,
+                    minwidth = el.getAttribute("data-min-width"),
+                    maxwidth = el.getAttribute("data-max-width");
+                widthById[parent.id] = width;
+                if (+minwidth <= width && (+maxwidth >= width || maxwidth === null)) {
+                    el.style.display = "block";
+                } else {
+                    el.style.display = "none";
+                }
+            });
+            try {
+                if (window.parent && window.parent.$) {
+                    window.parent.$("body").trigger("resizedcontent", [window]);
+                }
+                if (window.require) {
+                    require(['foundation/main'], function() {
+                        require(['shared/interactive/instances/app-communicator'], function(AppCommunicator) {
+                            AppCommunicator.triggerResize();
+                        });
+                    });
+                }
+            } catch(e) { console.log(e); }
+        }
+        document.addEventListener('DOMContentLoaded', resizer);
+        // feel free to replace throttle with _.throttle, if available
+        window.addEventListener('resize', throttle(resizer, 200));        
+        function throttle(func, wait) {
+            // from underscore.js
+            var _now = Date.now || function() { return new Date().getTime(); },
+                context, args, result, timeout = null, previous = 0;
+            var later = function() {
+                previous = _now();
+                timeout = null;
+                result = func.apply(context, args);
+                if (!timeout) context = args = null;
+            };
+            return function() {
+                var now = _now(), remaining = wait - (now - previous);
+                context = this;
+                args = arguments;
+                if (remaining <= 0 || remaining > wait) {
+                    if (timeout) {
+                        clearTimeout(timeout);
+                        timeout = null;
+                    }
+                    previous = now;
+                    result = func.apply(context, args);
+                    if (!timeout) context = args = null;
+                } else if (!timeout && options.trailing !== false) {
+                    timeout = setTimeout(later, remaining);
+                }
+                return result;
+            };
+        }
+    })();
+// ]]></script>
+<!-- End ai2html - 2022-09-09 11:26 -->
+<p>At Laurier, community is at our core. It's the reason students feel welcome and find their place here. And while the world looks different right now, we're a community that's inspired together&#160;&#8211; to learn, lead and build lifelong relationships. <strong>We give our all and we give back</strong>.</p>
+<p>Because university is not just about the lecture hall. <strong>Laurier educates with purpose</strong>, builds knowledge that serves society and creates connections that have a lasting impact. Our students are <strong>tomorrow&#8217;s leaders</strong>, who know how to think independently and develop ideas that create real change.</p>
+<p>No matter how you choose to live your Laurier experience, you&#8217;ll <strong>feel inspired</strong> as part of a tight-knit, <a href="/future-students/undergraduate/supports-and-services/index.html">supportive community</a> to aim high and work hard.</p>
+<p><strong>Be part of something</strong> that&#8217;s unlike anything else. A community that&#8217;s ready to take charge in a changing world, so that we can change it for the better.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+                    
+                        
+                    
+    
+      
+          
+    
+    
+    
+            
+    
+        
+    
+          
+    
+    <div class="ato-component full-width-banner" id="full_width_banner_215bc6310a0a563025c3b6e51b839d4b_3" style="background: #fff;">
+      <style>
+        /* <![CDATA[ */
+            #full_width_banner_215bc6310a0a563025c3b6e51b839d4b_3 .inner {
+               padding: 150px 60px 150px;
+            }
+
+            @media screen and (max-width: 600px){
+              #full_width_banner_215bc6310a0a563025c3b6e51b839d4b_3 .inner {
+                padding: 150px 30px 150px;
+              }
+            }
+
+            #full_width_banner_215bc6310a0a563025c3b6e51b839d4b_3 .inner .main-content {
+              max-width: 485px;
+              margin: 0 0 auto auto;
+              color: #444444;
+            }
+
+            #full_width_banner_215bc6310a0a563025c3b6e51b839d4b_3 .inner .caption {
+               color: #444444;
+            }
+
+            #full_width_banner_215bc6310a0a563025c3b6e51b839d4b_3 .full-width-gradient {
+                opacity: 0;
+                background: transparent;
+            }
+
+            #full_width_banner_215bc6310a0a563025c3b6e51b839d4b_3 .full-width-image {
+              background: url('https://www.wlu.ca/future-students/undergraduate/assets/images/banners/waterloo-winter-student-phase-4-b.jpg');
+              background-position: left 20% !important;
+              -webkit-filter: blur(0px);
+              filter: blur(0px);
+            }
+        /* ]]> */
+      </style>
+
+      
+      
+      
+      
+        <style>
+          /* <![CDATA[ */
+              #full_width_banner_215bc6310a0a563025c3b6e51b839d4b_3 .main-content > div {
+                padding: 30px 55px;
+                background: #fffaf2;
+              }
+
+              @media screen and (max-width: 600px) {
+                #full_width_banner_215bc6310a0a563025c3b6e51b839d4b_3 .main-content > div {
+                  padding: 30px;
+                }
+              }
+          /* ]]> */
+        </style>
+      
+      <div class="row">
+          <div class="full-width-gradient"></div>
+          <div class="full-width-image"></div>
+
+          <div class="rowBody">
+              <div class="inner">
+                  <div class="main-content">
+                    <div>
+                      <h2>Make it Official</h2>
+<p><span class="TextRun SCXW113134786 BCX0" data-contrast="auto" lang="EN-US" xml:lang="EN-US"><span class="NormalTextRun SCXW113134786 BCX0">Did you get </span><span class="NormalTextRun SCXW113134786 BCX0">into Laurier?</span><span class="NormalTextRun SCXW113134786 BCX0"> </span><span class="NormalTextRun SCXW113134786 BCX0">Congrats! </span><span class="NormalTextRun SCXW113134786 BCX0">It&#8217;s time to celebrate &#8211; and accept your offer</span><span class="NormalTextRun SCXW113134786 BCX0">. </span><span class="NormalTextRun SCXW113134786 BCX0">Find your official offer in your applicant portal and accept your offer of admission through the </span></span><a class="Hyperlink SCXW113134786 BCX0" href="http://www.ouac.on.ca/" rel="noreferrer noopener" target="_blank"><span class="TextRun Underlined SCXW113134786 BCX0" data-contrast="none" lang="EN-US" xml:lang="EN-US"><span class="NormalTextRun SCXW113134786 BCX0" data-ccp-charstyle="Hyperlink">Ontario Universities&#8217; Application Centre</span></span></a><span class="TextRun SCXW113134786 BCX0" data-contrast="auto" lang="EN-US" xml:lang="EN-US"><span class="NormalTextRun SCXW113134786 BCX0"> (OUAC) website.</span> </span></p>
+<p><strong>The acceptance deadline is June&#160;1,&#160;2023</strong>.</p>
+<p style="text-align: left;"><a href="https://www.ouac.on.ca/" rel="noopener" target="_blank"><button class="call__action purple-dark" data-title="accept offer" style="margin-bottom: 15px;">Accept Your Offer to Laurier</button></a></p>
+                    </div>
+                  </div>
+
+                  <div class="caption">
+                    <content></content>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+                    
+                        
+                    
+        
+    
+    
+    
+    <div class="ato-component multicolumn" id="multicolumn_215bc6310a0a563025c3b6e51b839d4b_4" style="background: #fffaf2; color: #444444;">
+        <div class="row">
+            <div class="rowBody">
+                
+                <div class="flexbox">
+                                            
+                            
+                                                    
+                                                
+                        <div class="column item1 flexbox flex-items" style="width: 33%;">
+                            
+                                
+                                    
+        
+    
+            
+    <div class="ato-component main text" id="text_block_215bc6310a0a563025c3b6e51b839d4b_4_1" style="background: transparent; color: ;">
+        
+        <style>
+            /* <![CDATA[ */
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_4_1 a,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_4_1 a:active,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_4_1 a:focus,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_4_1 a:hover,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_4_1 a:visited {
+                color: ;
+                }
+            /* ]]> */
+        </style>
+
+                        
+        <div class="row">
+             <div class="rowBody">
+                <div class="text__module column-1" style="max-width: 50em; margin: 0 auto;">
+                   <div><img alt="Smiling student wearing Laurier apparel" height="350" src="/future-students/undergraduate/assets/images/smiling-student-wearing-laurier-apparel.jpg" style="display: block; margin-left: auto; margin-right: auto;" width="350"/></div>
+               </div>
+            </div>
+        </div>
+    </div>
+                                                    </div>
+                                            
+                            
+                                                    
+                                                
+                        <div class="column item2 flexbox flex-items" style="width: 67%;">
+                            
+                                
+                                    
+        
+    
+            
+    <div class="ato-component main text" id="text_block_215bc6310a0a563025c3b6e51b839d4b_4_2" style="background: transparent; color: ;">
+        
+        <style>
+            /* <![CDATA[ */
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_4_2 a,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_4_2 a:active,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_4_2 a:focus,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_4_2 a:hover,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_4_2 a:visited {
+                color: ;
+                }
+            /* ]]> */
+        </style>
+
+                        
+        <div class="row">
+             <div class="rowBody">
+                <div class="text__module column-1" style="max-width: 50em; margin: 0 auto;">
+                   <system-data-structure><shared-text><h2>You're Worth It</h2>
+<p>There are<strong> 650+ </strong>competitive scholarships and awards given to Golden Hawks annually based on academic achievement, personal interests, extracurricular involvement and financial need &#8211; including&#160;the <a href="https://www.wlu.ca/future-students/undergraduate/admissions/assets/resources/laurier-scholars.html">Laurier Scholars Award</a> <strong>worth $40,000</strong>!?</p>
+<p>Oh, and you are <strong>automatically assessed</strong> for an <strong>entrance scholarship</strong> when you apply to Laurier. These scholarships are based on your final grades with no application required.</p>
+<p style="text-align: left;"><a href="/future-students/undergraduate/tuition-finances/entrance-scholarships.html" style="text-decoration: none;"><button class="call__action purple-dark" data-title="scholarships" style="margin-bottom: 15px;">Learn More About Scholarships</button></a></p></shared-text></system-data-structure>
+               </div>
+            </div>
+        </div>
+    </div>
+                                                    </div>
+                                    </div>
+            </div>
+        </div>
+    </div>
+                    
+                        
+                    
+        
+    
+    
+    
+    <div class="ato-component multicolumn" id="multicolumn_215bc6310a0a563025c3b6e51b839d4b_5" style="background: linear-gradient(130deg, rgba(51,0,114,1) 55%, rgba(101,49,162,1) 100%); color: #444444;">
+        <div class="row">
+            <div class="rowBody">
+                
+                <div class="flexbox">
+                                            
+                            
+                                                    
+                                                
+                        <div class="column item1 flexbox flex-items" style="width: 67%;">
+                            
+                                
+                                    
+        
+    
+            
+    <div class="ato-component main text" id="text_block_215bc6310a0a563025c3b6e51b839d4b_5_1" style="background: transparent; color: ;">
+        
+        <style>
+            /* <![CDATA[ */
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_5_1 a,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_5_1 a:active,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_5_1 a:focus,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_5_1 a:hover,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_5_1 a:visited {
+                color: ;
+                }
+            /* ]]> */
+        </style>
+
+                        
+        <div class="row">
+             <div class="rowBody">
+                <div class="text__module column-1" style="max-width: 50em; margin: 0 auto;">
+                   <iframe allowfullscreen="allowfullscreen" height="314" src="//www.youtube.com/embed/TfgCiMUxyiI" width="560"></iframe>
+               </div>
+            </div>
+        </div>
+    </div>
+                                                    </div>
+                                            
+                            
+                                                    
+                                                
+                        <div class="column item2 flexbox flex-items" style="width: 33%;">
+                            
+                                
+                                    
+        
+    
+            
+    <div class="ato-component main text" id="text_block_215bc6310a0a563025c3b6e51b839d4b_5_2" style="background: transparent; color: #ffffff;">
+        
+        <style>
+            /* <![CDATA[ */
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_5_2 a,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_5_2 a:active,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_5_2 a:focus,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_5_2 a:hover,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_5_2 a:visited {
+                color: #ffffff;
+                }
+            /* ]]> */
+        </style>
+
+                        
+        <div class="row">
+             <div class="rowBody">
+                <div class="text__module column-1" style="max-width: 50em; margin: 0 auto;">
+                   <h2 class="black" style="color: #f2a900;">Home Away from&#160;Home</h2>
+<p><span style="color: #ffffff;">Your <a href="/future-students/undergraduate/residence/index.html" style="color: #ffffff;">residence experience</a> represents more than just a place to sleep and study &#8211; you&#8217;ll find your home away from home in a community that encourages personal growth (and a lot of fun).&#160;&#160;</span></p>
+<p><span data-contrast="auto" style="color: #ffffff;">Worried about finding the right place? We guarantee residence to all undergraduate students attending university for the first time. </span></p>
+<p style="text-align: left;"><a href="/future-students/undergraduate/residence/index.html" style="text-decoration: none;" target="blank"><button class="call__action purple-light" data-title="events" style="margin-bottom: 15px;"><span style="font-size: 12pt;">Explore Your Living Options</span></button></a></p>
+               </div>
+            </div>
+        </div>
+    </div>
+                                                    </div>
+                                    </div>
+            </div>
+        </div>
+    </div>
+                    
+                        
+                    
+        
+    
+    
+    
+    <div class="ato-component multicolumn" id="multicolumn_215bc6310a0a563025c3b6e51b839d4b_6" style="background: #fffaf2; color: #444444;">
+        <div class="row">
+            <div class="rowBody">
+                
+                <div class="flexbox">
+                                            
+                            
+                                                    
+                                                
+                        <div class="column item1 flexbox flex-items" style="width: 33%;">
+                            
+                                
+                                    
+        
+    
+            
+    <div class="ato-component main text" id="text_block_215bc6310a0a563025c3b6e51b839d4b_6_1" style="background: #fffaf2; color: ;">
+        
+        <style>
+            /* <![CDATA[ */
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_6_1 a,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_6_1 a:active,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_6_1 a:focus,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_6_1 a:hover,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_6_1 a:visited {
+                color: ;
+                }
+            /* ]]> */
+        </style>
+
+                        
+        <div class="row">
+             <div class="rowBody">
+                <div class="text__module column-1" style="max-width: 50em; margin: 0 auto;">
+                   <!-- Generated by ai2html v0.100.0 - 2022-02-02 14:07 --> <!-- ai file: _95-graduates-v01.ai -->
+<style media="screen,print"><!--
+#g-95-graduates-box ,
+	#g-95-graduates-box .g-artboard {
+		margin:0 auto;
+	}
+	#g-95-graduates-box p {
+		margin:0;
+	}
+	#g-95-graduates-box .g-aiAbs {
+		position:absolute;
+	}
+	#g-95-graduates-box .g-aiImg {
+		position:absolute;
+		top:0;
+		display:block;
+		width:100% !important;
+	}
+	#g-95-graduates-box .g-aiSymbol {
+		position: absolute;
+		box-sizing: border-box;
+	}
+	#g-95-graduates-box .g-aiPointText p { white-space: nowrap; }
+	#g-95-graduates-artboard_1 {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-95-graduates-artboard_1 p {
+		font-family:'Calluna Sans', sans-serif;
+		font-weight:700;
+		line-height:24px;
+		height:auto;
+		filter:alpha(opacity=100);
+		-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+		opacity:1;
+		letter-spacing:-0.009em;
+		font-size:20px;
+		text-align:left;
+		color:rgb(0,0,0);
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		position:static;
+	}
+	#g-95-graduates-artboard_1 .g-pstyle0 {
+		line-height:55px;
+		height:55px;
+		letter-spacing:-0.01em;
+		font-size:46px;
+		text-transform:uppercase;
+		color:rgb(51,0,114);
+	}
+	#g-95-graduates-artboard_1 .g-pstyle1 {
+		height:24px;
+		text-align:center;
+	}
+	#g-95-graduates-artboard_1 .g-pstyle2 {
+		font-family:marydale, sans-serif;
+		font-weight:900;
+		line-height:32px;
+		height:32px;
+		letter-spacing:0.01em;
+		font-size:27px;
+		color:rgb(242,169,0);
+	}
+	#g-95-graduates-artboard_1 .g-pstyle3 {
+		font-family:calluna-sans, sans-serif;
+		font-weight:300;
+		font-style:italic;
+		line-height:13px;
+		height:13px;
+		letter-spacing:0em;
+		font-size:11px;
+		text-align:center;
+		color:rgb(65,64,66);
+	}
+	#g-95-graduates-artboard_1 .g-cstyle0 {
+		letter-spacing:-0.01em;
+	}
+	#g-95-graduates-artboard_1 .g-cstyle1 {
+		letter-spacing:-0.013em;
+	}
+	#g-95-graduates-artboard_1 .g-cstyle2 {
+		letter-spacing:-0.017em;
+	}
+	#g-95-graduates-artboard_1 .g-cstyle3 {
+		letter-spacing:0em;
+	}
+	#g-95-graduates-artboard_1 .g-cstyle4 {
+		letter-spacing:-0.004em;
+	}
+	#g-95-graduates-artboard_1 .g-cstyle5 {
+		letter-spacing:0.009em;
+	}
+	#g-95-graduates-artboard_1 .g-cstyle6 {
+		letter-spacing:0.03em;
+	}
+	#g-95-graduates-artboard_1 .g-cstyle7 {
+		letter-spacing:-0.019em;
+	}
+	#g-95-graduates-artboard_1 .g-cstyle8 {
+		letter-spacing:-0.179em;
+	}
+	#g-95-graduates-artboard_1 .g-cstyle9 {
+		letter-spacing:-0.011em;
+	}
+	#g-95-graduates-artboard_1 .g-cstyle10 {
+		letter-spacing:-0.023em;
+	}
+	#g-95-graduates-artboard_1 .g-cstyle11 {
+		letter-spacing:-0.02em;
+	}
+	#g-95-graduates-artboard_1 .g-cstyle12 {
+		letter-spacing:-0.012em;
+	}
+	#g-95-graduates-artboard_1 .g-cstyle13 {
+		text-transform:uppercase;
+	}
+	#g-95-graduates-artboard_1_copy {
+		position:relative;
+		overflow:hidden;
+	}
+	#g-95-graduates-artboard_1_copy p {
+		font-family:'Calluna Sans', sans-serif;
+		font-weight:700;
+		line-height:42px;
+		height:auto;
+		filter:alpha(opacity=100);
+		-ms-filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+		opacity:1;
+		letter-spacing:-0.009em;
+		font-size:35px;
+		text-align:left;
+		color:rgb(0,0,0);
+		text-transform:none;
+		padding-bottom:0;
+		padding-top:0;
+		mix-blend-mode:normal;
+		font-style:normal;
+		position:static;
+	}
+	#g-95-graduates-artboard_1_copy .g-pstyle0 {
+		line-height:95px;
+		height:95px;
+		letter-spacing:-0.01em;
+		font-size:79px;
+		text-transform:uppercase;
+		color:rgb(51,0,114);
+	}
+	#g-95-graduates-artboard_1_copy .g-pstyle1 {
+		height:42px;
+		text-align:center;
+	}
+	#g-95-graduates-artboard_1_copy .g-pstyle2 {
+		font-family:marydale, sans-serif;
+		font-weight:900;
+		line-height:55px;
+		height:55px;
+		letter-spacing:0.01em;
+		font-size:46px;
+		color:rgb(242,169,0);
+	}
+	#g-95-graduates-artboard_1_copy .g-pstyle3 {
+		font-family:calluna-sans, sans-serif;
+		font-weight:300;
+		font-style:italic;
+		line-height:23px;
+		height:23px;
+		letter-spacing:0em;
+		font-size:19px;
+		text-align:center;
+		color:rgb(65,64,66);
+	}
+	#g-95-graduates-artboard_1_copy .g-cstyle0 {
+		letter-spacing:-0.01em;
+	}
+	#g-95-graduates-artboard_1_copy .g-cstyle1 {
+		letter-spacing:-0.013em;
+	}
+	#g-95-graduates-artboard_1_copy .g-cstyle2 {
+		letter-spacing:-0.017em;
+	}
+	#g-95-graduates-artboard_1_copy .g-cstyle3 {
+		letter-spacing:0em;
+	}
+	#g-95-graduates-artboard_1_copy .g-cstyle4 {
+		letter-spacing:-0.004em;
+	}
+	#g-95-graduates-artboard_1_copy .g-cstyle5 {
+		letter-spacing:0.009em;
+	}
+	#g-95-graduates-artboard_1_copy .g-cstyle6 {
+		letter-spacing:0.03em;
+	}
+	#g-95-graduates-artboard_1_copy .g-cstyle7 {
+		letter-spacing:-0.019em;
+	}
+	#g-95-graduates-artboard_1_copy .g-cstyle8 {
+		letter-spacing:-0.179em;
+	}
+	#g-95-graduates-artboard_1_copy .g-cstyle9 {
+		letter-spacing:-0.011em;
+	}
+	#g-95-graduates-artboard_1_copy .g-cstyle10 {
+		letter-spacing:-0.023em;
+	}
+	#g-95-graduates-artboard_1_copy .g-cstyle11 {
+		letter-spacing:-0.02em;
+	}
+	#g-95-graduates-artboard_1_copy .g-cstyle12 {
+		letter-spacing:-0.012em;
+	}
+	#g-95-graduates-artboard_1_copy .g-cstyle13 {
+		text-transform:uppercase;
+	}
+
+	/* Custom CSS */
+	.ai2html {
+-webkit-font-smoothing: antialiased;
+}
+.ai2html p {
+    overflow: visible !important;
+}
+@media only screen and (min-width: 768px) {
+#g-95-graduates-artboard_1 {
+transform: scale(1.4)
+}
+}
+@media only screen and (max-width: 468px) {
+	.ai2htmlComponent {
+	    padding: 0 !important;
+	}
+	/*#g-100-percent-co-op-box {
+	    transform: scale(1.0);
+	    }
+	.ai2html p {
+    		transform: scale(.9);
+	}*/
+}
+--></style>
+<div class="ai2html" id="g-95-graduates-box"><!-- Artboard: artboard_1 -->
+<div class="g-artboard" data-aspect-ratio="1.353" data-max-width="359" data-min-width="0" id="g-95-graduates-artboard_1" style="max-width: 210px; max-height: 155px;">
+<div style="padding: 0 0 73.9186% 0;"></div>
+<img alt="" class="g-aiImg" id="g-95-graduates-artboard_1-img" src="https://www.wlu.ca/future-students/undergraduate/assets/images/graphics/95-graduates-artboard_1_copy.png"/>
+<div class="g-Layer_1 g-aiAbs g-aiPointText" id="g-ai0-1" style="top: 19.0097%; margin-top: -29.5px; left: 31.2569%; width: 103px;">
+<p class="g-pstyle0">98%</p>
+</div>
+<div class="g-Layer_1 g-aiAbs g-aiPointText" id="g-ai0-2" style="top: 40.5383%; margin-top: -12.9px; left: 49.9881%; margin-left: -80px; width: 160px;">
+<p class="g-pstyle1"><span class="g-cstyle0">o</span>f gradu<span class="g-cstyle1">a</span>t<span class="g-cstyle0">e</span>s a<span class="g-cstyle2">r</span><span class="g-cstyle3">e</span></p>
+</div>
+<div class="g-Layer_1 g-aiAbs g-aiPointText" id="g-ai0-3" style="top: 63.4062%; margin-top: -21.4px; left: 28.1389%; width: 119px;">
+<p class="g-pstyle2"><span class="g-cstyle4">e</span><span class="g-cstyle5">m</span>p<span class="g-cstyle4">l</span>o<span class="g-cstyle6">y</span>e<span class="g-cstyle3">d</span></p>
+</div>
+<div class="g-Layer_1 g-aiAbs g-aiPointText" id="g-ai0-4" style="top: 83.7003%; margin-top: -12.9px; left: 50.0662%; margin-left: -106.5px; width: 213px;">
+<p class="g-pstyle1">or in <span class="g-cstyle0">p</span>os<span class="g-cstyle7">t</span>-grad studi<span class="g-cstyle0">e</span><span class="g-cstyle3">s</span></p>
+</div>
+<div class="g-Layer_1 g-aiAbs g-aiPointText" id="g-ai0-5" style="top: 95.3238%; margin-top: -7px; left: 49.9012%; margin-left: -90px; width: 180px;">
+<p class="g-pstyle3"><span class="g-cstyle8"> </span><span class="g-cstyle9">M</span>aclea<span class="g-cstyle10">n</span><span class="g-cstyle11">&#8217;</span>s <span class="g-cstyle1">U</span>niversity <span class="g-cstyle12">R</span>ankings,<span class="g-cstyle13"> 2021</span></p>
+</div>
+</div>
+<!-- Artboard: artboard_1_copy -->
+<div class="g-artboard" data-aspect-ratio="1.363" data-min-width="360" id="g-95-graduates-artboard_1_copy" style="width: 360px; height: 264.219651077691px;">
+<div></div>
+<img alt="" class="g-aiImg" id="g-95-graduates-artboard_1_copy-img" src="https://www.wlu.ca/future-students/undergraduate/assets/images/graphics/95-graduates-artboard_1_copy.png"/>
+<div class="g-Layer_1 g-aiAbs g-aiPointText" id="g-ai1-1" style="top: 18.8684%; margin-top: -50.9px; left: 31.265%; width: 162px;">
+<p class="g-pstyle0">98%</p>
+</div>
+<div class="g-Layer_1 g-aiAbs g-aiPointText" id="g-ai1-2" style="top: 40.9602%; margin-top: -22.2px; left: 50.0612%; margin-left: -129.5px; width: 259px;">
+<p class="g-pstyle1"><span class="g-cstyle0">o</span>f gradu<span class="g-cstyle1">a</span>t<span class="g-cstyle0">e</span>s a<span class="g-cstyle2">r</span><span class="g-cstyle3">e</span></p>
+</div>
+<div class="g-Layer_1 g-aiAbs g-aiPointText" id="g-ai1-3" style="top: 65.4212%; margin-top: -36.9px; left: 28.1484%; width: 187px;">
+<p class="g-pstyle2"><span class="g-cstyle4">e</span><span class="g-cstyle5">m</span>p<span class="g-cstyle4">l</span>o<span class="g-cstyle6">y</span>e<span class="g-cstyle3">d</span></p>
+</div>
+<div class="g-Layer_1 g-aiAbs g-aiPointText" id="g-ai1-4" style="top: 83.7275%; margin-top: -22.2px; left: 50.0254%; margin-left: -174.5px; width: 349px;">
+<p class="g-pstyle1">or in <span class="g-cstyle0">p</span>os<span class="g-cstyle7">t</span>-grad studi<span class="g-cstyle0">e</span><span class="g-cstyle3">s</span></p>
+</div>
+<div class="g-Layer_1 g-aiAbs g-aiPointText" id="g-ai1-5" style="top: 95.4622%; margin-top: -12.2px; left: 46.9367%; margin-left: -146.5px; width: 293px;">
+<p class="g-pstyle3"><span class="g-cstyle8"> </span><span class="g-cstyle9">M</span>aclea<span class="g-cstyle10">n</span><span class="g-cstyle11">&#8217;</span>s <span class="g-cstyle1">U</span>niversity <span class="g-cstyle12">R</span>ankings,<span class="g-cstyle13"> 2021</span></p>
+</div>
+</div>
+<!-- Custom HTML --> <span style="display: none !important;">ai2html</span></div>
+<!-- Custom JS -->
+<script>// <![CDATA[
+$(document).ready(function() {
+$('span:contains("ai2html")').closest('.ato-component.main.text').addClass('ai2htmlComponent');
+});
+/*resizer*/
+(function() {
+        // only want one resizer on the page
+        if (document.documentElement.className.indexOf("g-resizer-v3-init") > -1) return;
+        document.documentElement.className += " g-resizer-v3-init";
+        // require IE9+
+        if (!("querySelector" in document)) return;
+        function resizer() {
+            var elements = Array.prototype.slice.call(document.querySelectorAll(".g-artboard[data-min-width]")),
+                widthById = {};
+            elements.forEach(function(el) {
+                var parent = el.parentNode,
+                    width = widthById[parent.id] || parent.getBoundingClientRect().width,
+                    minwidth = el.getAttribute("data-min-width"),
+                    maxwidth = el.getAttribute("data-max-width");
+                widthById[parent.id] = width;
+                if (+minwidth <= width && (+maxwidth >= width || maxwidth === null)) {
+                    el.style.display = "block";
+                } else {
+                    el.style.display = "none";
+                }
+            });
+            try {
+                if (window.parent && window.parent.$) {
+                    window.parent.$("body").trigger("resizedcontent", [window]);
+                }
+                if (window.require) {
+                    require(['foundation/main'], function() {
+                        require(['shared/interactive/instances/app-communicator'], function(AppCommunicator) {
+                            AppCommunicator.triggerResize();
+                        });
+                    });
+                }
+            } catch(e) { console.log(e); }
+        }
+        document.addEventListener('DOMContentLoaded', resizer);
+        // feel free to replace throttle with _.throttle, if available
+        window.addEventListener('resize', throttle(resizer, 200));        
+        function throttle(func, wait) {
+            // from underscore.js
+            var _now = Date.now || function() { return new Date().getTime(); },
+                context, args, result, timeout = null, previous = 0;
+            var later = function() {
+                previous = _now();
+                timeout = null;
+                result = func.apply(context, args);
+                if (!timeout) context = args = null;
+            };
+            return function() {
+                var now = _now(), remaining = wait - (now - previous);
+                context = this;
+                args = arguments;
+                if (remaining <= 0 || remaining > wait) {
+                    if (timeout) {
+                        clearTimeout(timeout);
+                        timeout = null;
+                    }
+                    previous = now;
+                    result = func.apply(context, args);
+                    if (!timeout) context = args = null;
+                } else if (!timeout && options.trailing !== false) {
+                    timeout = setTimeout(later, remaining);
+                }
+                return result;
+            };
+        }
+    })();
+// ]]></script>
+<!-- End ai2html - 2022-02-02 14:07 -->
+               </div>
+            </div>
+        </div>
+    </div>
+                                                    </div>
+                                            
+                            
+                                                    
+                                                
+                        <div class="column item2 flexbox flex-items" style="width: 67%;">
+                            
+                                
+                                    
+        
+    
+            
+    <div class="ato-component main text" id="text_block_215bc6310a0a563025c3b6e51b839d4b_6_2" style="background: #fffaf2; color: ;">
+        
+        <style>
+            /* <![CDATA[ */
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_6_2 a,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_6_2 a:active,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_6_2 a:focus,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_6_2 a:hover,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_6_2 a:visited {
+                color: ;
+                }
+            /* ]]> */
+        </style>
+
+                        
+        <div class="row">
+             <div class="rowBody">
+                <div class="text__module column-1" style="max-width: 50em; margin: 0 auto;">
+                   <div><img alt="Student writing on a whiteboard" height="430" src="/future-students/undergraduate/assets/images/hands-on-learning.jpg" style="display: block; margin-left: auto; margin-right: auto" width="890"/></div>
+               </div>
+            </div>
+        </div>
+    </div>
+                                                    </div>
+                                    </div>
+            </div>
+        </div>
+    </div>
+                    
+                        
+                    
+        
+    
+            <style>
+            /* <![CDATA[ */
+                #multicolumn_215bc6310a0a563025c3b6e51b839d4b_7 a,
+                #multicolumn_215bc6310a0a563025c3b6e51b839d4b_7 a:active,
+                #multicolumn_215bc6310a0a563025c3b6e51b839d4b_7 a:focus,
+                #multicolumn_215bc6310a0a563025c3b6e51b839d4b_7 a:hover,
+                #multicolumn_215bc6310a0a563025c3b6e51b839d4b_7 a:visited {
+                color: #ffffff;
+                }
+            /* ]]> */
+        </style>
+    
+    
+    <div class="ato-component multicolumn" id="multicolumn_215bc6310a0a563025c3b6e51b839d4b_7" style="background: linear-gradient(130deg, rgba(51,0,114,1) 55%, rgba(101,49,162,1) 100%); color: #ffffff;">
+        <div class="row">
+            <div class="rowBody">
+                
+                <div class="flexbox">
+                                            
+                            
+                                                    
+                                                
+                        <div class="column item1 flexbox flex-items" style="width: 67%;">
+                            
+                                
+                                    
+        
+    
+            
+    <div class="ato-component main text" id="text_block_215bc6310a0a563025c3b6e51b839d4b_7_1" style="background: transparent; color: #ffffff;">
+        
+        <style>
+            /* <![CDATA[ */
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_7_1 a,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_7_1 a:active,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_7_1 a:focus,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_7_1 a:hover,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_7_1 a:visited {
+                color: #ffffff;
+                }
+            /* ]]> */
+        </style>
+
+                        
+        <div class="row">
+             <div class="rowBody">
+                <div class="text__module column-1" style="max-width: 50em; margin: 0 auto;">
+                   <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" frameborder="0" height="315" src="https://www.youtube.com/embed/N4BU83czsXs" title="YouTube video player" width="560"></iframe>
+               </div>
+            </div>
+        </div>
+    </div>
+                                                    </div>
+                                            
+                            
+                                                    
+                                                
+                        <div class="column item2 flexbox flex-items" style="width: 33%;">
+                            
+                                
+                                    
+        
+    
+            
+    <div class="ato-component main text" id="text_block_215bc6310a0a563025c3b6e51b839d4b_7_2" style="background: transparent; color: #ffffff;">
+        
+        <style>
+            /* <![CDATA[ */
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_7_2 a,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_7_2 a:active,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_7_2 a:focus,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_7_2 a:hover,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_7_2 a:visited {
+                color: #ffffff;
+                }
+            /* ]]> */
+        </style>
+
+                        
+        <div class="row">
+             <div class="rowBody">
+                <div class="text__module column-1" style="max-width: 50em; margin: 0 auto;">
+                   <h2 class="black" style="color: #f2a900;">Experience That Sets You Apart</h2>
+<p>At Laurier, no matter what campus you attend or what program you are in, you have a variety of opportunities to gain relevant skills, network with potential employers and apply your learning. It's these experiences that open career doors for you &#8211; whether that's starting your own business or climbing the ladder at a billion-dollar company, it's all possible.</p>
+<p style="text-align: left;"><a href="/future-students/undergraduate/programs/experiential-learning.html" style="text-decoration: none;" target="blank"><button class="call__action purple-light" data-title="events" style="margin-bottom: 15px;"><span style="font-size: 12pt;">See All Experiences</span></button></a></p>
+               </div>
+            </div>
+        </div>
+    </div>
+                                                    </div>
+                                    </div>
+            </div>
+        </div>
+    </div>
+                    
+                        
+                    
+        
+    
+    
+    
+    <div class="ato-component multicolumn" id="multicolumn_215bc6310a0a563025c3b6e51b839d4b_8" style="background: #ffffff; color: #444444;">
+        <div class="row">
+            <div class="rowBody">
+                
+                <div class="flexbox">
+                                            
+                            
+                                                    
+                                                
+                        <div class="column item1 flexbox flex-items" style="width: 33%;">
+                            
+                                
+                                    
+        
+    
+            
+    <div class="ato-component main text" id="text_block_215bc6310a0a563025c3b6e51b839d4b_8_1" style="background: #ffffff; color: #444444;">
+        
+        <style>
+            /* <![CDATA[ */
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_8_1 a,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_8_1 a:active,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_8_1 a:focus,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_8_1 a:hover,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_8_1 a:visited {
+                color: #444444;
+                }
+            /* ]]> */
+        </style>
+
+                        
+        <div class="row">
+             <div class="rowBody">
+                <div class="text__module column-1">
+                   <h2>Visit Our Campuses</h2>
+<p><span data-contrast="auto">You can imagine yourself at Laurier - now come experience it for yourself. Come visit us on campus during our March Open House!</span></p>
+<p><span data-contrast="auto">Can't make it? <a href="/future-students/undergraduate/experience-laurier/tours.html">Book a guided campus tour</a>&#160;and a current student will tell you what it's like to live and learn like a Golden Hawk.&#160;</span>&#160;</p>
+<p><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}"><a href="https://www.wlu.ca/future-students/undergraduate/experience-laurier/open-houses.html" rel="noopener" style="text-decoration: none;" target="_blank"><button class="call__action purple-dark" data-title="scholarships" style="margin-bottom: 15px;"><span style="font-size: 12pt;">Sign Up for Open House</span></button></a></span></p>
+               </div>
+            </div>
+        </div>
+    </div>
+                                                    </div>
+                                            
+                            
+                                                    
+                                                
+                        <div class="column item2 flexbox flex-items" style="width: 67%;">
+                            
+                                
+                                    
+        
+    
+            
+    <div class="ato-component main text" id="text_block_215bc6310a0a563025c3b6e51b839d4b_8_2" style="background: #ffffff; color: #444444;">
+        
+        <style>
+            /* <![CDATA[ */
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_8_2 a,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_8_2 a:active,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_8_2 a:focus,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_8_2 a:hover,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_8_2 a:visited {
+                color: #444444;
+                }
+            /* ]]> */
+        </style>
+
+                        
+        <div class="row">
+             <div class="rowBody">
+                <div class="text__module column-1" style="max-width: 50em; margin: 0 auto;">
+                   <div><img alt="Three Laurier students on campus" height="430" src="/_target/brantford/assets/images/three-female-students-on-campus-in-winter.jpg" style="display: block; margin-left: auto; margin-right: auto" width="890"/></div>
+               </div>
+            </div>
+        </div>
+    </div>
+                                                    </div>
+                                    </div>
+            </div>
+        </div>
+    </div>
+                    
+                        
+                    
+        
+    
+            <style>
+            /* <![CDATA[ */
+                #multicolumn_215bc6310a0a563025c3b6e51b839d4b_9 a,
+                #multicolumn_215bc6310a0a563025c3b6e51b839d4b_9 a:active,
+                #multicolumn_215bc6310a0a563025c3b6e51b839d4b_9 a:focus,
+                #multicolumn_215bc6310a0a563025c3b6e51b839d4b_9 a:hover,
+                #multicolumn_215bc6310a0a563025c3b6e51b839d4b_9 a:visited {
+                color: #fff;
+                }
+            /* ]]> */
+        </style>
+    
+    
+    <div class="ato-component multicolumn" id="multicolumn_215bc6310a0a563025c3b6e51b839d4b_9" style="background: linear-gradient(130deg, rgba(51,0,114,1) 55%, rgba(101,49,162,1) 100%); color: #fff;">
+        <div class="row">
+            <div class="rowBody">
+                
+                <div class="flexbox">
+                                            
+                            
+                                                    
+                                                
+                        <div class="column item1 flexbox flex-items" style="width: 67%;">
+                            
+                                
+                                    
+        
+    
+            
+    <div class="ato-component main text" id="text_block_215bc6310a0a563025c3b6e51b839d4b_9_1" style="background: transparent; color: ;">
+        
+        <style>
+            /* <![CDATA[ */
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_9_1 a,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_9_1 a:active,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_9_1 a:focus,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_9_1 a:hover,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_9_1 a:visited {
+                color: ;
+                }
+            /* ]]> */
+        </style>
+
+                        
+        <div class="row">
+             <div class="rowBody">
+                <div class="text__module column-1" style="max-width: 50em; margin: 0 auto;">
+                   <p style="text-align: center;"><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="allowfullscreen" frameborder="0" height="315" src="//www.youtube.com/embed/W9IBY5D3j1Q" title="YouTube video player" width="560"></iframe></p>
+               </div>
+            </div>
+        </div>
+    </div>
+                                                    </div>
+                                            
+                            
+                                                    
+                                                
+                        <div class="column item2 flexbox flex-items" style="width: 33%;">
+                            
+                                
+                                    
+        
+    
+            
+    <div class="ato-component main text" id="text_block_215bc6310a0a563025c3b6e51b839d4b_9_2" style="background: transparent; color: ;">
+        
+        <style>
+            /* <![CDATA[ */
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_9_2 a,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_9_2 a:active,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_9_2 a:focus,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_9_2 a:hover,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_9_2 a:visited {
+                color: ;
+                }
+            /* ]]> */
+        </style>
+
+                        
+        <div class="row">
+             <div class="rowBody">
+                <div class="text__module column-1" style="max-width: 50em; margin: 0 auto;">
+                   <!-- Generated by ai2html v0.100.0 - 2023-01-13 11:28 --> <!-- ai file: _learn-from-professors-reversed.ai -->
+<style media="screen,print"><!--
+#g-engaging-professors-reversed-box,
+	#g-engaging-professors-reversed-box .g-artboard {
+		margin: 0 auto;
+	}
+
+	#g-engaging-professors-reversed-box p {
+		margin: 0;
+	}
+
+	#g-engaging-professors-reversed-box .g-aiAbs {
+		position: absolute;
+	}
+
+	#g-engaging-professors-reversed-box .g-aiImg {
+		position: absolute;
+		top: 0;
+		display: block;
+		width: 100% !important;
+	}
+
+	#g-engaging-professors-reversed-box .g-aiSymbol {
+		position: absolute;
+		box-sizing: border-box;
+	}
+
+	#g-engaging-professors-reversed-box .g-aiPointText p {
+		white-space: nowrap;
+	}
+
+	#g-engaging-professors-reversed-artboard_1 {
+		position: relative;
+		overflow: hidden;
+	}
+
+	#g-engaging-professors-reversed-artboard_1 p {
+		font-family: 'Calluna Sans', sans-serif;
+		font-weight: 700;
+		line-height: 10px;
+		height: auto;
+		filter: alpha(opacity=100);
+		-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+		opacity: 1;
+		letter-spacing: 0em;
+		font-size: 8px;
+		text-align: left;
+		color: rgb(204, 192, 219);
+		text-transform: none;
+		padding-bottom: 0;
+		padding-top: 0;
+		mix-blend-mode: normal;
+		font-style: normal;
+		position: static;
+	}
+
+	#g-engaging-professors-reversed-artboard_1 .g-pstyle0 {
+		font-family: marydale, sans-serif;
+		font-weight: 900;
+		line-height: 26px;
+		height: 26px;
+		letter-spacing: 0.01em;
+		font-size: 22px;
+		text-align: center;
+		color: rgb(242, 169, 0);
+	}
+
+	#g-engaging-professors-reversed-artboard_1 .g-pstyle1 {
+		font-family: 'Calluna', serif;
+		font-weight: 400;
+		line-height: 22px;
+		height: 22px;
+		letter-spacing: 0.01em;
+		font-size: 19px;
+		text-align: center;
+		color: rgb(255, 255, 255);
+	}
+
+	#g-engaging-professors-reversed-artboard_1 .g-pstyle2 {
+		font-family: marydale, sans-serif;
+		font-weight: 900;
+		line-height: 25px;
+		height: 25px;
+		letter-spacing: 0.02em;
+		font-size: 21px;
+		color: rgb(51, 0, 114);
+	}
+
+	#g-engaging-professors-reversed-artboard_1 .g-pstyle3 {
+		height: 10px;
+	}
+
+	#g-engaging-professors-reversed-artboard_1 .g-pstyle4 {
+		font-family: calluna-sans, sans-serif;
+		font-weight: 300;
+		font-style: italic;
+		line-height: 9px;
+		height: 9px;
+		color: rgb(65, 64, 66);
+	}
+
+	#g-engaging-professors-reversed-artboard_1 .g-pstyle5 {
+		font-family: calluna-sans, sans-serif;
+		font-weight: 400;
+		font-style: italic;
+		height: 10px;
+		text-align: center;
+	}
+
+	#g-engaging-professors-reversed-artboard_1 .g-cstyle0 {
+		letter-spacing: -0.098em;
+	}
+
+	#g-engaging-professors-reversed-artboard_1 .g-cstyle1 {
+		letter-spacing: -0.009em;
+	}
+
+	#g-engaging-professors-reversed-artboard_1 .g-cstyle2 {
+		letter-spacing: 0.03em;
+	}
+
+	#g-engaging-professors-reversed-artboard_1 .g-cstyle3 {
+		letter-spacing: -0.17em;
+	}
+
+	#g-engaging-professors-reversed-artboard_1 .g-cstyle4 {
+		letter-spacing: 0.02em;
+	}
+
+	#g-engaging-professors-reversed-artboard_1 .g-cstyle5 {
+		letter-spacing: -0.034em;
+	}
+
+	#g-engaging-professors-reversed-artboard_1 .g-cstyle6 {
+		letter-spacing: -0.029em;
+	}
+
+	#g-engaging-professors-reversed-artboard_1 .g-cstyle7 {
+		letter-spacing: 0.009em;
+	}
+
+	#g-engaging-professors-reversed-artboard_1 .g-cstyle8 {
+		letter-spacing: -0.15em;
+	}
+
+	#g-engaging-professors-reversed-artboard_1 .g-cstyle9 {
+		letter-spacing: -0.011em;
+	}
+
+	#g-engaging-professors-reversed-artboard_1 .g-cstyle10 {
+		letter-spacing: -0.109em;
+	}
+
+	#g-engaging-professors-reversed-artboard_1 .g-cstyle11 {
+		letter-spacing: 0em;
+	}
+
+	#g-engaging-professors-reversed-artboard_1 .g-cstyle12 {
+		letter-spacing: 0.024em;
+	}
+
+	#g-engaging-professors-reversed-artboard_1 .g-cstyle13 {
+		letter-spacing: 0.004em;
+	}
+
+	#g-engaging-professors-reversed-artboard_1 .g-cstyle14 {
+		letter-spacing: 0.043em;
+	}
+
+	#g-engaging-professors-reversed-artboard_1 .g-cstyle15 {
+		letter-spacing: 0.08em;
+	}
+
+	#g-engaging-professors-reversed-artboard_1 .g-cstyle16 {
+		letter-spacing: 0.019em;
+	}
+
+	#g-engaging-professors-reversed-artboard_1 .g-cstyle17 {
+		letter-spacing: -0.024em;
+	}
+
+	#g-engaging-professors-reversed-artboard_1 .g-cstyle18 {
+		letter-spacing: -0.013em;
+	}
+
+	#g-engaging-professors-reversed-artboard_1 .g-cstyle19 {
+		letter-spacing: -0.008em;
+	}
+
+	#g-engaging-professors-reversed-artboard_1 .g-cstyle20 {
+		letter-spacing: -0.01em;
+	}
+
+	#g-engaging-professors-reversed-artboard_1 .g-cstyle21 {
+		letter-spacing: -0.005em;
+	}
+
+	#g-engaging-professors-reversed-artboard_1 .g-cstyle22 {
+		letter-spacing: -0.007em;
+	}
+
+	#g-engaging-professors-reversed-artboard_1 .g-cstyle23 {
+		letter-spacing: -0.018em;
+	}
+
+	#g-engaging-professors-reversed-artboard_1 .g-cstyle24 {
+		text-transform: uppercase;
+	}
+
+	#g-engaging-professors-reversed-artboard_1_copy {
+		position: relative;
+		overflow: hidden;
+	}
+
+	#g-engaging-professors-reversed-artboard_1_copy p {
+		font-family: 'Calluna Sans', sans-serif;
+		font-weight: 700;
+		line-height: 17px;
+		height: auto;
+		filter: alpha(opacity=100);
+		-ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+		opacity: 1;
+		letter-spacing: 0em;
+		font-size: 14px;
+		text-align: left;
+		color: rgb(204, 192, 219);
+		text-transform: none;
+		padding-bottom: 0;
+		padding-top: 0;
+		mix-blend-mode: normal;
+		font-style: normal;
+		position: static;
+	}
+
+	#g-engaging-professors-reversed-artboard_1_copy .g-pstyle0 {
+		font-family: marydale, sans-serif;
+		font-weight: 900;
+		line-height: 44px;
+		height: 44px;
+		letter-spacing: 0.01em;
+		font-size: 37px;
+		text-align: center;
+		color: rgb(242, 169, 0);
+	}
+
+	#g-engaging-professors-reversed-artboard_1_copy .g-pstyle1 {
+		font-family: 'Calluna', serif;
+		font-weight: 400;
+		line-height: 38px;
+		height: 38px;
+		letter-spacing: 0.01em;
+		font-size: 32px;
+		text-align: center;
+		color: rgb(255, 255, 255);
+	}
+
+	#g-engaging-professors-reversed-artboard_1_copy .g-pstyle2 {
+		font-family: marydale, sans-serif;
+		font-weight: 900;
+		line-height: 43px;
+		height: 43px;
+		letter-spacing: 0.02em;
+		font-size: 36px;
+		color: rgb(51, 0, 114);
+	}
+
+	#g-engaging-professors-reversed-artboard_1_copy .g-pstyle3 {
+		height: 17px;
+	}
+
+	#g-engaging-professors-reversed-artboard_1_copy .g-pstyle4 {
+		font-family: calluna-sans, sans-serif;
+		font-weight: 300;
+		font-style: italic;
+		line-height: 16px;
+		height: 16px;
+		font-size: 13px;
+		color: rgb(65, 64, 66);
+	}
+
+	#g-engaging-professors-reversed-artboard_1_copy .g-pstyle5 {
+		font-family: calluna-sans, sans-serif;
+		font-weight: 400;
+		font-style: italic;
+		height: 17px;
+		text-align: center;
+	}
+
+	#g-engaging-professors-reversed-artboard_1_copy .g-cstyle0 {
+		letter-spacing: -0.098em;
+	}
+
+	#g-engaging-professors-reversed-artboard_1_copy .g-cstyle1 {
+		letter-spacing: -0.009em;
+	}
+
+	#g-engaging-professors-reversed-artboard_1_copy .g-cstyle2 {
+		letter-spacing: 0.03em;
+	}
+
+	#g-engaging-professors-reversed-artboard_1_copy .g-cstyle3 {
+		letter-spacing: -0.17em;
+	}
+
+	#g-engaging-professors-reversed-artboard_1_copy .g-cstyle4 {
+		letter-spacing: 0.02em;
+	}
+
+	#g-engaging-professors-reversed-artboard_1_copy .g-cstyle5 {
+		letter-spacing: -0.034em;
+	}
+
+	#g-engaging-professors-reversed-artboard_1_copy .g-cstyle6 {
+		letter-spacing: -0.029em;
+	}
+
+	#g-engaging-professors-reversed-artboard_1_copy .g-cstyle7 {
+		letter-spacing: 0.009em;
+	}
+
+	#g-engaging-professors-reversed-artboard_1_copy .g-cstyle8 {
+		letter-spacing: -0.15em;
+	}
+
+	#g-engaging-professors-reversed-artboard_1_copy .g-cstyle9 {
+		letter-spacing: -0.011em;
+	}
+
+	#g-engaging-professors-reversed-artboard_1_copy .g-cstyle10 {
+		letter-spacing: -0.109em;
+	}
+
+	#g-engaging-professors-reversed-artboard_1_copy .g-cstyle11 {
+		letter-spacing: 0em;
+	}
+
+	#g-engaging-professors-reversed-artboard_1_copy .g-cstyle12 {
+		letter-spacing: 0.024em;
+	}
+
+	#g-engaging-professors-reversed-artboard_1_copy .g-cstyle13 {
+		letter-spacing: 0.004em;
+	}
+
+	#g-engaging-professors-reversed-artboard_1_copy .g-cstyle14 {
+		letter-spacing: 0.043em;
+	}
+
+	#g-engaging-professors-reversed-artboard_1_copy .g-cstyle15 {
+		letter-spacing: 0.08em;
+	}
+
+	#g-engaging-professors-reversed-artboard_1_copy .g-cstyle16 {
+		letter-spacing: 0.019em;
+	}
+
+	#g-engaging-professors-reversed-artboard_1_copy .g-cstyle17 {
+		letter-spacing: -0.024em;
+	}
+
+	#g-engaging-professors-reversed-artboard_1_copy .g-cstyle18 {
+		letter-spacing: -0.013em;
+	}
+
+	#g-engaging-professors-reversed-artboard_1_copy .g-cstyle19 {
+		letter-spacing: -0.008em;
+	}
+
+	#g-engaging-professors-reversed-artboard_1_copy .g-cstyle20 {
+		letter-spacing: -0.01em;
+	}
+
+	#g-engaging-professors-reversed-artboard_1_copy .g-cstyle21 {
+		letter-spacing: -0.005em;
+	}
+
+	#g-engaging-professors-reversed-artboard_1_copy .g-cstyle22 {
+		letter-spacing: -0.007em;
+	}
+
+	#g-engaging-professors-reversed-artboard_1_copy .g-cstyle23 {
+		letter-spacing: -0.018em;
+	}
+
+	#g-engaging-professors-reversed-artboard_1_copy .g-cstyle24 {
+		text-transform: uppercase;
+	}
+
+	/* Custom CSS */
+	.ai2html {
+		-webkit-font-smoothing: antialiased;
+	}
+
+	.ai2html p {
+		overflow: visible !important;
+	}
+	.ai2htmlFlexCenter {
+	    display:flex !important; 
+	    align-items: center;
+	}
+
+	@media only screen and (min-width: 768px) {
+		#g-engaging-professors-reversed-artboard_1 {
+			transform: scale(1.4)
+		}
+	}
+
+	@media only screen and (max-width: 468px) {
+		.ai2htmlComponent {
+			padding: 0 !important;
+		}
+	}
+--></style>
+<div class="ai2html" id="g-engaging-professors-reversed-box"><!-- Artboard: artboard_1 -->
+<div class="g-artboard" data-aspect-ratio="1.935" data-max-width="359" data-min-width="0" id="g-engaging-professors-reversed-artboard_1" style="max-width: 210px; max-height: 109px;">
+<div style="padding: 0 0 51.6906% 0;"></div>
+<img alt="" class="g-aiImg" id="g-engaging-professors-reversed-artboard_1-img" src="https://www.wlu.ca/future-students/assets/images/engaging-professors-reversed-artboard_1.png"/>
+<div class="g-Layer_1 g-aiAbs g-aiPointText" id="g-ai0-1" style="top: 12.1778%; margin-top: -17.2px; left: 49.9713%; margin-left: -95px; width: 190px;">
+<p class="g-pstyle0"><span class="g-cstyle0">L</span><span class="g-cstyle1">e</span>a<span class="g-cstyle2">r</span>n<span class="g-cstyle3"> </span><span class="g-cstyle4">f</span><span class="g-cstyle5">r</span><span class="g-cstyle6">o</span><span class="g-cstyle7">m</span><span class="g-cstyle8"> </span>Cana<span class="g-cstyle9">d</span>a<span class="g-cstyle10">&#8217;</span><span class="g-cstyle11">s</span></p>
+</div>
+<div class="g-Layer_1 g-aiAbs g-aiPointText" id="g-ai0-2" style="top: 30.0543%; margin-top: -11.6px; left: 49.8922%; margin-left: -78.5px; width: 157px;">
+<p class="g-pstyle1">mo<span class="g-cstyle7">s</span>t helpful an<span class="g-cstyle11">d</span></p>
+</div>
+<div class="g-Layer_1 g-aiAbs g-aiPointText" id="g-ai0-3" style="top: 57.8606%; margin-top: -16.8px; left: 9.1847%; width: 193px;">
+<p class="g-pstyle2">e<span class="g-cstyle12">n</span><span class="g-cstyle13">g</span>agi<span class="g-cstyle14">n</span><span class="g-cstyle15">g</span><span class="g-cstyle16"> </span>p<span class="g-cstyle17">r</span>ofessor<span class="g-cstyle11">s</span></p>
+</div>
+<div class="g-Layer_1 g-aiAbs g-aiPointText" id="g-ai0-4" style="top: 85.5869%; margin-top: -5.9px; left: 4.1942%; width: 32px;">
+<p class="g-pstyle3">#1</p>
+</div>
+<div class="g-Layer_1 g-aiAbs g-aiPointText" id="g-ai0-5" style="top: 85.2633%; margin-top: -5.6px; left: 9.7748%; width: 202px;">
+<p class="g-pstyle3">in <span class="g-cstyle18">N</span>orth America <span class="g-cstyle19">f</span>or studen<span class="g-cstyle20">t</span><span class="g-cstyle19">-</span>teacher interactions</p>
+</div>
+<div class="g-Layer_1 g-aiAbs g-aiPointText" id="g-ai0-6" style="top: 85.3355%; margin-top: -4.6px; left: 91.6661%; width: 24px;">
+<p class="g-pstyle4">&#160;</p>
+</div>
+<div class="g-Layer_1 g-aiAbs g-aiPointText" id="g-ai0-7" style="top: 85.3355%; margin-top: -4.6px; left: 91.886%; width: 24px;">
+<p class="g-pstyle4">&#160;</p>
+</div>
+<div class="g-Layer_1 g-aiAbs g-aiPointText" id="g-ai0-8" style="top: 95.3302%; margin-top: -5.5px; left: 50.0389%; margin-left: -82.5px; width: 165px;">
+<p class="g-pstyle5"><span class="g-cstyle21">&#8211; G</span>lobal <span class="g-cstyle1">S</span>tudent Satis<span class="g-cstyle22">f</span>action <span class="g-cstyle23">A</span>wa<span class="g-cstyle22">r</span>ds,<span class="g-cstyle24"> 2021</span></p>
+</div>
+</div>
+<!-- Artboard: artboard_1_copy -->
+<div class="g-artboard" data-aspect-ratio="1.897" data-min-width="360" id="g-engaging-professors-reversed-artboard_1_copy" style="width: 360px; height: 189.802859796051px;">
+<div></div>
+<img alt="" class="g-aiImg" id="g-engaging-professors-reversed-artboard_1_copy-img" src="https://www.wlu.ca/future-students/assets/images/engaging-professors-reversed-artboard_1_copy.png"/>
+<div class="g-Layer_1 g-aiAbs g-aiPointText" id="g-ai1-1" style="top: 13.4798%; margin-top: -29.6px; left: 49.979%; margin-left: -155px; width: 310px;">
+<p class="g-pstyle0"><span class="g-cstyle0">L</span><span class="g-cstyle1">e</span>a<span class="g-cstyle2">r</span>n<span class="g-cstyle3"> </span><span class="g-cstyle4">f</span><span class="g-cstyle5">r</span><span class="g-cstyle6">o</span><span class="g-cstyle7">m</span><span class="g-cstyle8"> </span>Cana<span class="g-cstyle9">d</span>a<span class="g-cstyle10">&#8217;</span><span class="g-cstyle11">s</span></p>
+</div>
+<div class="g-Layer_1 g-aiAbs g-aiPointText" id="g-ai1-2" style="top: 31.2704%; margin-top: -20.4px; left: 49.9782%; margin-left: -127px; width: 254px;">
+<p class="g-pstyle1">mo<span class="g-cstyle7">s</span>t helpful an<span class="g-cstyle11">d</span></p>
+</div>
+<div class="g-Layer_1 g-aiAbs g-aiPointText" id="g-ai1-3" style="top: 58.4184%; margin-top: -28.9px; left: 9.1926%; width: 315px;">
+<p class="g-pstyle2">e<span class="g-cstyle12">n</span><span class="g-cstyle13">g</span>agi<span class="g-cstyle14">n</span><span class="g-cstyle15">g</span><span class="g-cstyle16"> </span>p<span class="g-cstyle17">r</span>ofessor<span class="g-cstyle11">s</span></p>
+</div>
+<div class="g-Layer_1 g-aiAbs g-aiPointText" id="g-ai1-4" style="top: 84.7755%; margin-top: -9.9px; left: 4.2032%; width: 38px;">
+<p class="g-pstyle3">#1</p>
+</div>
+<div class="g-Layer_1 g-aiAbs g-aiPointText" id="g-ai1-5" style="top: 84.9851%; margin-top: -9.3px; left: 9.7824%; width: 331px;">
+<p class="g-pstyle3">in <span class="g-cstyle18">N</span>orth America <span class="g-cstyle19">f</span>or studen<span class="g-cstyle20">t</span><span class="g-cstyle19">-</span>teacher interactions</p>
+</div>
+<div class="g-Layer_1 g-aiAbs g-aiPointText" id="g-ai1-6" style="top: 85.1315%; margin-top: -8.6px; left: 91.6576%; width: 25px;">
+<p class="g-pstyle4">&#160;</p>
+</div>
+<div class="g-Layer_1 g-aiAbs g-aiPointText" id="g-ai1-7" style="top: 85.1315%; margin-top: -8.6px; left: 91.8774%; width: 25px;">
+<p class="g-pstyle4">&#160;</p>
+</div>
+<div class="g-Layer_1 g-aiAbs g-aiPointText" id="g-ai1-8" style="top: 94.4036%; margin-top: -9.2px; left: 50.0258%; margin-left: -133.5px; width: 267px;">
+<p class="g-pstyle5"><span class="g-cstyle21">&#8211; G</span>lobal <span class="g-cstyle1">S</span>tudent Satis<span class="g-cstyle22">f</span>action <span class="g-cstyle23">A</span>wa<span class="g-cstyle22">r</span>ds,<span class="g-cstyle24"> 2021</span></p>
+</div>
+</div>
+<!-- Custom HTML --> <span style="display: none !important;">ai2html</span> <span style="display: none !important;">ai2htmlFlexCenter</span></div>
+<!-- Custom JS -->
+<script>// <![CDATA[
+$(document).ready(function () {
+		$('span:contains("ai2html")').closest('.ato-component.main.text').addClass('ai2htmlComponent');
+		$('span:contains("ai2htmlFlexCenter")').closest('.ato-component.main.text').addClass('ai2htmlFlexCenter');
+	});
+	/*resizer*/
+	(function () {
+		// only want one resizer on the page
+		if (document.documentElement.className.indexOf("g-resizer-v3-init") > -1) return;
+		document.documentElement.className += " g-resizer-v3-init";
+		// require IE9+
+		if (!("querySelector" in document)) return;
+
+		function resizer() {
+			var elements = Array.prototype.slice.call(document.querySelectorAll(".g-artboard[data-min-width]")),
+				widthById = {};
+			elements.forEach(function (el) {
+				var parent = el.parentNode,
+					width = widthById[parent.id] || parent.getBoundingClientRect().width,
+					minwidth = el.getAttribute("data-min-width"),
+					maxwidth = el.getAttribute("data-max-width");
+				widthById[parent.id] = width;
+				if (+minwidth <= width && (+maxwidth >= width || maxwidth === null)) {
+					el.style.display = "block";
+				} else {
+					el.style.display = "none";
+				}
+			});
+			try {
+				if (window.parent && window.parent.$) {
+					window.parent.$("body").trigger("resizedcontent", [window]);
+				}
+				if (window.require) {
+					require(['foundation/main'], function () {
+						require(['shared/interactive/instances/app-communicator'], function (AppCommunicator) {
+							AppCommunicator.triggerResize();
+						});
+					});
+				}
+			} catch (e) {
+				console.log(e);
+			}
+		}
+		document.addEventListener('DOMContentLoaded', resizer);
+		// feel free to replace throttle with _.throttle, if available
+		window.addEventListener('resize', throttle(resizer, 200));
+
+		function throttle(func, wait) {
+			// from underscore.js
+			var _now = Date.now || function () {
+					return new Date().getTime();
+				},
+				context, args, result, timeout = null,
+				previous = 0;
+			var later = function () {
+				previous = _now();
+				timeout = null;
+				result = func.apply(context, args);
+				if (!timeout) context = args = null;
+			};
+			return function () {
+				var now = _now(),
+					remaining = wait - (now - previous);
+				context = this;
+				args = arguments;
+				if (remaining <= 0 || remaining > wait) {
+					if (timeout) {
+						clearTimeout(timeout);
+						timeout = null;
+					}
+					previous = now;
+					result = func.apply(context, args);
+					if (!timeout) context = args = null;
+				} else if (!timeout && options.trailing !== false) {
+					timeout = setTimeout(later, remaining);
+				}
+				return result;
+			};
+		}
+	})();
+// ]]></script>
+<!-- End ai2html - 2023-01-13 11:28 -->
+               </div>
+            </div>
+        </div>
+    </div>
+                                                    </div>
+                                    </div>
+            </div>
+        </div>
+    </div>
+                    
+                        
+                    
+        
+    
+    
+    
+    <div class="ato-component multicolumn" id="multicolumn_215bc6310a0a563025c3b6e51b839d4b_10" style="background: #fffaf2; color: #444444;">
+        <div class="row">
+            <div class="rowBody">
+                
+                <div class="flexbox">
+                                            
+                            
+                                                    
+                                                
+                        <div class="column item1 flexbox flex-items" style="width: 33%;">
+                            
+                                
+                                    
+        
+    
+            
+    <div class="ato-component main text" id="text_block_215bc6310a0a563025c3b6e51b839d4b_10_1" style="background: transparent; color: ;">
+        
+        <style>
+            /* <![CDATA[ */
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_10_1 a,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_10_1 a:active,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_10_1 a:focus,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_10_1 a:hover,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_10_1 a:visited {
+                color: ;
+                }
+            /* ]]> */
+        </style>
+
+                        
+        <div class="row">
+             <div class="rowBody">
+                <div class="text__module column-1" style="max-width: 50em; margin: 0 auto;">
+                   <div><img alt="smiling student" class="" height="350" src="/future-students/undergraduate/assets/images/spotlights/tayania-siwek-smith-sl.jpg" style="display: block; margin-left: auto; margin-right: auto;" width="350"/></div>
+               </div>
+            </div>
+        </div>
+    </div>
+                                                    </div>
+                                            
+                            
+                                                    
+                                                
+                        <div class="column item2 flexbox flex-items" style="width: 67%;">
+                            
+                                
+                                    
+        
+    
+            
+    <div class="ato-component main text" id="text_block_215bc6310a0a563025c3b6e51b839d4b_10_2" style="background: transparent; color: ;">
+        
+        <style>
+            /* <![CDATA[ */
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_10_2 a,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_10_2 a:active,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_10_2 a:focus,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_10_2 a:hover,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_10_2 a:visited {
+                color: ;
+                }
+            /* ]]> */
+        </style>
+
+                        
+        <div class="row">
+             <div class="rowBody">
+                <div class="text__module column-1" style="max-width: 50em; margin: 0 auto;">
+                   <h2 class="black">Applying After the Deadline</h2>
+<p><span data-contrast="auto">It is &#8220;better late than never&#8221; when it comes to life-changing decisions like choosing a university.</span></p>
+<p><span data-contrast="auto">The application deadline for Ontario high school students has passed but that doesn't mean you're Golden Hawk dreams are over. </span><span data-contrast="auto">Some undergraduate programs are still open for fall&#160;2023 admission. The deadline for all other students is April 1, 2023. </span></p>
+<p><span data-contrast="auto">Submit your application through the </span><a href="http://www.ouac.on.ca/"><span data-contrast="none">Ontario Universities&#8217; Application Centre (OUAC)</span></a><span data-contrast="auto">.</span><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}">&#160;</span></p>
+<p><span data-ccp-props="{&quot;201341983&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}"><a href="https://www.ouac.on.ca/" rel="noopener" style="text-decoration: none;" target="_blank"><button class="call__action purple-dark" data-title="scholarships" style="margin-bottom: 15px;"><span style="font-size: 12pt;">Apply Now</span></button></a></span></p>
+               </div>
+            </div>
+        </div>
+    </div>
+                                                    </div>
+                                    </div>
+            </div>
+        </div>
+    </div>
+                    
+                        
+                    
+    
+    <div class="ato-component pathways" id="pathways_215bc6310a0a563025c3b6e51b839d4b_11" style="background: #FFFAF2;">
+        <style>
+            /* <![CDATA[ */
+            #pathways_215bc6310a0a563025c3b6e51b839d4b_11 .inner .links a {
+                color: #000;
+                background: #f2a900;
+            }
+    
+            #pathways_215bc6310a0a563025c3b6e51b839d4b_11 .inner .links a:hover {
+                color: #fff;
+                background: #924DA7;
+            }
+            /* ]]> */
+        </style>
+
+        <div class="">
+            <div class="inner" style="background: #fff; color: #414042;">
+                <div class="top__content">
+                    <h2 class="black" style="text-align: center;">Admissions</h2>
+<p style="max-width: 720px; text-align: center;">Learn more about our&#160;<a href="/future-students/undergraduate/admissions/process/index.html">application process</a> with information tailored just for you.</p>
+                </div>
+        
+                <div class="links flexbox flexbox--center">
+                        
+                                                
+                                                    
+                            
+                                                        
+                        <a href="/future-students/undergraduate/applicants/high-school-students.html" target="_self">
+                            High School Students
+
+                                                    </a>
+                        
+                                                
+                                                    
+                            
+                                                        
+                        <a href="/future-students/undergraduate/applicants/international/index.html" target="_self">
+                            International Students
+
+                                                    </a>
+                        
+                                                
+                                                    
+                            
+                                                        
+                        <a href="/future-students/undergraduate/applicants/indigenous-students/index.html" target="_self">
+                            Indigenous Students
+
+                                                    </a>
+                        
+                                                
+                                                    
+                            
+                                                        
+                        <a href="/future-students/undergraduate/applicants/transfer/index.html" target="_self">
+                            Transfer Students
+
+                                                    </a>
+                        
+                                                
+                                                    
+                            
+                                                        
+                        <a href="/future-students/undergraduate/applicants/part-time-studies.html" target="_self">
+                            Part-Time Students
+
+                                                    </a>
+                                    </div>
+        
+                <div class="bottom__content">
+                    <bottom-content/>
+                </div>
+            </div>
+        </div>
+    </div>
+                    
+                        
+                    
+        
+    
+    
+    
+    <div class="ato-component multicolumn" id="multicolumn_215bc6310a0a563025c3b6e51b839d4b_12" style="background: #FFFAF2; color: #444444;">
+        <div class="row">
+            <div class="rowBody">
+                
+                <div class="flexbox">
+                                            
+                            
+                                                    
+                                                
+                        <div class="column item1 flexbox flex-items" style="width: 67%;">
+                            
+                                
+                                    
+        
+    
+            
+    <div class="ato-component main text" id="text_block_215bc6310a0a563025c3b6e51b839d4b_12_1" style="background: transparent; color: #444444;">
+        
+        <style>
+            /* <![CDATA[ */
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_12_1 a,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_12_1 a:active,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_12_1 a:focus,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_12_1 a:hover,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_12_1 a:visited {
+                color: #444444;
+                }
+            /* ]]> */
+        </style>
+
+                        
+        <div class="row">
+             <div class="rowBody">
+                <div class="text__module column-1" style="max-width: 50em; margin: 0 auto;">
+                   <div><img alt="Map of Brantford and the GTHA" class="bMap" height="463" src="/future-students/undergraduate/assets/images/brantford-gtha-map-b.jpg" style="display: block; margin-left: auto; margin-right: auto; mix-blend-mode: multiply; border-top: 1px solid #d3d3d3;" width="892"/></div>
+<span style="display: none !important;">btfdMap</span>
+<script>// <![CDATA[
+$(document).ready(function () {
+		$('span:contains("btfdMap")').closest('.ato-component.main.text').addClass('btfdMap');
+	});
+// ]]></script>
+<style><!--
+.btfdMap {
+        padding-top: 0 !important;
+        mix-blend-mode: multiply;
+    }
+     .btfdMap img.bMap {
+        /*transform: translateY(-45px);*/
+    }
+--></style>
+               </div>
+            </div>
+        </div>
+    </div>
+                                                    </div>
+                                            
+                            
+                                                    
+                                                
+                        <div class="column item2 flexbox flex-items" style="width: 33%;">
+                            
+                                
+                                    
+        
+    
+            
+    <div class="ato-component main text" id="text_block_215bc6310a0a563025c3b6e51b839d4b_12_2" style="background: #FFFAF2; color: #444444;">
+        
+        <style>
+            /* <![CDATA[ */
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_12_2 a,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_12_2 a:active,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_12_2 a:focus,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_12_2 a:hover,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_12_2 a:visited {
+                color: #444444;
+                }
+            /* ]]> */
+        </style>
+
+                        
+        <div class="row">
+             <div class="rowBody">
+                <div class="text__module column-1" style="max-width: 50em; margin: 0 auto;">
+                   <h2>Find Your Future in Brantford</h2>
+<p><span class="TextRun SCXW173203676 BCX0" data-contrast="auto" lang="EN-US" xml:lang="EN-US"><span class="NormalTextRun SCXW173203676 BCX0">Do you see a future in business technology, game design, user experience, social work, criminology or public health? </span><span class="NormalTextRun SCXW173203676 BCX0">Students who call our</span><span class="NormalTextRun SCXW173203676 BCX0"> Brantford campus</span><span class="NormalTextRun SCXW173203676 BCX0"> home</span><span class="NormalTextRun SCXW173203676 BCX0"> are mission-driven</span><span class="NormalTextRun SCXW173203676 BCX0"> and </span></span><a class="Hyperlink SCXW173203676 BCX0" href="https://www.wlu.ca/programs/index.html#?filter=brantford" rel="noreferrer noopener" target="_blank"><span class="TextRun Underlined SCXW173203676 BCX0" data-contrast="none" lang="EN-US" xml:lang="EN-US"><span class="NormalTextRun SCXW173203676 BCX0" data-ccp-charstyle="Hyperlink">our programs</span></span></a><span class="TextRun SCXW173203676 BCX0" data-contrast="auto" lang="EN-US" xml:lang="EN-US"><span class="NormalTextRun SCXW173203676 BCX0"> are </span><span class="NormalTextRun SCXW173203676 BCX0">designed to challenge you to make </span><span class="NormalTextRun SCXW173203676 BCX0">the world and how we engage with it a</span><span class="NormalTextRun SCXW173203676 BCX0"> better place for everyone.</span></span><span class="EOP SCXW173203676 BCX0" data-ccp-props="{&quot;134233117&quot;:false,&quot;134233118&quot;:false,&quot;201341983&quot;:0,&quot;335551550&quot;:1,&quot;335551620&quot;:1,&quot;335559685&quot;:0,&quot;335559737&quot;:0,&quot;335559738&quot;:0,&quot;335559739&quot;:160,&quot;335559740&quot;:259}">&#160;</span></p>
+<p style="text-align: left;"><a href="/_target/brantford/index.html"><button class="call__action purple-dark" data-title="accept offer" style="margin-bottom: 15px;">Discover Laurier Brantford</button></a></p>
+               </div>
+            </div>
+        </div>
+    </div>
+                                                    </div>
+                                    </div>
+            </div>
+        </div>
+    </div>
+                    
+                        
+                    
+        
+    
+            <style>
+            /* <![CDATA[ */
+                #multicolumn_215bc6310a0a563025c3b6e51b839d4b_13 a,
+                #multicolumn_215bc6310a0a563025c3b6e51b839d4b_13 a:active,
+                #multicolumn_215bc6310a0a563025c3b6e51b839d4b_13 a:focus,
+                #multicolumn_215bc6310a0a563025c3b6e51b839d4b_13 a:hover,
+                #multicolumn_215bc6310a0a563025c3b6e51b839d4b_13 a:visited {
+                color: #fff;
+                }
+            /* ]]> */
+        </style>
+    
+    
+    <div class="ato-component multicolumn" id="multicolumn_215bc6310a0a563025c3b6e51b839d4b_13" style="background: linear-gradient(190deg, rgba(51,0,114,1) 55%, rgba(101,49,162,1) 100%); color: #fff;">
+        <div class="row">
+            <div class="rowBody">
+                
+                <div class="flexbox">
+                                            
+                            
+                                                    
+                                                
+                        <div class="column item1 flexbox flex-items" style="width: 33%;">
+                            
+                                
+                                    
+        
+    
+            
+    <div class="ato-component main text" id="text_block_215bc6310a0a563025c3b6e51b839d4b_13_1" style="background: transparent; color: #fff;">
+        
+        <style>
+            /* <![CDATA[ */
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_13_1 a,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_13_1 a:active,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_13_1 a:focus,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_13_1 a:hover,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_13_1 a:visited {
+                color: #fff;
+                }
+            /* ]]> */
+        </style>
+
+                        
+        <div class="row">
+             <div class="rowBody">
+                <div class="text__module column-1" style="max-width: 50em; margin: 0 auto;">
+                   <h2 style="color: #f2a900;">Bold Dreams Achieved at Laurier</h2>
+<p>After wrapping up her double major in Biology and Chemistry in spring 2022, Kristin Cobbett was one of only 13 undergraduate students from around the world selected to complete an intensive astronautics program, through the Advanced PoSSUM Space Academy, leaving her with the prestigious title of &#8220;scientist-astronaut candidate."&#160;</p>
+<p style="text-align: left;"><a href="/news/spotlights/2020/dec/laurier-student-kristin-cobbett-accepted-into-elite-scientist-astronaut-program.html"><button class="call__action purple-light" data-title="accept offer" style="margin-bottom: 15px;">Read Kristin's Story</button></a></p>
+               </div>
+            </div>
+        </div>
+    </div>
+                                                    </div>
+                                            
+                            
+                                                    
+                                                
+                        <div class="column item2 flexbox flex-items" style="width: 67%;">
+                            
+                                
+                                    
+        
+    
+            
+    <div class="ato-component main text" id="text_block_215bc6310a0a563025c3b6e51b839d4b_13_2" style="background: transparent; color: #fff;">
+        
+        <style>
+            /* <![CDATA[ */
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_13_2 a,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_13_2 a:active,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_13_2 a:focus,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_13_2 a:hover,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_13_2 a:visited {
+                color: #fff;
+                }
+            /* ]]> */
+        </style>
+
+                        
+        <div class="row">
+             <div class="rowBody">
+                <div class="text__module column-1" style="max-width: 50em; margin: 0 auto;">
+                   <div><img alt="Student Kristin Cobbett in astronaut gear" class="" height="430" src="/future-students/undergraduate/assets/images/kristin-cobbett-astronaut-story.jpg" style="display: block; margin-left: auto; margin-right: auto;" width="890"/></div>
+               </div>
+            </div>
+        </div>
+    </div>
+                                                    </div>
+                                    </div>
+            </div>
+        </div>
+    </div>
+                    
+                        
+                    
+        
+    
+    
+    
+    <div class="ato-component multicolumn" id="multicolumn_215bc6310a0a563025c3b6e51b839d4b_14" style="background: url('https://www.wlu.ca/future-students/assets/images/laurier-brantford-ymca.jpg') no-repeat center bottom; color: #444444;">
+        <div class="row">
+            <div class="rowBody">
+                
+                <div class="flexbox">
+                                            
+                            
+                                                    
+                                                
+                        <div class="column item1 flexbox flex-items" style="width: 100%;">
+                            
+                                
+                                    
+        
+    
+            
+    <div class="ato-component main text" id="text_block_215bc6310a0a563025c3b6e51b839d4b_14_1" style="background: transparent; color: ;">
+        
+        <style>
+            /* <![CDATA[ */
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_14_1 a,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_14_1 a:active,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_14_1 a:focus,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_14_1 a:hover,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_14_1 a:visited {
+                color: ;
+                }
+            /* ]]> */
+        </style>
+
+                        
+        <div class="row">
+             <div class="rowBody">
+                <div class="text__module column-1" style="max-width: 50em; margin: 0 auto;">
+                   <style><!--
+#mc_embed_signup .button {font-size: 18px;}
+--></style>
+<span style="display: none !important;">bgImage</span> <a id="subscribe"></a>
+<div class="formBoxStyle" style="max-width: 630px; margin: 0 auto; background: #fff; box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);">
+<div style="background: #f2a900; width: 175px; height: 175px; margin: 0 auto; padding: 25px; border-radius: 50%;"><img alt="webinars.gif" class="" height="125" src="/future-students/undergraduate/assets/images/spotlights/webinars.gif" style="display: block; margin-left: auto; margin-right: auto;" width="125"/></div>
+<h2 class="black" style="text-align: center;"><a id="form"></a>Become a Laurier Insider</h2>
+<p style="text-align: center;">We send quick, fun and informative updates about Laurier to keep in touch with you along your application journey. Sign up to receive updates before anyone else.</p>
+<iframe frameborder="0" height="1500" src="https://laurier.secure.force.com/form/?formid=217721" width="100%"></iframe></div>
+               </div>
+            </div>
+        </div>
+    </div>
+                                                    </div>
+                                    </div>
+            </div>
+        </div>
+    </div>
+                    
+                        
+                    
+        
+    
+    
+    
+    <div class="ato-component multicolumn" id="multicolumn_215bc6310a0a563025c3b6e51b839d4b_15" style="background: #fffff; color: #444444;">
+        <div class="row">
+            <div class="rowBody">
+                
+                <div class="flexbox">
+                                            
+                            
+                                                    
+                                                
+                        <div class="column item1 flexbox flex-items" style="width: 67%;">
+                            
+                                
+                                    
+        
+    
+            
+    <div class="ato-component main text" id="text_block_215bc6310a0a563025c3b6e51b839d4b_15_1" style="background: #ffffff; color: ;">
+        
+        <style>
+            /* <![CDATA[ */
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_15_1 a,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_15_1 a:active,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_15_1 a:focus,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_15_1 a:hover,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_15_1 a:visited {
+                color: ;
+                }
+            /* ]]> */
+        </style>
+
+                        
+        <div class="row">
+             <div class="rowBody">
+                <div class="text__module column-1" style="max-width: 50em; margin: 0 auto;">
+                   <h2 class="black"><a id="viewbook"></a>Instant Access to Laurier's Viewbook</h2>
+<p>Laurier viewbooks provide an overview of our undergraduate programs, admission requirements, Laurier's two campuses and the student experience.</p>
+<p>Download your copy to get information about life at Laurier &#8211; instantly and all in one place.</p>
+<p style="text-align: left;"><a href="/future-students/undergraduate/assets/documents/laurier-domestic-viewbook.pdf" rel="noopener" style="text-decoration: none;" target="_blank"><button class="call__action purple-dark" data-title="viewbook" style="margin-bottom: 5px;"><span style="font-size: 12pt;">Download Laurier's Domestic Viewbook (PDF)</span></button></a></p>
+<p style="text-align: left;"><a href="/future-students/undergraduate/assets/documents/laurier-international-viewbook.pdf" rel="noopener" style="text-decoration: none;" target="_blank"><button class="call__action purple-dark" data-title="viewbook international" style="margin-bottom: 15px;"><span style="font-size: 12pt;">Download Laurier's International Viewbook (PDF) </span></button></a></p>
+               </div>
+            </div>
+        </div>
+    </div>
+                                                    </div>
+                                            
+                            
+                                                    
+                                                
+                        <div class="column item2 flexbox flex-items" style="width: 33%;">
+                            
+                                
+                                    
+        
+    
+            
+    <div class="ato-component main text" id="text_block_215bc6310a0a563025c3b6e51b839d4b_15_2" style="background: #ffffff; color: ;">
+        
+        <style>
+            /* <![CDATA[ */
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_15_2 a,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_15_2 a:active,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_15_2 a:focus,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_15_2 a:hover,
+                #text_block_215bc6310a0a563025c3b6e51b839d4b_15_2 a:visited {
+                color: ;
+                }
+            /* ]]> */
+        </style>
+
+                        
+        <div class="row">
+             <div class="rowBody">
+                <div class="text__module column-1" style="max-width: 50em; margin: 0 auto;">
+                   <p style="text-align: center;"><img alt="viewbook-covers.png" class="" height="387" src="/future-students/undergraduate/assets/images/graphics/viewbook-covers.png" width="317"/></p>
+               </div>
+            </div>
+        </div>
+    </div>
+                                                    </div>
+                                    </div>
+            </div>
+        </div>
+    </div>
+                    
+                        
+                    
+    
+      
+          
+    
+    
+    
+            
+    
+        
+    
+          
+    
+    <div class="ato-component full-width-banner" id="full_width_banner_215bc6310a0a563025c3b6e51b839d4b_16" style="background: #fff;">
+      <style>
+        /* <![CDATA[ */
+            #full_width_banner_215bc6310a0a563025c3b6e51b839d4b_16 .inner {
+               padding: 250px 60px 250px;
+            }
+
+            @media screen and (max-width: 600px){
+              #full_width_banner_215bc6310a0a563025c3b6e51b839d4b_16 .inner {
+                padding: 250px 30px 250px;
+              }
+            }
+
+            #full_width_banner_215bc6310a0a563025c3b6e51b839d4b_16 .inner .main-content {
+              max-width: 50%;
+              margin: 0;
+              color: #444444;
+            }
+
+            #full_width_banner_215bc6310a0a563025c3b6e51b839d4b_16 .inner .caption {
+               color: #444444;
+            }
+
+            #full_width_banner_215bc6310a0a563025c3b6e51b839d4b_16 .full-width-gradient {
+                opacity: 0;
+                background: transparent;
+            }
+
+            #full_width_banner_215bc6310a0a563025c3b6e51b839d4b_16 .full-width-image {
+              background: url('https://www.wlu.ca/future-students/assets/images/students-class-sepia.jpg');
+              background-position: center center !important;
+              -webkit-filter: blur(0px);
+              filter: blur(0px);
+            }
+        /* ]]> */
+      </style>
+
+      
+      
+      
+      
+      <div class="row">
+          <div class="full-width-gradient"></div>
+          <div class="full-width-image"></div>
+
+          <div class="rowBody">
+              <div class="inner">
+                  <div class="main-content">
+                    <div>
+                      <content></content>
+                    </div>
+                  </div>
+
+                  <div class="caption">
+                    <content></content>
+                  </div>
+              </div>
+          </div>
+      </div>
+    </div>
+                    
+                        
+                    
+        <style>
+        /* <![CDATA[ */
+           .spotlight__title__inner > span > a,
+           .spotlight__title__inner > span > a:active,
+           .spotlight__title__inner > span > a:focus,
+           .spotlight__title__inner > span > a:hover,
+           .spotlight__title__inner > span > a:visited {
+            color: #444444 !important;
+            }
+        /* ]]> */
+    </style>
+       <div class="ato-component spolight__gallery" id="215bc6310a0a563025c3b6e51b839d4b_17" style="background: ; color: #444444;">
+        <div class="spotlight__title">
+            <div class="spotlight__title__inner">
+                <h2>Spotlights</h2>
+                <span style="background: ; color: #444444;"><gallery-caption/></span>
+            </div>
+        </div>
+        
+        <div class="spotlight__controls">
+            <div class="spotlight__controls__inner">
+                <div class="line" style="background: ; color: #444444; border-top: 1px solid #444444;"></div>
+                <button aria-label="Next" class="slick-prev slick-arrow" style="background: ; color: #444444;" type="button"><i class="fal fa-angle-left"></i></button>
+                <button aria-label="Next" class="slick-next slick-arrow" style="background: ; color: #444444;" type="button"><i class="fal fa-angle-right"></i></button>
+            </div>
+        </div>
+        
+        <div class="center">
+                                                                        
+                <div>
+                    <div class="spotlight__slide">
+                                                    
+                                <a class="slide__href" href="https://www.youtube.com/watch?v=cCk0hT35JAA&list=PLr3gDBfyde1t1GVvoOlfAwZ745YDj94yV&index=4" target="_blank"></a>
+                            
+                        
+                        <div class="slide__image">
+                            <img alt="Youâve got questions â we've got answers (from the admissions experts)." class="media" data-object-fit="cover" src="/images/spotlights/2020/may/videoconference.jpg"/>
+                        </div>
+
+                        <div class="slide__caption" style="background: #330072; ">
+                            <p class="slide__caption__content">
+                                Youâve got questions â we've got answers (from the admissions experts).
+                            </p>
+                            <div class="slide__link">
+                                <div class="slide__link__inner">
+                                                                            
+                                            <a href="https://www.youtube.com/watch?v=cCk0hT35JAA&list=PLr3gDBfyde1t1GVvoOlfAwZ745YDj94yV&index=4" aria-label="https://www.youtube.com/watch?v=cCk0hT35JAA&list=PLr3gDBfyde1t1GVvoOlfAwZ745YDj94yV&index=4 1" style="">Watch Now</a>
+                                        
+                                                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                            
+                <div>
+                    <div class="spotlight__slide">
+                                                    <a class="slide__href" href="/future-students/undergraduate/assets/resources/where-to-live.html" target=""></a>
+                        
+                        <div class="slide__image">
+                            <img alt="Trying to decide where to live? We'll give you the pros and cons of all your housing options." class="media" data-object-fit="cover" src="/future-students/undergraduate/assets/images/spotlights/housing.png"/>
+                        </div>
+
+                        <div class="slide__caption" style="background: #924DA7; ">
+                            <p class="slide__caption__content">
+                                Trying to decide where to live? We'll give you the pros and cons of all your housing options.
+                            </p>
+                            <div class="slide__link">
+                                <div class="slide__link__inner">
+                                                                            <a aria-label="site://www.wlu.ca/future-students/undergraduate/assets/resources/where-to-live 2" href="/future-students/undergraduate/assets/resources/where-to-live.html" style="">Read More</a>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                            
+                <div>
+                    <div class="spotlight__slide">
+                                                    <a class="slide__href" href="/news/spotlights/2020/dec/new-certificate-credential-integrated-into-the-digital-media-and-journalism-program.html" target=""></a>
+                        
+                        <div class="slide__image">
+                            <img alt="New certificate credential integrated into the Digital Media and Journalism program." class="media" data-object-fit="cover" src="/images/spotlights/2020/april/digital-media-and-journalism-spotlight.jpg"/>
+                        </div>
+
+                        <div class="slide__caption" style="background: #0077A2; ">
+                            <p class="slide__caption__content">
+                                New certificate credential integrated into the Digital Media and Journalism program.
+                            </p>
+                            <div class="slide__link">
+                                <div class="slide__link__inner">
+                                                                            <a aria-label="site://www.wlu.ca/news/spotlights/2020/dec/new-certificate-credential-integrated-into-the-digital-media-and-journalism-program 3" href="/news/spotlights/2020/dec/new-certificate-credential-integrated-into-the-digital-media-and-journalism-program.html" style="">Read More</a>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                            
+                <div>
+                    <div class="spotlight__slide">
+                                                    <a class="slide__href" href="/future-students/undergraduate/assets/resources/coop-faq.html" target=""></a>
+                        
+                        <div class="slide__image">
+                            <img alt="Get all of your co-op questions answered on our faq." class="media" data-object-fit="cover" src="/future-students/undergraduate/assets/images/spotlights/coop-faq.png"/>
+                        </div>
+
+                        <div class="slide__caption" style="background: #6B7036; ">
+                            <p class="slide__caption__content">
+                                Get all of your co-op questions answered on our faq.
+                            </p>
+                            <div class="slide__link">
+                                <div class="slide__link__inner">
+                                                                            <a aria-label="site://www.wlu.ca/future-students/undergraduate/assets/resources/coop-faq 4" href="/future-students/undergraduate/assets/resources/coop-faq.html" style="">Read More</a>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                            
+                <div>
+                    <div class="spotlight__slide">
+                                                    <a class="slide__href" href="/future-students/undergraduate/assets/resources/growing-your-own-business.html" target=""></a>
+                        
+                        <div class="slide__image">
+                            <img alt="Find your entrepreneurial spirit." class="media" data-object-fit="cover" src="/future-students/undergraduate/assets/images/spotlights/entrepreneurship-spotlight.gif"/>
+                        </div>
+
+                        <div class="slide__caption" style="background: #F2A900;  color: #222222; ">
+                            <p class="slide__caption__content">
+                                Find your entrepreneurial spirit.
+                            </p>
+                            <div class="slide__link">
+                                <div class="slide__link__inner">
+                                                                            <a aria-label="site://www.wlu.ca/future-students/undergraduate/assets/resources/growing-your-own-business 5" href="/future-students/undergraduate/assets/resources/growing-your-own-business.html" style=" color: #222222; ">Learn More</a>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                            
+                <div>
+                    <div class="spotlight__slide">
+                                                    <a class="slide__href" href="/future-students/undergraduate/assets/resources/parents.html" target=""></a>
+                        
+                        <div class="slide__image">
+                            <img alt="Supporting your university-bound student." class="media" data-object-fit="cover" src="/future-students/undergraduate/assets/images/spotlights/parent-convocation-spotlight.jpg"/>
+                        </div>
+
+                        <div class="slide__caption" style="background: #330072; ">
+                            <p class="slide__caption__content">
+                                Supporting your university-bound student.
+                            </p>
+                            <div class="slide__link">
+                                <div class="slide__link__inner">
+                                                                            <a aria-label="site://www.wlu.ca/future-students/undergraduate/assets/resources/parents 6" href="/future-students/undergraduate/assets/resources/parents.html" style="">Learn More</a>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                            
+                <div>
+                    <div class="spotlight__slide">
+                                                    <a class="slide__href" href="/future-students/undergraduate/assets/resources/steps-towards-wellness.html" target=""></a>
+                        
+                        <div class="slide__image">
+                            <img alt="Learn some tips for staying well during the pandemic." class="media" data-object-fit="cover" src="/future-students/undergraduate/assets/images/wellness.jpg"/>
+                        </div>
+
+                        <div class="slide__caption" style="background: #0077A2; ">
+                            <p class="slide__caption__content">
+                                Learn some tips for staying well during the pandemic.
+                            </p>
+                            <div class="slide__link">
+                                <div class="slide__link__inner">
+                                                                            <a aria-label="site://www.wlu.ca/future-students/undergraduate/assets/resources/steps-towards-wellness 7" href="/future-students/undergraduate/assets/resources/steps-towards-wellness.html" style="">Learn More</a>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                            
+                <div>
+                    <div class="spotlight__slide">
+                                                    <a class="slide__href" href="/future-students/undergraduate/assets/resources/laurier-experience-record.html" target=""></a>
+                        
+                        <div class="slide__image">
+                            <img alt="The Laurier Experience Record helps track your development of transferable skills." class="media" data-object-fit="cover" src="/future-students/undergraduate/programs/global-engagement-and-exchanges/assets/images/elephant-spotlight.jpg"/>
+                        </div>
+
+                        <div class="slide__caption" style="background: #6B7036; ">
+                            <p class="slide__caption__content">
+                                The Laurier Experience Record helps track your development of transferable skills.
+                            </p>
+                            <div class="slide__link">
+                                <div class="slide__link__inner">
+                                                                            <a aria-label="site://www.wlu.ca/future-students/undergraduate/assets/resources/laurier-experience-record 8" href="/future-students/undergraduate/assets/resources/laurier-experience-record.html" style="">Learn More</a>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                            
+                <div>
+                    <div class="spotlight__slide">
+                                                    <a class="slide__href" href="/future-students/undergraduate/assets/resources/tips-to-score-your-dream-job.html" target=""></a>
+                        
+                        <div class="slide__image">
+                            <img alt="Secure your dream job with these tips and tricks." class="media" data-object-fit="cover" src="/future-students/undergraduate/assets/images/spotlights/job-search-spotlight.gif"/>
+                        </div>
+
+                        <div class="slide__caption" style="background: #924DA7; ">
+                            <p class="slide__caption__content">
+                                Secure your dream job with these tips and tricks.
+                            </p>
+                            <div class="slide__link">
+                                <div class="slide__link__inner">
+                                                                            <a aria-label="site://www.wlu.ca/future-students/undergraduate/assets/resources/tips-to-score-your-dream-job 9" href="/future-students/undergraduate/assets/resources/tips-to-score-your-dream-job.html" style="">Read More</a>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                            
+                <div>
+                    <div class="spotlight__slide">
+                                                    <a class="slide__href" href="/future-students/undergraduate/assets/resources/must-know-study-tips.html" target="_blank"></a>
+                        
+                        <div class="slide__image">
+                            <img alt="Must-know study tips to help you focus." class="media" data-object-fit="cover" src="/future-students/undergraduate/assets/images/books-sl.jpg"/>
+                        </div>
+
+                        <div class="slide__caption" style="background: #6B7036; ">
+                            <p class="slide__caption__content">
+                                Must-know study tips to help you focus.
+                            </p>
+                            <div class="slide__link">
+                                <div class="slide__link__inner">
+                                                                            <a aria-label="site://www.wlu.ca/future-students/undergraduate/assets/resources/must-know-study-tips 10" href="/future-students/undergraduate/assets/resources/must-know-study-tips.html" style="">Learn More</a>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                                            
+                <div>
+                    <div class="spotlight__slide">
+                                                    <a class="slide__href" href="/news/spotlights/2022/nov/laurier-scholars-program.html" target=""></a>
+                        
+                        <div class="slide__image">
+                            <img alt="Students share their mentorship experiences in Laurierâs Scholars Award program." class="media" data-object-fit="cover" src="/images/spotlights/2022/nov/scholars-award-book.jpg"/>
+                        </div>
+
+                        <div class="slide__caption" style="background: #F2A900;  color: #222222; ">
+                            <p class="slide__caption__content">
+                                Students share their mentorship experiences in Laurierâs Scholars Award program.
+                            </p>
+                            <div class="slide__link">
+                                <div class="slide__link__inner">
+                                                                            <a aria-label="site://www.wlu.ca/news/spotlights/2022/nov/laurier-scholars-program 11" href="/news/spotlights/2022/nov/laurier-scholars-program.html" style=" color: #222222; ">Read More</a>
+                                                                    </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    </div>
+    </div>
+                    
+                        
+                        
+                </div>
+			</div>
+		</div>
+		<footer class="site__footer">
+			<div class="rowBody">
+				
+
+    
+<div class="footer_wlu">
+            <div class="row">
+            <div class="logo">
+                <a href="/"><img alt="Wilfrid Laurier University" src="/images/general/desktop_logo.png"/></a>
+            </div>
+            <ul class="footer-links">
+                                
+                                                                            
+                                        
+                    <li><a href="/campus-status/index.html" target="_blank">Campus Status</a></li>
+                                                                            
+                                        
+                    <li><a href="/about/discover-laurier/contact-us.html" target="_blank">Contact Us</a></li>
+                                                                            
+                                        
+                    <li><a href="/about/discover-laurier/accessibility/index.html" target="_blank">Accessibility</a></li>
+                                                                            
+                                        
+                    <li><a href="/about/working-at-laurier/index.html" target="_blank">Careers</a></li>
+                                                                            
+                                        
+                    <li><a href="/news/social-media-accounts.html" target="_blank">Social Media Directory</a></li>
+                            </ul>
+        </div>
+
+        <div class="row">
+            <ul class="social-links">
+                
+                                                            
+                    
+                    <li>
+                        <a aria-label="Instagram Social Media Link - 1" class="social flexbox flexbox--center" href="https://www.instagram.com/WilfridLaurierUni " role="button" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                
+                                                            
+                    
+                    <li>
+                        <a aria-label="Twitter Social Media Link - 2" class="social flexbox flexbox--center" href="https://twitter.com/@Laurier" role="button" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                
+                                                            
+                    
+                    <li>
+                        <a aria-label="Facebook Social Media Link - 3" class="social flexbox flexbox--center" href="https://www.facebook.com/WilfridLaurierUniversity" role="button" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                
+                                                            
+                    
+                    <li>
+                        <a aria-label="Linked In Social Media Link - 4" class="social flexbox flexbox--center" href="https://www.linkedin.com/edu/school?id=10883" role="button" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                
+                                                            
+                    
+                    <li>
+                        <a aria-label="Email Social Media Link - 5" class="social flexbox flexbox--center" href="mailto:chooselaurier@wlu.ca" role="button" target="_blank">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </li>
+                
+                                                            
+                    
+                    <li>
+                        <a aria-label="Youtube Social Media Link - 6" class="social flexbox flexbox--center" href="https://www.youtube.com/user/LaurierVideo" role="button" target="_blank">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </li>
+                            </ul>
+        </div>
+
+        <div class="row">
+                <p class="name">WILFRID LAURIER UNIVERSITY</p>
+
+            <ul aria-label="Campus Locations" class="cities">
+                                <li>Waterloo</li>
+                                <li>Brantford</li>
+                                <li>Milton</li>
+                                <li>Kitchener</li>
+                                <li>Toronto</li>
+                            </ul>
+            <p class="copyright">Â© 2023 Wilfrid Laurier University</p>
+        </div>
+    </div>
+				<a class="scroll--top" href="#" style="display: none;">
+					<i class="fal fa-arrow-up"></i>
+				</a>
+			</div>
+		</footer>
+		<!-- JSON -->
+		<!-- Custom JS -->
+		<script src="/js/builds/global-v2.js?refresh=2" type="text/javascript"></script>
+		<script src="/js/builds/accessibility.js" type="text/javascript"></script>
+		<script src="/js/ato/scripts-home.js?refresh=7" type="text/javascript"></script>
+		<script src="/js/ato/main.js" type="text/javascript"></script>
+		<script src="/js/ato/full-screen-media.js" type="text/javascript"></script>
+		<script src="/js/ato/choice-selector.js" type="text/javascript"></script>
+		<script src="/js/ato/quotes.js" type="text/javascript"></script>
+		<script src="/js/ato/spotlights.js" type="text/javascript"></script>
+		<script src="/js/ato/search.js" type="text/javascript"></script>
+		<script src="/js/ato/font.js" type="text/javascript"></script>
+		<script src="/js/ato/filter.js" type="text/javascript"></script>
+		<script src="/js/ato/laurier-by-the-numbers.js" type="text/javascript"></script>
+		<script src="/js/ato/laurier-instagram.js" type="text/javascript"></script>
+		<script src="/js/ato/accordions.js" type="text/javascript"></script>
+		<script src="/js/ato/chaptering-menuing.js" type="text/javascript"></script>
+		<script src="/js/ato/full-width-image-links.js" type="text/javascript"></script>
+		<script src="/js/ato/give-header.js" type="text/javascript"></script>
+		<script src="/js/ato/wyntk.js" type="text/javascript"></script>
+		<script async="true" src="https://live.clive.cloud/page-views/track/280" type="text/javascript"></script>
+		<script src="/js/ato/ato-registrar-report.js" type="text/javascript"></script>
+		<script src="/js/ato/ato-accordions.js" type="text/javascript"></script>
+		<script src="/js/ato/ato-news.js" type="text/javascript"></script>
+		<script src="/js/ato/ato-number-counter.js" type="text/javascript"></script>
+		<script src="/js/ato/ato-table.js" type="text/javascript"></script>
+
+		<link href="https://wlu.ca/search/css/search_overlay.css" rel="stylesheet"/>
+<script src="https://wlu.ca/search/js/search_overlay.js" type="text/javascript"></script>
+
+
+<div class="search_overlay" style="display:none;">
+    <div class="search_overlay__background"></div>
+    <div class="search_overlay__content">
+        <div class="inner">
+            <div>
+                <p style="text-align: center; -webkit-font-smoothing: antialiased;">Search for <a href="/search/index.html?query=academic+programs">academic programs</a>, <a href="/search/index.html?query=residence">residence</a>, <a href="/search/index.html?query=tours+and+events">tours and events</a> and more.</p>
+            </div>
+    
+            <form action="/search/index.html" class="form search_form" method="GET" name="search_form">
+                <div class="search_header">
+                    <button class="search_icon" type="button">
+                        <i aria-hidden="true" class="far fa-search"></i>
+                    </button>
+        
+                    <input autocomplete="off" name="query" placeholder="Search" type="text" value=""/>
+                    
+                    <button id="searchBtnSubmit" type="submit">
+                        Search
+                    </button>
+        
+                    <ul class="search_autocomplete"></ul>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+		
+    <link href="https://wlu.ca/css/accept_cookies.css" rel="stylesheet"/>
+    <script src="https://wlu.ca/js/accept_cookies.js" type="text/javascript"></script>
+
+    
+    <div class="accept_cookies" style="display:none;">
+        <div class="inner">
+            <div class="content">
+                <h3 class="h5"><strong>We use cookies on this site to enhance your experience.</strong></h3>
+<p>By selecting &#8220;Accept&#8221; and continuing to use this website, you consent to the use of cookies.</p>
+            </div>
+
+            <button data-id="accept_cookies" type="button">Accept</button>
+        </div>
+    </div>
+
+		<!-- CSS/JS -->
+<link href="/_emergency-response/css/emergency-response.css" rel="stylesheet"/>
+<script src="/_emergency-response/alert.js" type="text/javascript"></script>
+	</body>
+</html>

@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html class="no-js">
+<head>
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"/>
+<meta charset="utf-8"/>
+<!--[if IE]>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<![endif]-->
+
+<meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0" name="viewport"/>
+
+
+
+
+    <title>Overcoming during COVID-19</title>
+    <meta name="keywords" content="Campus Magazine, WLU, 2022" />
+    <meta http-equiv="last-published" content="2022-12-9@12:17:28 PM" />
+    <meta http-equiv="last-modified" content="2022-10-3@03:30:00 PM" />
+    <meta property="og:locale" content="en_US" />  
+    <meta http-equiv="content-language" content="en" />
+  
+
+
+    
+        <meta property="og:type" content="article" />
+        <meta property="og:site_name" content="Campus Magazine" />
+        <meta property="og:title" content="Overcoming during COVID-19" />
+        <meta name="twitter:title" content="Overcoming during COVID-19">
+        <meta property="og:url" content="https://campusmagazine.wlu.ca/2022/fall/features/overcoming-during-covid-19.html" />
+        <meta name="twitter:url" content="https://campusmagazine.wlu.ca/2022/fall/features/overcoming-during-covid-19.html" />
+        <meta property="og:description" content="COVID-19 has presented unprecedented challenges for university students. Laurier Campus magazine highlights outstanding accomplishments of six alumni who graduated during the pandemic." />
+        <meta name="description" content="COVID-19 has presented unprecedented challenges for university students. Laurier Campus magazine highlights outstanding accomplishments of six alumni who graduated during the pandemic."/>
+        <meta name="twitter:description" content="COVID-19 has presented unprecedented challenges for university students. Laurier Campus magazine highlights outstanding accomplishments of six alumni who graduated during the pandemic."/>
+        <meta name="twitter:card" content="summary">       
+        
+        
+        
+      
+
+<link href="../../../css/foundation.min.css" rel="stylesheet"/>
+<link href="../../../css/styles.css" rel="stylesheet"/>
+<script src="../../../js/jquery-3.6.1.min.js" type="text/javascript"></script>
+<script src="../../../js/foundation.min.js"></script>
+<script src="../../../js/modernizr.js"></script>
+<script src="../../../js/jquery.flexslider-min.js" type="text/javascript"></script>
+<script src="../../../js/menu-to-current.js" type="text/javascript"></script>
+<script src="../../../js/scripts.js" type="text/javascript"></script>
+
+</head>
+<body class="feature-page">
+<!-- Google Tag Manager -->
+<noscript><iframe height="0" src="//www.googletagmanager.com/ns.html?id=GTM-TZQTS9" style="display:none;visibility:hidden" width="0"></iframe></noscript>
+<!-- End Google Tag Manager -->
+<script src="../../../js/gtm.js"></script>
+<a href="#maincontent" id="skipNav">Skip to main content</a>
+<div class="row" id="header">
+    <div class="large-12 columns">
+        <div class="large-9 columns" id="logo">
+                        <a href="../../../index.html"><img alt="Laurier Campus Magazine" class="header-logo" src="../../../images/site/Header-Laurier-Campus.png"/></a>
+        </div>
+        <div class="large-3 columns" id="headerMenu">
+            <div id="tagline">A Magazine for Alumni and Friends</div>
+            <div id="current-edition">
+            
+            </div>
+            <div id="search">
+                <form action="/search/search.php" method="get" name="search">
+                <div class="large-12 columns">
+                    <div class="large-9 columns">
+                        <input alt="Please type your search Query Here" id="search-box" name="query" type="text"/>
+                        <input name="search" type="hidden" value="1"/>
+                        <button alt="Click this button to perform the search" name="submit" type="submit"></button>
+                    </div>
+                    <div class="large-3 columns">
+                        <div id="menu-toggle"><i class="icon"><span></span></i></div>
+                    </div>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>    
+    <div class="large-12 columns collapsed" id="menu">
+        <!--Fall back if js doesnt fire-->
+        
+        
+        
+                                                                               <div class="large-3 columns menuItem"><a href="../../../common/features.html" target="_parent">Features</a></div>
+                                                                       <div class="large-3 columns menuItem"><a href="../../../common/alumni-updates.html" target="_parent">Alumni Updates</a></div>
+                                                                       <div class="large-3 columns menuItem"><a href="../../../common/research-file.html" target="_parent">Research File</a></div>
+                                                                       <div class="large-3 columns menuItem"><a href="../../../common/past-stories.html" target="_parent">Past Stories</a></div>
+                <div class="clear"></div>
+        
+        
+        
+
+        
+        
+        
+    </div>
+</div>
+
+<div class="row">
+    <div class="feature-image">
+        <style>
+    .feature-image img{
+        width: 100%;
+        /*
+        max-width: 1280px;
+        max-height: 460px;
+        */
+    }
+    
+    .feature-image{
+        text-align: center;
+    }
+</style>
+
+
+
+    
+
+    </div>
+</div>
+
+<div class="row" id="breadcrumbs">
+     <div class="large-12 columns" role="navigation">
+        <hr alt="" class="keyline" id="breadcrumbkeyline"/>
+
+
+  
+
+
+
+
+
+<ul class="breadcrumbs">
+    <li><a href="../../../index.html">Home</a></li>
+
+    <li class="divider">/</li>
+    <li class="term"><a href="../index.html">Fall 2022</a></li>
+
+
+
+
+
+    <li class="divider">/</li>
+    
+    
+    
+            <li class="current">Overcoming during COVID-19</li>
+        
+
+</ul>
+
+
+
+
+
+
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+    <div class="large-12 columns feature text">
+
+        <h1 id="feature-title">Overcoming during COVID-19</h1>
+    
+    
+    
+    <div class="row">
+        <div class="large-12 columns feature text deck col-Purple">
+        <h2 class="col-Purple" id="deckText">COVID-19 has presented unprecedented challenges. Learn about six Laurier alumni who graduated during the pandemic and their outstanding accomplishments.</h2>
+        </div>
+    </div>
+
+    
+    <div class="extraInfo">
+                            
+                            <p class="author">Story by
+                                                    <span class="author">Ben Forrest</span>                                </p>
+                        
+                        
+                        </div>
+ 
+
+    </div>
+</div>
+
+
+
+
+
+    
+            
+    
+    
+         <div class="row articleRow">
+                     <div class="large-12 columns 50-50">
+                <div class="large-6 columns left">
+                                                          <p><strong>In the early months of 2021, Calum Crosbie (BA &#8217;22) stood in a brightly lit performance hall and gave a masterful 26-minute performance of the Jennifer Higdon Percussion Concerto.</strong></p>
+<p>He was the only person in the room, skilfully hammering percussion mallets on instruments arrayed around him as a pre-recorded piano track played and a video recorder captured his every move.</p>
+<p>If not for the COVID-19 pandemic, there would have been a live audience, and a live pianist to accompany Crosbie at Laurier&#8217;s annual Ken Murray Concerto Competition. But due to public health precautions, contestants performed in isolation that year and sent their videos in for judging.</p>
+<p>Crosbie played as well as he could under the circumstances, and later learned he won.</p>
+                                 </div>
+                <div class="large-6 columns right">
+                                        
+                        
+                            
+        <div class="block custom-spif ${borderColor}">
+        
+                                    
+            
+        
+                            <div class="spif-image">
+                                        <img alt="Calum Crosbie" src="../../../images/2022/fall/calum-crosbie.jpg" style="min-height: 270px; min-width: 270px;"/>
+                </div>
+                        
+            <div class="clear"></div>
+            <div class="spif-text border-bottom-none">
+                <subtitle/>
+            </div>
+        
+    </div>
+
+                                 </div>
+				<div class="clear"></div>
+			</div>
+            
+    
+    
+    </div>
+        
+        <div class="row">
+        <div class="large-12 columns feature text">
+                         <p>&#8220;It was really tough,&#8221; he says, noting the energy and atmosphere of a live audience often provides a boost to performers. &#8220;Having the audience there is really sort of essential. And I think that's one of the things everyone in the music world missed the most during the pandemic&#8230; it really doesn't feel the same.&#8221;</p>
+        </div>
+    </div>
+        
+            
+    
+    
+         <div class="row articleRow">
+                	<div class="large-12 columns one-col-left 33-66">
+				<div class="large-4 columns  left">
+                
+                                        
+            
+        <div class="block text-block-spif">
+        
+        
+                    <hr class="keyline Purple"/> 
+                
+        
+        
+                
+        <div class="spif-text">
+            <h3 class="col-Purple"><em>&#8220;It was all about trying to put my head down and spending the extra time doing as much as I could to benefit myself.&#8221;</em></h3>
+<p class="col-Purple"><strong>&#8211; Calum Crosbie</strong></p>
+        </div>
+        
+                 
+                    <hr class="keyline Purple"/> 
+                
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </div>
+
+                                  
+				</div>
+				<div class="large-8 columns  right">
+				
+            
+				                                          <p>Crosbie&#8217;s victory at the Ken Murray competition capped a remarkable undergraduate career in which he was lead percussionist in the Wilfrid Laurier Symphony Orchestra and a key member of Laurier&#8217;s jazz and percussion ensembles. He was also accepted into the National Youth Orchestra of Canada, placing him among the best young classical musicians in the country.</p>
+<p>Achievements at Laurier paved the way for Crosbie&#8217;s graduate work in percussion performance at the Royal Academy of Music in London, England, which he is scheduled to begin in fall 2022. All of this is made more remarkable in the context of a pandemic.</p>
+                                 
+                
+                
+				</div>
+				<div class="clear"></div>
+			</div>	
+            
+    
+    
+    </div>
+        
+        <div class="row">
+        <div class="large-12 columns feature text">
+                         <p>&#8220;It was all about trying to put my head down and spending the extra time doing as much as I could to benefit myself,&#8221; he says. &#8220;And then also trying to think about the fact that, at some point, surely, we would come out the other side of the pandemic and everything would be okay again.&#8221;</p>
+<p>The earlier stages of the pandemic impacted university life for every Laurier student, with a shift to online lectures, discussion groups and campus social activities. But it was still a time of stunning achievement, particularly for those who graduated during COVID-19.</p>
+<p>&#8220;Even though the experience was definitely not what I expected&#8230; there was a lot of good that came out of it,&#8221; says Crosbie.</p>
+<h2 class="col-Purple">To infinity and beyond</h2>
+        </div>
+    </div>
+        
+            
+    
+    
+         <div class="row articleRow">
+                     <div class="large-12 columns 50-50">
+                <div class="large-6 columns left">
+                                                          <p>Growing up in Colorado, <strong>Kristin Cobbett</strong> (BSc &#8217;22) remembers watching a rocket assembly at United Launch Alliance, the space company where her father worked as an engineer.</p>
+<p>That experience helped spark her life-long interest in space. But it wasn&#8217;t until Cobbett arrived at Laurier that she began to seriously pursue her goal of becoming an astronaut &#8212; and maybe even becoming the first person on Mars.</p>
+<p>&#8220;If I didn't go to Laurier, I don't know what I'd be doing with my life,&#8221; says Cobbett, who graduated with degrees in Biology and Chemistry, and a minor in Physics.</p>
+<p>As an undergrad, she found a mentor in Ioannis (John) Haranas, a planetary scientist and adjunct professor in Laurier&#8217;s physics department, who encouraged her to aim high. &#8220;It's definitely all about who you surround yourself with,&#8221; says Cobbett. &#8220;Finding a mentor changed my life.&#8221;</p>
+                                 </div>
+                <div class="large-6 columns right">
+                                        
+                        
+                            
+        <div class="block custom-spif ${borderColor}">
+        
+                                    
+            
+        
+                            <div class="spif-image">
+                                        <img alt="Kristen Cobbett" src="../../../images/2022/fall/kristen-cobbett.jpg" style="min-height: 270px; min-width: 270px;"/>
+                </div>
+                        
+            <div class="clear"></div>
+            <div class="spif-text border-bottom-none">
+                <subtitle/>
+            </div>
+        
+    </div>
+
+                                 </div>
+				<div class="clear"></div>
+			</div>
+            
+    
+    
+    </div>
+        
+        <div class="row">
+        <div class="large-12 columns feature text">
+                         <p>Astronauts endure intense training before launching into space, and Cobbett is still years away from achieving that goal. But during the pandemic she took a massive step forward by participating in the Advanced PoSSUM Space Academy, an elite training program for undergrads at the Florida Institute of Technology.&#160;</p>
+        </div>
+    </div>
+        
+            
+    
+    
+         <div class="row articleRow">
+                	<div class="large-12 columns one-col-left 33-66">
+				<div class="large-4 columns  left">
+                
+                                        
+            
+        <div class="block text-block-spif">
+        
+        
+                    <hr class="keyline Purple"/> 
+                
+        
+        
+                
+        <div class="spif-text">
+            <h3 class="col-Purple"><em>&#8220;It's definitely all about who you surround yourself with. Finding a mentor changed my life.&#8221;</em></h3>
+<p><strong><span class="col-Purple">&#8211; Kristin Cobbett</span> </strong></p>
+        </div>
+        
+                 
+                    <hr class="keyline Purple"/> 
+                
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </div>
+
+                                  
+				</div>
+				<div class="large-8 columns  right">
+				
+            
+				                                          <p>&#8220;It was incredible,&#8221; says Cobbett, who plans to become a fighter pilot and earn a PhD while pursuing her goal of space travel. &#8220;You really don't know what astronauts go through until you go through it.&#8221;</p>
+<p>At the PoSSUM academy, Cobbett and 12 other students logged time in a spacecraft flight simulator, learned how to pressurize a spacesuit and endured high gravitational force training and hypoxia training, among many other exercises.</p>
+<p>&#8220;There was a lot of scary stuff that I didn't know my body could handle,&#8221; says Cobbett. &#8220;And when I actually did it, I realized I wanted to do this long term, and keep making a lifestyle out of it.&#8221;&#160;</p>
+                                 
+                
+                
+				</div>
+				<div class="clear"></div>
+			</div>	
+            
+    
+    
+    </div>
+        
+        <div class="row">
+        <div class="large-12 columns feature text">
+                         <p>While navigating the pandemic wasn&#8217;t easy, in the context of a potential career in planet-hopping &#8211; Cobbett really does want to be the first person on Mars and dig below its surface for evidence of microbial life &#8211; it wasn&#8217;t more than a blip.</p>
+<p>&#8220;I loved my time at Laurier,&#8221; she says. &#8220;I had the best five years of my life there.&#8221;</p>
+        </div>
+    </div>
+        
+            
+    
+    
+         <div class="row articleRow">
+                     <div class="large-12 columns 50-50">
+                <div class="large-6 columns left">
+                                        
+                        
+                            
+        <div class="block custom-spif ${borderColor}">
+        
+                                    
+            
+        
+                            <div class="spif-image">
+                                        <img alt="Jaeda Brefo" src="../../../images/2022/fall/jaeda-brefo.jpg" style="min-height: 270px; min-width: 270px;"/>
+                </div>
+                        
+            <div class="clear"></div>
+            <div class="spif-text border-bottom-none">
+                <subtitle/>
+            </div>
+        
+    </div>
+
+                                 </div>
+                <div class="large-6 columns right">
+                                                           <h2 class="col-Purple">Staying active during isolation</h2>
+<p>In the pre-pandemic stages of her Criminology studies at Laurier&#8217;s Brantford campus, <strong>Jaeda Brefo</strong> (BA &#8217;22) threw herself into the small, tight-knit community.</p>
+<p>She played on the Brantford campus soccer team, joined multiple clubs, volunteered at the local YMCA and later served as a student residence don.</p>
+<p>&#8220;I love talking to people, connecting and meeting new people,&#8221; she says. &#8220;I&#8217;m definitely outgoing.&#8221;</p>
+<p>During her third year, when classes and other student activities shifted online, Brefo said it was a bit of a shock. Yet the isolation of COVID-19 also taught her resilience, helped her focus, and didn&#8217;t prevent her from meeting key goals.</p>
+                                 </div>
+				<div class="clear"></div>
+			</div>
+            
+    
+    
+    </div>
+        
+            
+    
+    
+         <div class="row articleRow">
+        			<div class="large-12 columns one-col-right 66-33">
+				<div class="large-8 columns  left">
+            
+				                                          <p>&#8220;It really pushed me,&#8221; she says. &#8220;It was difficult, because I did miss connecting with people and seeing people in person &#8211; and I think that the learning experience is a lot better in person &#8211; but I definitely did still enjoy it and worked harder.&#8221;</p>
+<p>Brefo studied Criminology with the goal of eventually becoming a criminal lawyer and minored in Leadership. During the pandemic she stayed socially active, volunteering with Laurier International&#8217;s Hawk 2 Hawk program and attending the online meetings of a local law society.</p>
+<p>&#8220;I think my time at Laurier was well spent,&#8221; she says. &#8220;I feel like I've grown so much as a person. It has pushed me to continue learning. I want to share as much as possible.&#8221;</p>
+                                 
+                
+				</div>
+				<div class="large-4 columns right">
+            
+            
+                                       
+            
+        <div class="block text-block-spif">
+        
+        
+                    <hr class="keyline Purple"/> 
+                
+        
+        
+                
+        <div class="spif-text">
+            <h3 class="col-Purple"><em>&#8220;I feel like I've grown so much as a person. It has pushed me to continue learning. I want to share as much as possible.&#8221;</em></h3>
+<p class="col-Purple"><strong>&#8211; Jaeda Brefo</strong></p>
+        </div>
+        
+                 
+                    <hr class="keyline Purple"/> 
+                
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </div>
+
+                                 
+                
+				</div>
+				<div class="clear"></div>
+			</div>	
+            
+    
+    
+    </div>
+        
+            
+    
+    
+         <div class="row articleRow">
+                     <div class="large-12 columns 50-50">
+                <div class="large-6 columns left">
+                                        
+                        
+                            
+        <div class="block custom-spif ${borderColor}">
+        
+                                    
+            
+        
+                            <div class="spif-image">
+                                        <img alt="Anthony Sorrentino" src="../../../images/2022/fall/anthony-sorrentino.jpg" style="min-height: 270px; min-width: 270px;"/>
+                </div>
+                        
+            <div class="clear"></div>
+            <div class="spif-text border-bottom-none">
+                <subtitle/>
+            </div>
+        
+    </div>
+
+                                 </div>
+                <div class="large-6 columns right">
+                                                           <h2 class="col-Purple">Varsity hockey standout gives back</h2>
+<p>Between workouts, practices and games, <strong>Anthony Sorrentino</strong> (BA &#8217;21) devoted about 30 hours a week to his role as a forward on Laurier&#8217;s men&#8217;s hockey team.</p>
+<p>&#8220;It's a full-time job that runs from September to the end of March while trying to juggle a full course load,&#8221; he says. &#8220;It definitely teaches you time management and it makes you prioritize what's important.&#8221;</p>
+<p>Much of this activity ground to a halt in 2020, when Ontario University Athletics cancelled the hockey season due to the pandemic. Sorrentino used the down time to heal his body and focus on his studies, eventually applying to graduate school.</p>
+                                 </div>
+				<div class="clear"></div>
+			</div>
+            
+    
+    
+    </div>
+        
+        <div class="row">
+        <div class="large-12 columns feature text">
+                         <p>&#8220;I don't remember a time I had a year and a half off since I was age six,&#8221; he says, noting that hockey has consumed his life from a young age.</p>
+<p>To stay in shape, Sorrentino gritted his way through 30-kilometre treks on inline skates and he stayed connected to his teammates &#8211; many of whom lived together at various student houses and apartment buildings. &#8220;When we started playing again, I think everyone was just really excited,&#8221; he says. &#8220;There was plenty of time to adjust and to get back.&#8221;&#160;</p>
+        </div>
+    </div>
+        
+            
+    
+    
+         <div class="row articleRow">
+        			<div class="large-12 columns one-col-right 66-33">
+				<div class="large-8 columns  left">
+            
+				                                          <p>Sorrentino also used his COVID-19 downtime for three major volunteer projects.</p>
+<p>He became a frequent blood donor and student ambassador for Hockey Gives Blood, a charity that engages and educates the hockey community about the importance of blood and stem cell donation.</p>
+<p>Sorrentino also volunteered with Big Brothers Big Sisters, creating online Zoom content and online workouts for kids. His third major project was linking up with other student-athletes to raise awareness of men&#8217;s health issues through the Movember campaign.</p>
+<p>&#8220;Those things, for me, were very important,&#8221; he says. &#8220;Hockey or no hockey, I would definitely be doing that.&#8221;</p>
+                                 
+                
+				</div>
+				<div class="large-4 columns right">
+            
+            
+                                       
+            
+        <div class="block text-block-spif">
+        
+        
+                    <hr class="keyline Purple"/> 
+                
+        
+        
+                
+        <div class="spif-text">
+            <h3 class="col-Purple"><em>&#8220;That'll be something I do for the rest of my life. I'm going to continue to donate blood and spread awareness."</em></h3>
+<p class="col-Purple"><strong>&#8211; Anthony Sorrentino</strong></p>
+        </div>
+        
+                 
+                    <hr class="keyline Purple"/> 
+                
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </div>
+
+                                 
+                
+				</div>
+				<div class="clear"></div>
+			</div>	
+            
+    
+    
+    </div>
+        
+        <div class="row">
+        <div class="large-12 columns feature text">
+                         <p>Sorrentino is retired from sport but returned to Laurier to study toward a master&#8217;s degree in Communications. Giving back to his community remains a major value and a guiding principle for the former Academic All-Canadian from Woodbridge, Ont.</p>
+<p>&#8220;That'll be something I do for the rest of my life,&#8221; Sorrentino says. &#8220;I'm going to continue to donate blood and spread awareness. I'll continue to participate in Movember initiatives, as well.&#8221;</p>
+<h2 class="col-Purple">Digging for success in archaeology</h2>
+        </div>
+    </div>
+        
+            
+    
+    
+         <div class="row articleRow">
+                     <div class="large-12 columns 50-50">
+                <div class="large-6 columns left">
+                                                          <p>When the pandemic hit, <strong>Christine Sylvester</strong> (BA &#8217;22) was well into the third year of her degree in Archaeology, with field school experiences in Jordan and Canada in hand.</p>
+<p>The switch to online learning was challenging but bearable, owing in part to the fact Sylvester lived in a student house with four roommates.</p>
+<p>&#8220;You were not completely isolated,&#8221; she says. &#8220;But yeah &#8211; not seeing a whole bunch of people, that was definitely hard at first.&#8221;</p>
+<p>Sylvester spent most of the remainder of her time as a student in Athens, on a fellowship with the Canadian Institute of Greece (CIG).</p>
+<p>Her main duties were helping set up a library in a new CIG building and examining letters from the early 1900s at the city&#8217;s British Institute.</p>
+                                 </div>
+                <div class="large-6 columns right">
+                                        
+                        
+                            
+        <div class="block custom-spif ${borderColor}">
+        
+                                    
+            
+        
+                            <div class="spif-image">
+                                        <img alt="Christine Sylvester" src="../../../images/2022/fall/christine-sylvester.jpg" style="min-height: 270px; min-width: 270px;"/>
+                </div>
+                        
+            <div class="clear"></div>
+            <div class="spif-text border-bottom-none">
+                <subtitle/>
+            </div>
+        
+    </div>
+
+                                 </div>
+				<div class="clear"></div>
+			</div>
+            
+    
+    
+    </div>
+        
+            
+    
+    
+         <div class="row articleRow">
+                	<div class="large-12 columns one-col-left 33-66">
+				<div class="large-4 columns  left">
+                
+                                        
+            
+        <div class="block text-block-spif">
+        
+        
+                    <hr class="keyline Purple"/> 
+                
+        
+        
+                
+        <div class="spif-text">
+            <h3 class="col-Purple"><em>&#8220;I found my professors did a good job of switching everything over to online. They still tried to make it as personable as possible and tried to get in touch with students.&#8221;</em></h3>
+<p class="col-Purple"><strong>&#8211; Christine Sylvester</strong></p>
+        </div>
+        
+                 
+                    <hr class="keyline Purple"/> 
+                
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </div>
+
+                                  
+				</div>
+				<div class="large-8 columns  right">
+				
+            
+				                                          <p>Public health measures in Athens included mask mandates and travel restrictions, she noted.</p>
+<p>&#8220;I wasn't really allowed to leave the city, and I had to have a permit to go between where I lived and where I worked,&#8221; she says. &#8220;But honestly, I had a great time. There was lots of things to do in Athens, lots of things to see.&#8221;</p>
+<p>After returning home to Canada, Sylvester adjusted to the challenge of analyzing artifacts in online sessions rather than in an archaeology lab &#8211; a major hurdle.</p>
+<p>&#8220;There's only so much you can learn about something through pictures,&#8221; she says. &#8220;But I found my professors did a good job of switching everything over to online. They still tried to make it as personable as possible and tried to get in touch with students.&#8221;</p>
+                                 
+                
+                
+				</div>
+				<div class="clear"></div>
+			</div>	
+            
+    
+    
+    </div>
+        
+            
+    
+    
+         <div class="row articleRow">
+                     <div class="large-12 columns 50-50">
+                <div class="large-6 columns left">
+                                                          <h2 class="col-Purple">Getting down to business in online co-op</h2>
+<p><strong>Sophie Ziomecki</strong> (BAA &#8217;21) graduated as one of Laurier&#8217;s top Business students, winning the Co-Op Student of the Year Award in 2021 for a term at American Express she completed online.</p>
+<p>This wasn&#8217;t a typical entry into the corporate world, but Ziomecki &#8211; who describes herself as an introvert with a shy temperament earlier in her university career &#8211; found success as part of a team devoted to one of the company&#8217;s travel-based credit cards.</p>
+<p>&#8220;I felt like I took ownership of that project like I never really had before as a co-op student and it was very gratifying,&#8221; she says. &#8220;I appreciate that I was given the freedom and the opportunity to do that. It was a wonderful experience.&#8221;</p>
+                                 </div>
+                <div class="large-6 columns right">
+                                        
+                        
+                            
+        <div class="block custom-spif ${borderColor}">
+        
+                                    
+            
+        
+                            <div class="spif-image">
+                                        <img alt="Sophie Ziomecki" src="../../../images/2022/fall/sophie-ziomecki.jpg" style="min-height: 270px; min-width: 270px;"/>
+                </div>
+                        
+            <div class="clear"></div>
+            <div class="spif-text border-bottom-none">
+                <subtitle/>
+            </div>
+        
+    </div>
+
+                                 </div>
+				<div class="clear"></div>
+			</div>
+            
+    
+    
+    </div>
+        
+            
+    
+    
+         <div class="row articleRow">
+                	<div class="large-12 columns one-col-left 33-66">
+				<div class="large-4 columns  left">
+                
+                                        
+            
+        <div class="block text-block-spif">
+        
+        
+                    <hr class="keyline Purple"/> 
+                
+        
+        
+                
+        <div class="spif-text">
+            <h3 class="col-Purple"><em>&#8220;I definitely think that as a society the way that we've grown to be flexible and resilient will have positives that I hope will continue.&#8221;</em></h3>
+<p class="col-Purple"><strong>&#8211; Sophie Ziomecki</strong></p>
+        </div>
+        
+                 
+                    <hr class="keyline Purple"/> 
+                
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </div>
+
+                                  
+				</div>
+				<div class="large-8 columns  right">
+				
+            
+				                                          <p>Despite pandemic restrictions, American Express consciously tried to engage its employees. The company hosted online social events and provided opportunities to meet with colleagues in virtual coffee chats.</p>
+<p>Those sessions helped Ziomecki build confidence and enabled her to make a strong impression. She returned to American Express after graduation and now works as an assistant marketing manager in a hybrid office based in Toronto.</p>
+<p>&#8220;It brought out the best in me,&#8221; Ziomecki says of her role as a co-op student.</p>
+<p>Although COVID-19 affected the university experience of every Laurier student, Ziomecki is one of many who thrived during a challenging time.</p>
+                                 
+                
+                
+				</div>
+				<div class="clear"></div>
+			</div>	
+            
+    
+    
+    </div>
+        
+        <div class="row">
+        <div class="large-12 columns feature text">
+                         <p>&#8220;Being intentional with everything was the key to getting through that period,&#8221; she says. &#8220;I definitely think that as a society the way that we've grown to be flexible and resilient will have positives that I hope will continue.&#8221;</p>
+<h3 class="col-Purple"><em><a href="https://campusmagazine.wlu.ca/index.html">Visit the Laurier Campus online edition homepage to read more Laurier stories</a>.</em></h3>
+        </div>
+    </div>
+    
+
+<div class="row">
+    <div class="large-12 columns share">
+        Share this article:
+        <!-- Go to www.addthis.com/dashboard to customize your tools -->
+        <script async="async" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-54c64ea77b9e78dc" type="text/javascript"></script>
+        <!-- Go to www.addthis.com/dashboard to customize your tools -->
+        <div class="addthis_sharing_toolbox"></div>
+        
+    </div>
+</div>
+
+
+
+
+
+<div class="row">
+        <div class="large-12 columns related">
+                    <div class="large-12 columns" id="related-Stories">
+            <div class="relatedStoryHeader">
+                <img src="../../../images/site/comments.png"/> RELATED STORIES
+            </div>
+                        
+                                                <div class="relatedStory">
+                                        
+                                                            
+                                                        
+                    <div class="relatedTitle"><a href="../../../2021/spring/campus-news/prepared-for-take-off.html" target="">Prepared for take off</a></div>
+                                            <div class="relatedIssue">Campus News | Spring 2021</div>
+                                    </div>
+                                    </div>
+        </div>
+    </div>
+
+
+
+
+<footer class="row">
+    <div class="large-12 columns">
+        <div class="large-9 columns left">
+            <div class="large-12 columns social">
+                <div class="social-media">
+                    <ul class="social-links">
+                                                                <li><a class="social" href="https://www.facebook.com/LaurierAlumni" target="_blank" title="Facebook"><span class="icon icon-facebook"><span>Facebook</span></span></a></li>
+                                        
+                                            <li><a class="social" href="https://twitter.com/LaurierAlumni" target="_blank" title="twitter"><span class="icon icon-twitter"><span>Twitter</span></span></a></li>
+                                        
+                                            <li><a class="social" href=" https://www.linkedin.com/groups?gid=122980&amp;trk=hb_side_g" target="_blank" title="linkedin"><span class="icon icon-linkedin"><span>Linked In</span></span></a></li>
+                                        
+                                             <li><a class="social" href="https://www.youtube.com/user/LaurierVideo" target="_blank" title="youtube"><span class="icon icon-youtube"><span>Youtube</span></span></a></li>
+                                        
+                                            <li><a class="social" href="mailto:campusmagazine@wlu.ca&amp;subject=" title="email"><span class="icon icon-email"><span>Email</span></span></a></li>
+                                            
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="large-12 columns links">
+                <div class="links">
+                                                                                            <span class="footer-link"><a href="../../../common/about-laurier-campus-magazine.html">About</a></span>
+                                                                                                <span class="footer-link"><a href="../../../common/archive.html">Past Editions</a></span>
+                                                                                                <span class="footer-link"><a href="https://goo.gl/jsx8Jt" target="_blank">Submissions</a></span>
+                                                                                                <span class="footer-link"><a href="http://give.wlu.ca" target="_blank">Donate</a></span>
+                                                                                                <span class="footer-link"><a href="http://www.wlu.ca" target="_blank">WLU.CA</a></span>
+                                                            </div>
+            </div>
+            
+            <div class="large-12 columns name">
+                <div class="large-5 columns left">
+                    <div class="name">
+                        Wilfrid Laurier University
+                    </div>
+                </div>
+                <div class="large-7 columns right">
+                    <div class="locations">
+                                                                                                            <span class="location">Waterloo</span>
+                                                       
+                                                            <span class="locationDivider">|</span> 
+                                                                                                                <span class="location">Brantford</span>
+                                                       
+                                                            <span class="locationDivider">|</span> 
+                                                                                                                <span class="location">Milton</span>
+                                                       
+                                                            <span class="locationDivider">|</span> 
+                                                                                                                <span class="location">Kitchener</span>
+                                                       
+                                                            <span class="locationDivider">|</span> 
+                                                                                                                <span class="location">Toronto</span>
+                                                       
+                                                                        </div>
+                </div>
+            </div>
+        </div>
+        <div class="large-3 right columns">
+            <div class="logo">
+                                <a href="http://www.laurieralumni.ca" target="_blank">
+                <img alt="Laurier Alumni For Life" class="footer-image" src="../../../images/site/Footer-Laurier-Alumni.png"/>
+                </a>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,1413 @@
+<html xmlns="http://www.w3.org/1999/xhtml" lang="eng" xml:lang="eng">
+	<head>
+		<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+		
+    
+    <!--
+    Display Name: Home
+    Title: ${title}
+    Title Tag:  ${titleTag}
+    -->
+    
+        
+    <title>Give to Laurier</title>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="true" src="https://www.googletagmanager.com/gtag/js?id=UA-4286537-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-4286537-1');
+</script>
+
+
+<meta content="text/html;charset=utf-8" http-equiv="content-type"/>
+<meta content="Wilfrid Laurier University federated College" name="description"/>
+<link href="/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
+
+<link href="/apple-touch-icon.png" rel="apple-touch-icon" sizes="76x76"/>
+<link href="/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"/>
+<link href="/site.webmanifest" rel="manifest"/>
+
+
+
+
+<link href="/_css/1_jquery-ui.min.css" rel="stylesheet"/>
+<link href="/_css/2_flexnav.css" rel="stylesheet"/>
+<link href="/_css/3_flexslider.css" rel="stylesheet"/>
+<link href="/_css/4_base.css?refresh=1" rel="stylesheet"/>
+
+<link href="/_css/5_utilityMenu.css" rel="stylesheet"/>
+<link href="/_css/6_main-menu.css" rel="stylesheet"/>
+<link href="/_css/7_what-you-need-to-know.css" rel="stylesheet"/>
+<link href="/_css/8_events.css" rel="stylesheet"/>
+<link href="/_css/spotlights.css" rel="stylesheet"/>
+<link href="/_css/9_tabs.css?refresh=1" rel="stylesheet"/>
+<link href="/_css/9_footer.css" rel="stylesheet"/>
+<link href="/_css/search.css" rel="stylesheet"/>
+<link href="/_css/accordion.css" rel="stylesheet"/>
+<link href="/_css/leftnav.css" rel="stylesheet"/>
+<link href="/_css/header.css" rel="stylesheet"/>
+<link href="/_css/myLaurier.css" rel="stylesheet"/>
+<link href="/_css/quickLinks.css" rel="stylesheet"/>
+<link href="/_css/expandedGlobalNav.css" rel="stylesheet"/>
+<link href="/_css/slick.css" rel="stylesheet"/>
+<link href="/_css/slick-theme.css" rel="stylesheet"/>
+<link href="/_css/carousel.css" rel="stylesheet"/>
+<link href="/_css/breadcrumbs.css" rel="stylesheet"/>
+<link href="/_css/UniversalPage.css" rel="stylesheet"/>
+<link href="/_css/spif.css" rel="stylesheet"/>
+<link href="/_css/article-news-spotlight-page.css" rel="stylesheet"/>
+<link href="/_css/UserAdmin.css" rel="stylesheet"/>
+<link href="/_css/custompage.css" rel="stylesheet"/>
+<!--<link rel="stylesheet" href="/css/F401.css" />
+<link rel="stylesheet" href="/css/programs-by-faculty.css" /> -->
+<link href="/_css/WYSIWYG_STYLES.css" rel="stylesheet"/>
+<link href="/_css/tables.css" rel="stylesheet"/>
+<!-- <link rel="stylesheet" href="/_css/schemes.css" /> -->
+
+<link href="/_css/give.css" rel="stylesheet"/>
+<link href="/_css/ato-styles/style.css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+<link crossorigin="anonymous" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E" rel="stylesheet"/>
+
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+<script src="/_js/jquery-ui.min.js" type="text/javascript"></script>
+<script src="/_js/jquery.flexnav.min.js" type="text/javascript"></script>
+<script src="/_js/jquery.flexslider-min.js" type="text/javascript"></script>
+<!--<link href="/css/jquery.mobile-1.4.5.min.css"/>
+<script src="/js/jquery.mobile-1.4.5.min.js"></script>
+<script type="text/javascript" src="/js/slick.min.js"></script>-->
+<script src="/_js/scripts.js?refresh=1" type="text/javascript"></script>
+
+<!-- Global site tag (gtag.js) - Google Analytics 
+<script async="async" src="https://www.googletagmanager.com/gtag/js?id=UA-114066086-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-114066086-1');
+</script>
+-->
+
+
+
+<meta content="IE=Edge" http-equiv="X-UA-Compatible"/>
+<meta name="pageID" content="4c1e654c0a0a5630527432da589f9ae7"/> 
+
+<script src="/_js/vendor/objectFitPolyfill.basic.min.js?refresh=2" type="text/javascript"></script>
+<script src="/_js/ato/main.js?refresh=1" type="text/javascript"></script>
+<script src="/_js/ato/full-screen-media.js?refresh=1" type="text/javascript"></script>
+<script src="/_js/ato/choice-selector.js?refresh=1" type="text/javascript"></script>
+
+		<!-- Instabot -->
+		
+    <script crossorigin="" src="//widget.instabot.io/jsapi/rokoInstabot.js" type="text/javascript">
+        apiKey: "9FbFwlADobDDjOxb3h5SFuSfNH6Akcj4TnCjEoXQKsI="
+    </script>
+
+	</head>
+	<body class="page-universal home-page">
+	    <!-- Google Tag Manager -->
+<script>
+	
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-T2KRMK');
+    
+</script>
+<!-- End Google Tag Manager -->
+<!-- Google Tag Manager (noscript) -->
+<noscript>
+	<iframe height="0" src="https://www.googletagmanager.com/ns.html?id=GTM-T2KRMK" style="display:none;visibility:hidden;" width="0"></iframe>
+</noscript>
+<!-- End Google Tag Manager (noscript) -->
+	    
+		<a href="#maincontent" id="skipNav">Skip to main content</a>
+		
+		<header class="site__header">
+			<div class="search-header header">
+				
+
+<div class="row">
+
+<div class="site-text">
+            <a href="/">
+            <img src="/images/logo/desktop_logo_laurier.png"/>
+   
+         </a>
+    </div>
+
+<div id="search">
+    <form action="/search/index.php" method="post" name="search">
+        <input name="q" placeholder="Search" type="text" value=""/>
+        <button class="icon icon-search" type="submit"></button>
+    </form>
+</div>
+
+</div>
+				 
+<div id="mobileNavToggle">
+        <div class="open">
+            <i class="icon icon-close"><span>Collapse Menu</span></i>
+        </div>
+        <div class="collapsed">
+            <i class="icon icon-menu"><span>Menu</span></i>
+        </div>
+</div>
+    
+<div class="row bg-teal" id="menu">
+    <div id="mnuWrapper">
+   
+    
+    <nav aria-label="Main Menu" id="nav" role="navigation">
+    <!--<a href="#nav" title="Show navigation">Show navigation</a>
+    <a href="#" title="Hide navigation">Hide navigation</a>-->
+        <ul id="theMenu" role="menubar">
+            <li aria-haspopup="true" aria-owns="menu-item-0" class="menu-li menu-li-0" role="menuitem">
+            
+                        
+            
+                                    
+                                   
+            <a href="/impact/index.html">
+            <div style="display:table;">
+                <div class="mnuTableCell" style="display:table-cell;vertical-align:middle; height: 50px;">
+                                    <div aria-haspopup="true" class="mnuItem" tabindex="0">Impact</div>
+                                    </div>
+            </div>
+            </a>
+                    
+                    </li>
+            <li aria-haspopup="true" aria-owns="menu-item-1" class="menu-li menu-li-1" role="menuitem">
+            
+                        
+            
+                                    
+                                   
+            <a href="/areas-to-support/index.html">
+            <div style="display:table;">
+                <div class="mnuTableCell" style="display:table-cell;vertical-align:middle; height: 50px;">
+                                    <div aria-haspopup="true" class="mnuItem" tabindex="0">Areas to Support</div>
+                                    </div>
+            </div>
+            </a>
+                    
+                    </li>
+            <li aria-haspopup="true" aria-owns="menu-item-2" class="menu-li menu-li-2" role="menuitem">
+            
+                        
+            
+                                    
+                                   
+            <a href="/give/index.html">
+            <div style="display:table;">
+                <div class="mnuTableCell" style="display:table-cell;vertical-align:middle; height: 50px;">
+                                    <div aria-haspopup="true" class="mnuItem" tabindex="0">Give</div>
+                                    </div>
+            </div>
+            </a>
+                    
+                    </li>
+        </ul>
+    </nav>
+    </div>
+    </div>
+
+			</div>
+		</header>
+		
+		<div class="site__content">
+			<div class="header__fill"></div>
+			<div class="story__here">
+				
+    
+
+
+<script type="text/javascript">
+    var videos = [];
+    var videoInterval = [];
+</script>
+
+<div class="ato-component video-full-screen" id="4c1e654c0a0a5630527432da589f9ae7_1">
+    <div class="inner">
+        <div class="background" style="background: ;              opacity: ;"></div>
+                    <div class="title ">
+                <div class="inner">
+                	<div class="content">
+                	   <style><!--
+			h1#giveMainHeading, span#giveSubHead, #giveHomepageButton {
+				text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+			}
+			
+			h1#giveMainHeading {
+				margin-bottom: 0px; 
+				color: #fff; 
+				font-size: 72px; 
+				font-family: Calluna, serif;
+				line-height: 65px;
+			}
+			
+			span#giveSubHead {
+				margin: 8px auto;
+				display: block; 
+				color: #fff;
+				font-family: 'Calluna Sans', serif;
+				max-width: 660px;
+				font-size: 25px;
+				line-height: 32px;
+			}
+			
+			#giveHomepageButton {
+				background-color: rgba(0,0,0,.1);
+				color: #fff;
+				/* max-width: 270px; */
+				margin: 10px auto;
+				font-family: 'Calluna Sans', serif;
+				font-size: 22px;
+				
+				text-decoration: none;
+				display: inline-block;
+				border: 2px solid #ffffff;
+				padding: 12px 39px 13px;
+			}
+			#giveHomepageButton:hover {
+				background-color: #fff;
+				color: #330072;
+				text-shadow: none;
+				/*border: 2px solid #330072;*/
+			}
+			
+			@media (max-width: 680px) {
+				h1#giveMainHeading {
+					margin-top: 60px;
+				}
+			}
+			@media (max-width: 600px) {
+				h1#giveMainHeading {
+					line-height: 42px;
+				}
+			}
+			
+			@media (max-width: 450px) {
+				h1#giveMainHeading {
+					margin-top: 180px;
+				}
+			}
+			@media (max-width: 375px) {
+				span#giveSubHead {
+					font-size: 17px;
+					line-height: 24px;
+				}
+				#giveHomepageButton {
+					padding: 8px 39px 10px;
+				}
+			@media (max-width: 360px) {
+				h1#giveMainHeading {
+					margin-top: 200px;
+				}
+				span#giveSubHead {
+					font-size: 16px;
+					line-height: 24px;
+				}
+				#giveHomepageButton {
+					padding: 8px 39px 10px;
+				}
+			@media (max-width: 320px) {
+				h1#giveMainHeading {
+					font-size: 30px !important;
+					line-height: 26px;
+				}
+				span#giveSubHead {
+					font-size: 16px;
+					line-height: 21px;
+					margin: 3px auto;
+				}
+				#giveHomepageButton {
+					font-size: 18px;
+					padding: 4px 39px 6px;
+					margin: 0;
+				}
+			}
+		
+--></style>
+<h1 id="giveMainHeading">It starts with&#160;you.</h1>
+<span id="giveSubHead">Your gift supports scholarships and bursaries, attracts top faculty and pays for laboratory equipment, buildings and&#160;more.</span> <a href="https://secureca.imodules.com/s/1681/giving/19/form.aspx?sid=1681&amp;gid=2&amp;pgid=613" id="giveHomepageButton" rel="noopener" target="_blank">Give to Laurier</a>
+            	    </div>
+                </div>
+            </div>
+        	    
+	                        
+            <script type="text/javascript">
+                obj={};
+                obj['page'] = "4c1e654c0a0a5630527432da589f9ae7";
+                obj['count'] = "1";
+                obj['audio_allow'] = "";
+                obj['video_loop'] = "Yes";
+                obj['video_link'] = "/videos/give-homepage-video-summer-2019.mp4";
+                obj['video_image_link'] = "/videos/give-homepage-video-summer-2019.jpg";
+                obj['video_captions'] = "";
+                videos.push(obj);
+            </script>
+            
+                        	<video class="media" data-id="1" data-object-fit="cover" loop="" muted="muted" poster="/videos/give-homepage-video-summer-2019.jpg" preload="" style="filter: blur();                      -webkit-filter: blur();">
+            		<source src="/videos/give-homepage-video-summer-2019.mp4" type="video/mp4"/> Your browser does not support HTML5 video.
+            	</video>
+                    	
+        	            	<div class="video-controls">
+            	                                    		<div class="play">
+            		    <i class="fas fa-pause"></i>
+            		</div>
+            	</div>
+                        	
+        <div class="video-controls middle">
+    		<div class="scroll">
+    		    <i class="fas fa-arrow-down"></i>
+    		</div>
+    	</div>
+    	
+    	<div class="video-controls top">
+    		<div class="scroll">
+    		    <i class="fas fa-arrow-up"></i>
+    		</div>
+    	</div>
+    </div>
+</div>
+				
+				<div class="content__above">
+				    <div class="row" id="page">
+            			
+
+
+
+
+
+
+
+
+
+
+
+
+ <div aria-label="Page Content" class="col col-100" role="main">
+
+<main class="col col-100 universal-page-no-nav" id="maincontent" role="main">
+
+        
+
+   <div class="col col-100 left module-container module-Text">
+                          <div class="text-module" id="text-0">
+        <div style="display: block; margin: 0 auto; max-width: 600px;"><br/>
+<p>At Laurier, our students are inspired to learn, lead, and build lifelong relationships; to give their all and give back. Collectively, we value purposeful learning, meaningful relationships and both local and global impact. When you walk through our campuses, you feel the electricity of a community known for inspiring lives of leadership and purpose.</p>
+</div>
+    </div>
+               </div>
+       <div class="col col-100 left module-container module-Text">
+                          <div class="text-module" id="text-1">
+        <div style="text-align: center; padding: 40px; background-color: #f2f2f2; display: block; margin: 0 auto; max-width: 640px; border-radius: 10px; -moz-border-radius: 10px; -webkit-border-radius: 10px; -ms-border-radius: 10px;"><img alt="" height="116" src="/images/give-icon.png" style="position: relative; margin-bottom: 12px; margin-top: 2px;" width="110"/>
+<p class="text purpletext" style="text-align: center; font-size: 1.2rem; color: #330072; line-height: 28px; margin-bottom: 0;"><strong>None of this is possible without philanthropic support. Your investment in Laurier gives our students an edge. Donors support the faculty who teach them, the facilities in which they learn and the many experiences that make their Laurier experience memorable.</strong></p>
+</div>
+    </div>
+               </div>
+       <div class="col col-100 left module-container module-Text">
+                          <div class="text-module" id="text-2">
+        <div style="display: block; margin: 0 auto; max-width: 600px;">
+<p>Without donor support, Laurier wouldn&#8217;t have the breadth and depth of&#160;student engagement opportunity leading to consistently high levels of reported student satisfaction. We wouldn&#8217;t be embarking on an exciting new <a href="/areas-to-support/making-space-for-music/index.html">campaign to transform our Faculty of Music facilities</a>. We wouldn&#8217;t be making big plans for <a href="https://www.wlu.ca/news/news-releases/2018/march/laurier-unveils-market-square-plans-at-open-house.html" rel="noopener" target="_blank">renovating Market Square in Brantford</a> into a world-class student centre.</p>
+<p>Donor impact is a critical ingredient of our university&#8217;s continued success. Thank you for your support.</p>
+<br/><hr/><br/>
+<p>Looking for more information? Find out more about <a href="/areas-to-support/index.html">areas of campus</a> that you can support and learn about the <a href="/give/ways-to-give.html">various ways to donate</a> to Laurier.</p>
+</div>
+    </div>
+               </div>
+    
+
+</main>
+
+<div class="clear"></div>
+</div>
+
+            			
+
+      <style>
+        /* <![CDATA[ */
+            .col.col-75 {
+                padding-left: 15 !important;
+                max-width: 100% !important; 
+            }
+            
+            #left-col-img {
+                display: none !important;
+            }
+        /* ]]> */
+    </style>
+
+
+            			<div id="navholder">
+            				<nav aria-label="Section navigation" class="col col-25" id="left-nav" role="navigation">
+            					
+
+
+
+
+
+
+
+
+            				</nav>
+            			</div>
+            			<div aria-label="Special Interest Features" class="col col-25" id="article-left-col-spiff" role="complimentary">
+            				
+
+
+
+
+
+       
+     
+  
+  
+  
+            <div class="spif spif-unknown">
+            Unknown Spif - $key
+        </div>   
+
+
+            			</div>
+            		</div>
+            		<div class="row" id="WhatYouNeedToKnow" role="complimentary">
+            			<div class="col col-100">
+            				
+
+            			</div>
+            		</div>
+            		<div class="row" id="spotlightRow" role="complimentary">
+            			<div class="col col-100">
+            				
+
+
+
+
+         
+
+<div class="row events-feed" id="spotlights-home">
+
+    <div class="events-flexslider spotlights">
+    <div class="row-title">
+        <h2><a href="/news/index.html">SPOTLIGHTS</a></h2>
+        <div class="custom-navigation">
+        <a class="flex-prev" href="#"><span aria-visible="false">&lt; </span><span class="visuallyHidden">Click to view previous items</span></a>
+        <a class="flex-next" href="#"><span aria-visible="false">View More &gt;</span><span class="visuallyHidden">Click to view next items</span></a>
+        </div>
+    </div>
+    
+    <hr class="wyntk-internal-divider"/>
+                
+        <ul class="slides">
+                 
+                        
+     
+                                                        
+                                               
+                    
+                                        
+                                        
+                                        
+                                                            
+                                        
+        
+          
+            <li class="slide-0">
+                 <a href="/news/2022/summer/donor-support-nurtures-indigeneity.html" target=""> 
+                    <img alt="Spotlight story image pertaining to Two-Spirit Indigenous knowledge holder Gabe Calderon" src="/images/news/gabe-calderon.png"/>
+                    <p>Donor support nurtures Indigeneity on Laurier's campuses</p>
+                </a>
+            </li>
+                                        
+            
+                 
+                        
+     
+                                                        
+                                               
+                    
+                                        
+                                        
+                                        
+                                                            
+                                        
+        
+          
+            <li class="slide-1">
+                 <a href="/news/2022/summer/foley.html" target=""> 
+                    <img alt="Spotlight story image pertaining to Purple Leaf" src="/images/news/kevin-f-picture1.jpg"/>
+                    <p>Laurier was an opportunity for Kevin Foley (BBA ’88) to grow, and now, an opportunity to give back </p>
+                </a>
+            </li>
+                                        
+            
+                 
+                        
+     
+                                                        
+                                               
+                    
+                                        
+                                        
+                                        
+                                                            
+                                        
+        
+          
+            <li class="slide-2">
+                 <a href="/news/2022/spring/saccucci-family-bursary.html" target=""> 
+                    <img alt="Spotlight story image pertaining to Vince and Doreen Saccucci pose in front of a scenic view of sunny cliffs." src="/images/news/saccucci-spotlight.jpg"/>
+                    <p>“This school sticks with you” – Philanthropy runs in this Golden Hawk family</p>
+                </a>
+            </li>
+                                        
+            
+                 
+                        
+     
+                                                        
+                                               
+                    
+                                        
+                                        
+                                        
+                                                            
+                                        
+        
+          
+            <li class="slide-3">
+                 <a href="/news/2022/spring/chamberlain.html" target=""> 
+                    <img alt="Spotlight story image pertaining to Purple Leaf" src="/images/news/chamberlain_header1.jpg"/>
+                    <p>Dr. Savvas Chamberlain's speech at the Making Space for Music campaign groundbreaking </p>
+                </a>
+            </li>
+                                        
+            
+                 
+                        
+     
+                                                        
+                                               
+                    
+                                        
+                                        
+                                        
+                                                            
+                                        
+        
+          
+            <li class="slide-4">
+                 <a href="/news/2022/spring/isow.html" target=""> 
+                    <img alt="Spotlight story image pertaining to Purple Leaf" src="/images/news/100-syrian-women.jpg"/>
+                    <p>ISOW offers a life-changing experience, personally and professionally</p>
+                </a>
+            </li>
+                                        
+            
+                 
+                        
+     
+                                                        
+                                               
+                    
+                                        
+                                        
+                                        
+                                                            
+                                        
+        
+          
+            <li class="slide-5">
+                 <a href="/news/2022/spring/msfm-renderings-2022.html" target=""> 
+                    <img alt="Spotlight story image pertaining to Purple Leaf" src="/news/2022/spring/20005-wlu_exterior-savvas-chamberlain-sign_web.jpg"/>
+                    <p>Making Space for Music Renderings for Spring 2022</p>
+                </a>
+            </li>
+                                        
+            
+                 
+                        
+     
+                                                        
+                                               
+                    
+                                        
+                                        
+                                        
+                                                            
+                                        
+        
+          
+            <li class="slide-6">
+                 <a href="/news/2022/winter/wluac-gift-msfm.html" target=""> 
+                    <img alt="Spotlight story image pertaining to Purple Leaf" src="/images/news/choir_thumbnail1.jpg"/>
+                    <p>The WLU Alumni Choir Makes Space for Music through generosity and song </p>
+                </a>
+            </li>
+                                        
+            
+                 
+                        
+     
+                                                        
+                                               
+                    
+                                        
+                                        
+                                        
+                                                            
+                                        
+        
+          
+            <li class="slide-7">
+                 <a href="/news/2022/winter/ipsos.html" target=""> 
+                    <img alt="Spotlight story image pertaining to Purple Leaf" src="/images/news/ipsos_web.jpg"/>
+                    <p>Data make a difference</p>
+                </a>
+            </li>
+                                        
+            
+                 
+                        
+     
+                                                        
+                                               
+                    
+                                        
+                                        
+                                        
+                                                            
+                                        
+        
+          
+            <li class="slide-8">
+                 <a href="/news/2021/fall/donor-impact-2021.html" target=""> 
+                    <img alt="Spotlight story image pertaining to Purple Leaf" src="/images/news/heart-hands-purple-gold.png"/>
+                    <p>Donor Impact 2020/21</p>
+                </a>
+            </li>
+                                        
+            
+                 
+                        
+     
+                                                        
+                                               
+                    
+                                        
+                                        
+                                        
+                                                            
+                                        
+        
+          
+            <li class="slide-9">
+                 <a href="/news/2021/fall/willingham.html" target=""> 
+                    <img alt="Spotlight story image pertaining to Purple Leaf" src="/images/news/willingham.jpg"/>
+                    <p>Professor Lee Willingham Makes Space for Community Music</p>
+                </a>
+            </li>
+                                        
+            
+                 
+                        
+     
+                                                        
+                                               
+                    
+                                        
+                                        
+                                        
+                                                            
+                                        
+        
+          
+            <li class="slide-10">
+                 <a href="/news/2021/fall/murray.html" target=""> 
+                    <img alt="Spotlight story image pertaining to Purple Leaf" src="/images/news/kenmurray.jpg"/>
+                    <p>The Ken Murray Fund builds bridges while Making Space for Music</p>
+                </a>
+            </li>
+                                        
+            
+                 
+                        
+     
+                                                        
+                                               
+                    
+                                        
+                                        
+                                        
+                                                            
+                                        
+        
+          
+            <li class="slide-11">
+                 <a href="/news/2021/fall/nathan-eli-john.html" target=""> 
+                    <img alt="Spotlight story image pertaining to Nathan Eli John, right, stands under a tree with a friend. They are both wearing suits and smiling at the camera" src="/images/news/spotlight-image-nej.jpg"/>
+                    <p>An award for the humble among us</p>
+                </a>
+            </li>
+                                        
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                 
+                        
+     
+                            
+            
+                        
+            <li>
+                <p class="more_events">
+                    <span class="icon icon-leaf"></span> <a href="/news/index.html">View All Spotlights</a>
+                </p>
+            </li>
+        </ul>
+    </div>
+    <!-- End Events -->
+</div>
+
+            			</div>
+            		</div>
+            		<div class="row" id="eventsRow" role="complimentary">
+            			<div class="col col-100">
+            				
+
+
+
+
+
+
+            			</div>
+            		</div>
+            		<div class="row" id="footerRow">
+            			<footer>
+            				
+
+<div class="row">
+    <div class="footer-logos">
+                <img alt="Wilfrid Laurier University" src="/images/logo/desktop_logo_laurier.png"/>
+    </div>
+          
+    <div class="footer-site-info">
+    
+        <div>
+            <ul class="footer-links">
+                                                            
+                                    <li><a href="/resources/contact-us.html" target="">Contact Us</a></li>
+                                                
+                                                <li><a href="https://wlu.ca/about/discover-laurier/accessibility/" target="_blank">Accessibility</a></li>
+                                                
+                                    <li><a href="https://www.wlu.ca/about/public-accountability/privacy/notice-of-collection.html" target="">Privacy</a></li>
+                                                
+                                                <li><a href="https://www.wlu.ca/about/index.html" target="_blank">About</a></li>
+                        </ul>
+        </div>
+        
+        <div>
+            <ul class="social-links">
+                                    <li><a aria-label="Email Social Media Link" class="social icon icon-email" href="mailto:alumni@wlu.ca" role="button" target=""><span class="visuallyHidden">Email</span></a></li>
+                                                <li><a aria-label="Laurier Alumni LinkedIn Social Media Link" class="social icon icon-linkedin" href="https://www.linkedin.com/groups/122980" role="button" target="_blank"><span class="visuallyHidden">Laurier Alumni LinkedIn</span></a></li>
+                                                <li><a aria-label="Laurier Alumni Facebook Social Media Link" class="social icon icon-facebook" href="https://www.facebook.com/LaurierAlumni" role="button" target="_blank"><span class="visuallyHidden">Laurier Alumni Facebook</span></a></li>
+                                                <li><a aria-label="Laurier Alumni Twitter Social Media Link" class="social icon icon-twitter" href="https://twitter.com/laurieralumni" role="button" target="_blank"><span class="visuallyHidden">Laurier Alumni Twitter</span></a></li>
+                                                <li><a aria-label="Laurier Alumni Instagram Social Media Link" class="social icon icon-instagram" href="https://www.instagram.com/laurieralumni" role="button" target="_blank"><span class="visuallyHidden">Laurier Alumni Instagram</span></a></li>
+                        </ul>
+        </div>
+        
+        <div>
+                        <p class="copyright">© 2022 Wilfrid Laurier University</p>
+                </div>
+   </div>    
+</div>
+
+
+
+            			</footer>
+            			<div class="clear"></div>
+            		</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
