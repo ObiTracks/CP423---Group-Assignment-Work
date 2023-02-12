@@ -22,75 +22,37 @@ def download_page(url):
         return None
     return response
 
+def extract_paper_data(papers, paper):
+
+    # Paper title
+    title = paper.find("a", class_="gsc_oci_title_link").text
+
+    entries = paper.find("div", id="gsc_oci_table").find_all("div", class_="gs_scl")
+
+    authors = None
+    publication_date = None
+    citedby = None
+    journal = None
+
+    for entry in entries:
+        field = entry.find("div", class_="gsc_oci_field").text.strip()
+        value = entry.find("div", class_="gsc_oci_value").text
+
+        if field == "Authors":
+            authors = value
+        elif field == "Journal" or field == "Source":
+            journal = value
+        elif field == "Publication date":
+            publication_date = value.split("/")[0]
+        elif field == "Source":
+            title = value
+        elif field == "Total citations":
+            citedby = entry.find("div", class_="gsc_oci_value").find("a").text.split(" ")[2]
+
+    papers.append({"paper_title": title, "paper_authors": authors, "paper_journal": journal, "paper_citedby": citedby,"paper_year": publication_date})
+    return papers
 
 def extract_data(soup, data):
-
-    # researcher name
-    name = soup.find("div", id="gsc_prf_in").text
-    data["researcher_name"] = name.strip()
-
-    # researcher caption
-    caption = soup.find("div", id="gsc_prf_il").text
-    data["researcher_caption"] = caption.strip()
-
-    # researcher institution
-    institution = soup.find("div", id="gsc_prf_ivh").text
-    data["researcher_institution"] = institution.strip()
-
-    # researcher keywords
-    keywords = [keyword.text for keyword in soup.find_all("a", class_="gsc_prf_inta")]
-    data["researcher_keywords"] = keywords
-
-    # researcher imageURL
-    img = soup.find("img", class_="gsc_prf_pct")
-    data["researcher_imgURL"] = img["src"]
-
-    # researcher citations
-    citations = soup.find("td", class_="gsc_rsb_std").text
-    data["researcher_citations"] = {"all": citations.strip()}
-
-    # researcher h-index
-    hindex = soup.find("td", class_="gsc_rsb_hindex").text
-    data["researcher_hindex"] = {"all": hindex.strip()}
-
-    # researcher i10-index
-    i10index = soup.find("td", class_="gsc_rsb_i10index").text
-    data["researcher_i10index"] = {"all": i10index.strip()}
-
-    # researcher coauthors
-    coauthors = []
-    for coauthor in soup.find_all("ul", class_="gsc_a_tr"):
-        # coauthors name
-        name = coauthor.find("a", class_="gsc_a_at").text
-
-        # coauthors title
-        title = coauthor.find("div", class_="gsc_a_t").text
-
-        # coauthors link
-        link = coauthor.find("a", class_="gsc_a_at")["href"]
-
-        coauthors.append({"coauthor_name": name, "coauthor_title": title, "coauthor_link": link})
-    data["researcher_coauthors"] = coauthors
-
-    # researcher papers
-    papers = []
-    for paper in soup.find_all("tr", class_="gsc_a_tr"):
-        # paper title
-        title = paper.find("a", class_="gsc_a_at").text
-
-        # paper authors
-        authors = paper.find("div", class_="gs_gray").text
-
-        # paper journal
-        journal = paper.find("div", class_="gs_gray").find_next("div").text
-
-        # paper citedby
-        citedby = paper.find("div", class_="gsc_a_ac gs_ibl").text
-
-        # paper citedby
-        year = paper.find("div", class_="gsc_a_h gsc_a_hc gs_ibl").text
-
-def extract_data_2(soup, data):
     # Researcher name
     name = soup.find("div", id="gsc_prf_in").text
     data["researcher_name"] = name.strip()
@@ -125,63 +87,43 @@ def extract_data_2(soup, data):
     coauthors = []
     for coauthor in soup.find("ul", class_="gsc_rsb_a"):
 
-        # coauthors name
+        # Coauthors name
         coauthor_name = coauthor.find('a', {'tabindex': '-1'}).text
 
-        # coauthors title
+        # Coauthors title
         coauthor_title = coauthor.find("span", class_="gsc_rsb_a_ext").text
 
-        # coauthors link
+        # Coauthors link
         link = "https://scholar.google.ca" + coauthor.find("a", {'tabindex': '-1'})["href"]
 
         coauthors.append({"coauthor_name": coauthor_name, "coauthor_title": coauthor_title, "coauthor_link": link})
     data["researcher_coauthors"] = coauthors
 
     papers = []
-    paper_count = 0
-    for paper in soup.find_all("tr", class_="gsc_a_tr"):
-        paper_count += 1
 
-        # Paper title
-        title = paper.find("a", class_="gsc_a_at").text
+    for paper in soup.find("tbody", id="gsc_a_b"):
+        paper_link = "https://scholar.google.ca" + paper.find("a", class_="gsc_a_at")["href"]
 
-        # Paper authors
-        authors = paper.find("div", class_="gs_gray").text
+        paper_page_data = download_page(paper_link)
+        paper_soup = BeautifulSoup(paper_page_data.content, "html.parser")
 
-        # Paper journal title
-        # Note: \u00c2\u00a0\u00e2\u20ac\u00a6 represents the &nbps tag and i replace it with ellipse
-        journal_title = paper.find("div", class_="gs_gray").find_next("div").text.replace("\u00c2\u00a0\u00e2\u20ac\u00a6", "...")
+        papers = extract_paper_data(papers, paper_soup)
 
-        # Paper citedby
-        citedby = paper.find("a", class_="gsc_a_ac gs_ibl").text
-
-        # Paper year
-        year = paper.find("span", class_="gsc_a_h gsc_a_hc gs_ibl").text
-
-        papers.append({"paper_count": paper_count, "paper_title": title, "paper_author": authors, "paper_journal": journal_title, "paper_citedby": citedby, "paper_year": year})
     data["researcher_paper"] = papers
 
 if __name__ == '__main__':
     # args stuff
-    # parser = argparse.ArgumentParser(description='Web Crawler 2')
-    # parser.add_argument('researcherURL', help='The researcherURL to crawl')
-    # args = parser.parse_args()
-    # researcherURL = args.researcherURL
+    parser = argparse.ArgumentParser(description='Web Crawler 2')
+    parser.add_argument('researcherURL', help='The researcherURL to crawl')
+    args = parser.parse_args()
+    researcherURL = args.researcherURL
 
-    researcherURL = "https://scholar.google.ca/citations?hl=en&user=RvyPyJ0AAAAJ"
-    #page_data = download_page(researcherURL)
-    #print(page_data)
+    researcher_page_data = download_page(researcherURL)
+    researcher_soup = BeautifulSoup(researcher_page_data.content, "html.parser")
 
-    with open("_Amin Azmoodeh_ - _Google Scholar_.html", "r") as file:
-        contents = file.read()
-        soup = BeautifulSoup(contents, 'html.parser')
-        elements = soup.find_all(class_=True)
-        # for element in elements:
-            # print(element.get("class"))
     data = {}
+    extract_data(researcher_soup, data)
 
-    extract_data_2(soup, data)
-
-    # Convert to JSON then print, I'm using an indent to make it more readable
-    json_data = json.dumps(data, indent=3)
-    print(json_data)
+    # Save JSON to a file
+    with open("webcrawler2.json", "w") as file:
+        json.dump(data, file)
