@@ -1,7 +1,6 @@
 import argparse
 import hashlib
 import json
-import sys
 
 import requests
 from bs4 import BeautifulSoup
@@ -13,6 +12,17 @@ def get_hash(url):
     hash.update(url.encode())
     return hash.hexdigest()
 
+def create_hash_file(url, data):
+    # Create a hash of the url as the filename, then save the webpage data to that file
+    filename = f"{get_hash(url)}.txt"
+    with open(filename, "w") as file:
+        file.write(data)
+
+def create_json_file(url, data):
+    # Create a hash of the url as the filename, then save the json data to that file
+    filename = f"{get_hash(url)}.json"
+    with open(filename, "w") as file:
+        json.dump(data, file)
 
 def download_page(url):
     # Download the content of the URL
@@ -27,19 +37,25 @@ def extract_paper_data(papers, paper):
     # Paper title
     title = paper.find("a", class_="gsc_oci_title_link").text
 
+    # Paper objects in the list
     entries = paper.find("div", id="gsc_oci_table").find_all("div", class_="gs_scl")
 
+    # These are the data we are looking for
     authors = None
     publication_date = None
     citedby = None
     journal = None
 
+    # Check every field for one of the data points, if it matches we know the corresponding value is our data we need
     for entry in entries:
         field = entry.find("div", class_="gsc_oci_field").text.strip()
         value = entry.find("div", class_="gsc_oci_value").text
 
         if field == "Authors":
             authors = value
+
+        # Note: Some papers listed either Journal or Source but I did not encounter both at the same time
+        #       Therefore I am writing it to use either as I think its an alternative
         elif field == "Journal" or field == "Source":
             journal = value
         elif field == "Publication date":
@@ -49,6 +65,7 @@ def extract_paper_data(papers, paper):
         elif field == "Total citations":
             citedby = entry.find("div", class_="gsc_oci_value").find("a").text.split(" ")[2]
 
+    # Once all the data is found, append it to the paper array and repeat for all the papers in the list
     papers.append({"paper_title": title, "paper_authors": authors, "paper_journal": journal, "paper_citedby": citedby,"paper_year": publication_date})
     return papers
 
@@ -79,6 +96,7 @@ def extract_data(soup, data):
     citation_elements = soup.find_all("td", class_="gsc_rsb_std")
     citations = [citation_element.text.strip() for citation_element in citation_elements]
 
+    # All of them are in the same element, so I stripped it in sections and then just assign the corresponding section
     data["researcher_citations"] = {"all": citations[0], "Since 2018": citations[1]}
     data["researcher_hindex"] = {"all": citations[2], "Since 2018": citations[3]}
     data["researcher_i10index"] = {"all": citations[4], "Since 2018": citations[5]}
@@ -118,12 +136,20 @@ if __name__ == '__main__':
     args = parser.parse_args()
     researcherURL = args.researcherURL
 
+    # Download the page
     researcher_page_data = download_page(researcherURL)
+
+    # Save the page to text file, using hash as name
+    create_hash_file(researcherURL, researcher_page_data)
+
+    # Convert the response to bs4 soup
     researcher_soup = BeautifulSoup(researcher_page_data.content, "html.parser")
 
+    # Create empty dict
     data = {}
+
+    # Fill the dict with the json data
     extract_data(researcher_soup, data)
 
     # Save JSON to a file
-    with open("webcrawler2.json", "w") as file:
-        json.dump(data, file)
+    create_json_file(researcherURL, data)
