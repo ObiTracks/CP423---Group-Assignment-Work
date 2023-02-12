@@ -12,17 +12,20 @@ def get_hash(url):
     hash.update(url.encode())
     return hash.hexdigest()
 
+
 def create_hash_file(url, data):
     # Create a hash of the url as the filename, then save the webpage data to that file
     filename = f"{get_hash(url)}.txt"
     with open(filename, "w") as file:
         file.write(data)
 
+
 def create_json_file(url, data):
     # Create a hash of the url as the filename, then save the json data to that file
     filename = f"{get_hash(url)}.json"
     with open(filename, "w") as file:
         json.dump(data, file)
+
 
 def download_page(url):
     # Download page, throw an error if page isnt downloaded properly
@@ -34,42 +37,6 @@ def download_page(url):
         return None
     return response
 
-def extract_paper_data(papers, paper):
-
-    # Paper title
-    title = paper.find("a", class_="gsc_oci_title_link").text
-
-    # Paper objects in the list
-    entries = paper.find("div", id="gsc_oci_table").find_all("div", class_="gs_scl")
-
-    # These are the data we are looking for
-    authors = None
-    publication_date = None
-    citedby = None
-    journal = None
-
-    # Check every field for one of the data points, if it matches we know the corresponding value is our data we need
-    for entry in entries:
-        field = entry.find("div", class_="gsc_oci_field").text.strip()
-        value = entry.find("div", class_="gsc_oci_value").text
-
-        if field == "Authors":
-            authors = value
-
-        # Note: Some papers listed either Journal or Source but I did not encounter both at the same time
-        #       Therefore I am writing it to use either as I think its an alternative
-        elif field == "Journal" or field == "Source":
-            journal = value
-        elif field == "Publication date":
-            publication_date = value.split("/")[0]
-        elif field == "Source":
-            title = value
-        elif field == "Total citations":
-            citedby = entry.find("div", class_="gsc_oci_value").find("a").text.split(" ")[2]
-
-    # Once all the data is found, append it to the paper array and repeat for all the papers in the list
-    papers.append({"paper_title": title, "paper_authors": authors, "paper_journal": journal, "paper_citedby": citedby,"paper_year": publication_date})
-    return papers
 
 def extract_data(soup, data):
     # Researcher name
@@ -106,7 +73,6 @@ def extract_data(soup, data):
     # Coauthors
     coauthors = []
     for coauthor in soup.find("ul", class_="gsc_rsb_a"):
-
         # Coauthors name
         coauthor_name = coauthor.find('a', {'tabindex': '-1'}).text
 
@@ -119,17 +85,62 @@ def extract_data(soup, data):
         coauthors.append({"coauthor_name": coauthor_name, "coauthor_title": coauthor_title, "coauthor_link": link})
     data["researcher_coauthors"] = coauthors
 
+    # Papers are their own webpage, so we must do extra to get their data
     papers = []
-
+    # For every paper in the list
     for paper in soup.find("tbody", id="gsc_a_b"):
+        # Get the new link for the paper
         paper_link = "https://scholar.google.ca" + paper.find("a", class_="gsc_a_at")["href"]
 
+        # Download that data ( Not asked to save it )
         paper_page_data = download_page(paper_link)
+
+        # Convert to soup
         paper_soup = BeautifulSoup(paper_page_data.content, "html.parser")
 
+        # Extract the data using the function
         papers = extract_paper_data(papers, paper_soup)
 
     data["researcher_paper"] = papers
+
+
+def extract_paper_data(papers, paper):
+    # Paper title
+    title = paper.find("a", class_="gsc_oci_title_link").text
+
+    # Paper objects in the list
+    entries = paper.find("div", id="gsc_oci_table").find_all("div", class_="gs_scl")
+
+    # These are the data we are looking for
+    authors = None
+    publication_date = None
+    citedby = None
+    journal = None
+
+    # Check every field for one of the data points, if it matches we know the corresponding value is our data we need
+    for entry in entries:
+        field = entry.find("div", class_="gsc_oci_field").text.strip()
+        value = entry.find("div", class_="gsc_oci_value").text
+
+        if field == "Authors":
+            authors = value
+
+        # Note: Some papers listed either Journal or Source but I did not encounter both at the same time
+        #       Therefore I am writing it to use either as I think its an alternative
+        elif field == "Journal" or field == "Source":
+            journal = value
+        elif field == "Publication date":
+            publication_date = value.split("/")[0]
+        elif field == "Source":
+            title = value
+        elif field == "Total citations":
+            citedby = entry.find("div", class_="gsc_oci_value").find("a").text.split(" ")[2]
+
+    # Once all the data is found, append it to the paper array and repeat for all the papers in the list
+    papers.append({"paper_title": title, "paper_authors": authors, "paper_journal": journal, "paper_citedby": citedby,
+                   "paper_year": publication_date})
+    return papers
+
 
 if __name__ == '__main__':
     # args stuff
