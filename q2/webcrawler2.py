@@ -25,10 +25,12 @@ def create_json_file(url, data):
         json.dump(data, file)
 
 def download_page(url):
-    # Download the content of the URL
+    # Download page, throw an error if page isnt downloaded properly
     try:
         response = requests.get(url)
-    except:
+        response.raise_for_status()
+    except requests.exceptions.RequestException as e:
+        print(f"Error while downloading page: {e}")
         return None
     return response
 
