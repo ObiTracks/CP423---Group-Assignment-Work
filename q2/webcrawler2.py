@@ -28,10 +28,13 @@ def create_json_file(url, data):
 
 
 def download_page(url):
-    # Download page, throw an error if page isnt downloaded properly
+    # Download page, throw an error if page isn't downloaded properly
+
     try:
         response = requests.get(url)
         response.raise_for_status()
+        if response.status_code != 200:
+            raise Exception(f"Request failed with status code: {response.status_code}")
     except requests.exceptions.RequestException as e:
         print(f"Error while downloading page: {e}")
         return None
