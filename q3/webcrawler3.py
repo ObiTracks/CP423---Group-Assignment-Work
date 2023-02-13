@@ -2,7 +2,7 @@
 # python webcrawler3.py <url>
 
 # Example (run in terminal)
-# python webcrawler3.py 
+# python webcrawler3.py https://www.wlu.ca/
 
 import hashlib
 import re
