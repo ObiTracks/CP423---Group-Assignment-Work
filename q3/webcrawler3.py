@@ -1,3 +1,9 @@
+# Instructions to run
+# python webcrawler3.py <url>
+
+# Example (run in terminal)
+# python webcrawler3.py 
+
 import hashlib
 import re
 import requests
