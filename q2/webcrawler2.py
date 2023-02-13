@@ -2,7 +2,7 @@
 # python webcrawler2.py <researcherURL>
 
 # Example (run in terminal)
-# python webcrawler2.py 
+# python webcrawler2.py https://scholar.google.ca/citations?hl=en&user=RvyPyJ0AAAAJ 
 
 import argparse
 import hashlib
