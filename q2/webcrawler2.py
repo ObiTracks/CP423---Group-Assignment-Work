@@ -1,3 +1,9 @@
+# Instructions to run
+# python webcrawler2.py <researcherURL>
+
+# Example (run in terminal)
+# python webcrawler2.py https://www.wlu.ca/ 
+
 import argparse
 import hashlib
 import json
