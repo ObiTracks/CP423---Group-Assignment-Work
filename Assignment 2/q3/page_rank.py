@@ -1,4 +1,10 @@
+# Instructions to run
+# python page_rank.py --maxiteration <int> -–lambda <float> –-thr <float> –-nodes <list of int>
+# Default:
+# python page_rank.py --maxiteration 20 -–lambda .25 –-thr .01 –-nodes [5,87524,632]
+
 import argparse
+
 
 def web_graph(node_count):
     web_graph = {i: [] for i in range(node_count)}
