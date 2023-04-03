@@ -1,18 +1,20 @@
 import argparse
-import os
+# import os
 import re
 import string
-import numpy as np
+# import numpy as np
 import pandas as pd
 
 from nltk.corpus import stopwords
 import nltk
+
 nltk.download('punkt')
 nltk.download('stopwords')
 from nltk.tokenize import word_tokenize
 from sklearn.feature_extraction.text import TfidfVectorizer
-import sklearn.metrics as metrics
-# from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, confusion_matrix, plot_confusion_matrix
+# import sklearn.metrics as metrics
+from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, \
+    confusion_matrix  # , plot_confusion_matrix
 from sklearn.model_selection import cross_val_predict
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.neighbors import KNeighborsClassifier
@@ -21,6 +23,7 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.pipeline import make_pipeline
 import matplotlib.pyplot as plt
 import joblib
+
 
 def load_data(file):
     print("Loading data...")
@@ -32,13 +35,14 @@ def load_data(file):
     print("Data loaded...")
     return pd.DataFrame(data, columns=["text", "label"])
 
+
 def preprocess(text):
-    text = text.lower()
-    text = re.sub(f"[{string.punctuation}]", "", text)
+    text = re.sub(f"[{string.punctuation}]", "", text.lower())
     tokens = word_tokenize(text)
     stop_words = set(stopwords.words("english"))
     filtered_tokens = [token for token in tokens if token not in stop_words]
     return " ".join(filtered_tokens)
+
 
 def train_and_evaluate(args, X, y):
     if args.naive:
@@ -52,18 +56,19 @@ def train_and_evaluate(args, X, y):
 
     model = make_pipeline(TfidfVectorizer(), clf)
     y_pred = cross_val_predict(model, X, y, cv=5)
-    
+
     print(f"Accuracy: {accuracy_score(y, y_pred)}")
     print(f"Precision: {precision_score(y, y_pred)}")
     print(f"Recall: {recall_score(y, y_pred)}")
     print(f"F-Measure: {f1_score(y, y_pred)}")
-    
+
     cm = confusion_matrix(y, y_pred)
     disp = plot_confusion_matrix(clf, X, y, cmap=plt.cm.Blues, values_format=".0f")
     plt.show()
 
     model.fit(X, y)
     joblib.dump(model, "model.joblib")
+
 
 def main():
     parser = argparse.ArgumentParser(description="Train a sentiment analysis model.")
@@ -78,8 +83,8 @@ def main():
 
     # Step 1: Load data
 
-    train_data = None;
-    test_data = None;
+    train_data = None
+    test_data = None
 
     if args.imdb:
         train_data = load_data("imdb_labelled.txt")
@@ -103,7 +108,7 @@ def main():
     print("Training and evaluating model...")
     X_train, y_train = train_data["text"], train_data["label"]
     X_test, y_test = test_data["text"], test_data["label"]
-    
+
     if args.naive:
         print("Using Naive Bayes classifier.")
     elif args.knn:
@@ -116,4 +121,3 @@ def main():
         print("Please specify a classifier.")
         return
     train_and_evaluate(args, X_train, y_train)
-
