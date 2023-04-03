@@ -5,14 +5,7 @@ import string
 # import numpy as np
 import pandas as pd
 
-from nltk.corpus import stopwords
-import nltk
-
-nltk.download('punkt')
-nltk.download('stopwords')
-from nltk.tokenize import word_tokenize
 from sklearn.feature_extraction.text import TfidfVectorizer
-# import sklearn.metrics as metrics
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, \
     confusion_matrix  # , plot_confusion_matrix
 from sklearn.model_selection import cross_val_predict
@@ -21,8 +14,17 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.svm import SVC
 from sklearn.tree import DecisionTreeClassifier
 from sklearn.pipeline import make_pipeline
+
 import matplotlib.pyplot as plt
+
 import joblib
+
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
+from nltk import download
+
+download('punkt')
+download('stopwords')
 
 
 def load_data(file):
