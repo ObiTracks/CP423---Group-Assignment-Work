@@ -22,10 +22,12 @@ from sklearn.pipeline import make_pipeline
 import matplotlib.pyplot as plt
 import joblib
 
+
 def load_data(file):
     print("Loading data...")
     data = []
-    with open("/sentiment_labelled_sentences/" + file, "r", encoding="utf-8") as f:
+
+    with open("/content/sentiment_labelled_sentences/" + file, "r", encoding="utf-8") as f:
         for line in f:
             text, label = line.strip().split("\t")
             data.append((text, int(label)))
@@ -53,13 +55,13 @@ def train_and_evaluate(args, X, y):
     model = make_pipeline(TfidfVectorizer(), clf)
     y_pred = cross_val_predict(model, X, y, cv=5)
     
-    print(f"Accuracy: {accuracy_score(y, y_pred)}")
-    print(f"Precision: {precision_score(y, y_pred)}")
-    print(f"Recall: {recall_score(y, y_pred)}")
-    print(f"F-Measure: {f1_score(y, y_pred)}")
+    print(f"Accuracy: {metrics.accuracy_score(y, y_pred)}")
+    print(f"Precision: {metrics.precision_score(y, y_pred)}")
+    print(f"Recall: {metrics.recall_score(y, y_pred)}")
+    print(f"F-Measure: {metrics.f1_score(y, y_pred)}")
     
-    cm = confusion_matrix(y, y_pred)
-    disp = plot_confusion_matrix(clf, X, y, cmap=plt.cm.Blues, values_format=".0f")
+    cm = metrics.confusion_matrix(y, y_pred)
+    disp = metrics.ConfusionMatrixDisplay(cm)
     plt.show()
 
     model.fit(X, y)
