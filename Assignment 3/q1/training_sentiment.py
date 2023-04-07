@@ -1,3 +1,9 @@
+# Sample usage statements:
+# For training and outputting the model: python training_sentiment.py --imdb --naive
+# For predicting sentiment: 
+input_text = "I hate the news. But the sun is shiny. So its a good day."
+predict_sentiment(input_text)
+
 import argparse
 import os
 import re
@@ -23,11 +29,11 @@ import matplotlib.pyplot as plt
 import joblib
 
 
-def load_data(file):
+def load_data(file, database_dir="sentiment_labelled_sentences/"):
     print("Loading data...")
     data = []
 
-    with open("/content/sentiment_labelled_sentences/" + file, "r", encoding="utf-8") as f:
+    with open(database_dir + file, "r", encoding="utf-8") as f:
         for line in f:
             text, label = line.strip().split("\t")
             data.append((text, int(label)))
@@ -119,3 +125,5 @@ def main():
         return
     train_and_evaluate(args, X_train, y_train)
 
+if __name__ == '__main__':
+    main()

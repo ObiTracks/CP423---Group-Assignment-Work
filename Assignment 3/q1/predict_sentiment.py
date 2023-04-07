@@ -1,3 +1,7 @@
+# Sample usage statements:
+# python predict_sentiment.py "I hate the news. But the sun is shiny. So its a good day."
+# python predict_sentiment.py "I hate the news. It gives too much text to classify"
+
 import argparse
 import re
 import string
@@ -15,14 +19,9 @@ def preprocess(text):
     filtered_tokens = [token for token in tokens if token not in stop_words]
     return " ".join(filtered_tokens)
 
-
-def main():
-    parser = argparse.ArgumentParser(description="Predict the sentiment of a given text.")
-    parser.add_argument("text", type=str, help="The text to classify.")
-    args = parser.parse_args()
-
+def predict_sentiment(text):
     # Step 1: Preprocess input text
-    text = preprocess(args.text)
+    processed_text = preprocess(text)
 
     # Step 2: Load the saved model
     try:
@@ -32,10 +31,23 @@ def main():
         sys.exit(1)
 
     # Step 3: Predict and print the label
-    prediction = model.predict([text])[0]
+    prediction = model.predict([processed_text])[0]
     sentiment = "positive" if prediction == 1 else "negative"
     print(f"The predicted sentiment of the text is {sentiment}.")
+    return sentiment
 
 
-if __name__ == "__main__":
+
+def main():
+    # Step 1: Parse command-line arguments
+    parser = argparse.ArgumentParser(description="Predict the sentiment of input text.")
+    parser.add_argument("text", help="The input text to predict sentiment for.")
+    args = parser.parse_args()
+    print(args.text)
+
+    # Step 2: Predict and print the sentiment
+    predict_sentiment(args.text)
+
+
+if __name__ == '__main__':
     main()
