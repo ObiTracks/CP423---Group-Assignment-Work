@@ -1,0 +1,10 @@
+#TOPIC,LINK
+Technology, https://www.techradar.com/news
+Technology, https://www.cnet.com/news/
+Technology, https://www.wired.com/category/gear/
+Psychology, https://www.psychologytoday.com
+Psychology, https://www.psychologicalscience.org/news
+Psychology, https://www.bps.org.uk/bps-news
+Astronomy, https://www.space.com/news
+Astronomy, https://www.astronomy.com/news
+Astronomy, https://www.skyatnightmagazine.com/news/

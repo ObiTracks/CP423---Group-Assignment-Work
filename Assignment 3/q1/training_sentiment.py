@@ -1,8 +1,8 @@
 # Sample usage statements:
 # For training and outputting the model: python training_sentiment.py --imdb --naive
 # For predicting sentiment: 
-input_text = "I hate the news. But the sun is shiny. So its a good day."
-predict_sentiment(input_text)
+# input_text = "I hate the news. But the sun is shiny. So its a good day."
+# predict_sentiment(input_text)
 
 import argparse
 import os
