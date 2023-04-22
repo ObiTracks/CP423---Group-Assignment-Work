@@ -1,4 +1,5 @@
-from utilities import handlers
+import handlers
+
 
 def main_menu():
     print("Select an option:")
@@ -9,6 +10,7 @@ def main_menu():
     print("5- Predict a link.")
     print("6- Your story!")
     print("7- Exit")
+
 
 def main():
     while True:
@@ -32,6 +34,7 @@ def main():
             break
         else:
             print("Invalid choice. Please enter a number between 1 and 7.")
+
 
 if __name__ == "__main__":
     main()
