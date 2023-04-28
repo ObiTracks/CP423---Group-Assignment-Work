@@ -2,6 +2,8 @@ import glob
 import os
 import hashlib
 from datetime import datetime
+
+import pandas as pd
 import requests
 from bs4 import BeautifulSoup
 import re
@@ -11,12 +13,31 @@ from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.naive_bayes import MultinomialNB
-from sklearn.metrics import accuracy_score, classification_report
+from sklearn.metrics import accuracy_score, classification_report, recall_score, precision_score, f1_score, \
+    confusion_matrix
 
 from collections import defaultdict
 
+from sklearn.neighbors import KNeighborsClassifier
 
 import utils
+
+import textwrap
+import requests, trafilatura
+import nltk
+from nltk.corpus import stopwords
+
+nltk.download('stopwords')  # uncomment if first time
+from nltk.tokenize import word_tokenize
+import re  # for removing punctuation
+import logging
+import random
+
+# Classifier
+import seaborn as sns
+from sklearn.neighbors import KNeighborsClassifier
+import matplotlib.pyplot as plt
+import joblib
 
 
 def collect_new_documents():
@@ -29,6 +50,8 @@ def collect_new_documents():
             content, internal_links = utils.crawl_and_extract_content(link)
             utils.save_content(topic, link, content)
             utils.crawl_internal_links(topic, internal_links, link)
+    print("Finished collect new documents")
+
 
 def index_documents():
     inverted_index = utils.defaultdict(list)
@@ -57,6 +80,8 @@ def index_documents():
     with open("mapping.txt", "w") as f:
         for file_hash, doc_id in mapping.items():
             f.write(f"{file_hash}: {doc_id}\n")
+    print("Finished index documents")
+
 
 def search_for_query():
     query = input("Enter your search query: ")
@@ -80,6 +105,7 @@ def search_for_query():
                 if file_hash in line:
                     _, url, _, _ = line.strip().split(", ")
                     print(f"{url} (Score: {score})")
+    print("Finished search for query")
 
 
 def train_ml_classifier():
@@ -102,6 +128,9 @@ def train_ml_classifier():
 
     with open("classifier.model", "wb") as f:
         utils.pickle.dump(clf, f)
+    print("Finished train ml_classifier")
+
+
 
 def predict_link():
     link = input("Enter a link to predict its topic: ")
@@ -118,6 +147,7 @@ def predict_link():
 
     predicted_topic = clf.predict(content_tfidf)[0]
     print(f"Predicted topic for the link: {predicted_topic}")
+    print("Finished predict link")
 
 
 def your_story():
@@ -128,4 +158,3 @@ def your_story():
 
     print("Your story:")
     print(content)
-
