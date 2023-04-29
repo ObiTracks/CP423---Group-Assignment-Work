@@ -62,7 +62,7 @@ def save_content(topic, link, content):
     if content == None or content == "":
       return
     print("Saving content...")
-    with open(file_path, "w") as f:
+    with open(file_path, "w", encoding="utf-8") as f:
         f.write(content)
 
     print("Writing content to log...")    
@@ -126,7 +126,7 @@ def get_soundex(token):
     return soundex_code[:4]
 
 def save_inverted_index(inverted_index):
-    with open("invertedindex.txt", "w") as f:
+    with open("invertedindex.txt", "w", encoding="utf-8") as f:
         print("Saving inverted index...")
         for term, appearances in inverted_index.items():
             soundex = get_soundex(term)

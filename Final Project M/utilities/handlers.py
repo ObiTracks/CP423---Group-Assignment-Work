@@ -22,6 +22,9 @@ from collections import defaultdict
 
 from collections import defaultdict
 from .utils import *
+from colorama import Fore, Style
+
+
 
 def collect_new_documents():
     with open("sources.txt", "r") as f:
@@ -46,7 +49,7 @@ def index_documents():
         for file_path in files:
             print(file_path)
             file_hash = file_path.split("/")[-1].split(".")[0]
-            with open(file_path, "r") as f:
+            with open(file_path, "r", encoding="utf-8") as f:
                 content = f.read()
                 tokens = tokenize(content)
                 term_freq = calculate_term_frequency(tokens)
