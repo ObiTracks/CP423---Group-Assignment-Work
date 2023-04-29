@@ -1,21 +1,27 @@
-# import os
-# import hashlib
-# from datetime import datetime
-# import requests
-# from bs4 import BeautifulSoup
-# import re
-
-# import pickle
-# from sklearn.model_selection import train_test_split
-# from sklearn.feature_extraction.text import CountVectorizer
-# from sklearn.feature_extraction.text import TfidfTransformer
-# from sklearn.naive_bayes import MultinomialNB
-# from sklearn.metrics import accuracy_score, classification_report
-
+import os
+import re
+import hashlib
+from datetime import datetime
+from urllib.parse import urlparse
+import glob
+import pickle
+import requests
+from bs4 import BeautifulSoup
+import justext
+import nltk
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
+nltk.download('stopwords')
+nltk.download('punkt')
+from sklearn.model_selection import train_test_split
+from sklearn.feature_extraction.text import CountVectorizer
+from sklearn.feature_extraction.text import TfidfTransformer
+from sklearn.naive_bayes import MultinomialNB
+from sklearn.metrics import accuracy_score, classification_report
 from collections import defaultdict
 
-
-from utils import *
+from collections import defaultdict
+from .utils import *
 
 def collect_new_documents():
     with open("sources.txt", "r") as f:
@@ -26,7 +32,7 @@ def collect_new_documents():
             topic, link = line.strip().split(", ")
             content, internal_links = crawl_and_extract_content(link)
             save_content(topic, link, content)
-            crawl_internal_links(topic, internal_links, link)
+            crawl_internal_links(topic, internal_links, link, 1)
 
 def index_documents():
     inverted_index = defaultdict(list)
@@ -34,8 +40,11 @@ def index_documents():
     mapping = {}
 
     for topic in ["Technology", "Psychology", "Astronomy"]:
+        print(topic)
         files = glob.glob(f"data/{topic}/*.txt")
+        print(files)
         for file_path in files:
+            print(file_path)
             file_hash = file_path.split("/")[-1].split(".")[0]
             with open(file_path, "r") as f:
                 content = f.read()
@@ -47,14 +56,8 @@ def index_documents():
 
             mapping[file_hash] = doc_id
             doc_id += 1
-
-    with open("invertedindex.txt", "w") as f:
-        for term, postings in inverted_index.items():
-            f.write(f"{term}: {postings}\n")
-
-    with open("mapping.txt", "w") as f:
-        for file_hash, doc_id in mapping.items():
-            f.write(f"{file_hash}: {doc_id}\n")
+    save_inverted_index(inverted_index)
+    save_mapping(mapping)
 
 def search_for_query():
     query = input("Enter your search query: ")
