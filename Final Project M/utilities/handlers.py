@@ -132,7 +132,7 @@ def train_ml_classifier():
     print(f"Saved trained vectorizer as 'vectorizer.model'")
 
 
-def predict_link(link="http://sten.astronomycafe.net/2023/03/"):
+def predict_link(link):
     # Crawl the content from the link
     content, internal_links = crawl_and_extract_content(link)
 
@@ -164,7 +164,7 @@ def predict_link(link="http://sten.astronomycafe.net/2023/03/"):
 
 
 def your_story():
-    filename = "../story.txt"
+    filename = "story.txt"
 
     with open(filename, "r") as f:
         content = f.read()
