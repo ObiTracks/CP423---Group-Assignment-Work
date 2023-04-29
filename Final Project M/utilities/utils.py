@@ -3,21 +3,17 @@ import heapq
 import math
 import os
 import re
+from collections import defaultdict, Counter
 from datetime import datetime
+from typing import Dict, List
 from urllib.parse import urlparse
 
 import justext
-import nltk
 import requests
 from bs4 import BeautifulSoup
 from colorama import Fore, Style
 from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
-
-nltk.download('stopwords')
-nltk.download('punkt')
-from collections import defaultdict, Counter
-from typing import Dict, List
 
 
 # Utilities for collect_new_documents
@@ -69,7 +65,6 @@ def save_content(topic, link, content):
     log_path = os.path.join(script_dir, "..", "crawl.log")
     with open(log_path, "a") as log:
         log.write(f"{topic}, {link}, {file_hash}, {datetime.now()}\n")
-
 
 
 def crawl_internal_links(topic, internal_links, initial_url, depth):
@@ -248,7 +243,6 @@ def display_similarity_scores(query_vector, doc_vectors, document_paths, best_ma
 
     results = heapq.nlargest(3, sim_scores.items(), key=lambda x: x[1])
 
-
     print("Top 3 document results")
     for file_path, score in results:
         content = get_document_text(file_path)
@@ -258,7 +252,6 @@ def display_similarity_scores(query_vector, doc_vectors, document_paths, best_ma
 
         # Get the original URL using the file_hash
         file_hash = os.path.splitext(os.path.basename(file_path))[0]
-
 
         print(f"Document: {file_path}, Similarity score: {score:.4f}\n{highlighted_content}\n\n")
 
@@ -272,8 +265,3 @@ def cosine_similarity(vec1: Dict[str, float], vec2: Dict[str, float]) -> float:
     if not denominator:
         return 0.0
     return float(numerator) / denominator
-
-
-def fetch_text_from_url(url):
-    response = requests.get(url)
-    return response.text

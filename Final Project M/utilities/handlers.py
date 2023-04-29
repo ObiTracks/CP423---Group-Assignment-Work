@@ -53,6 +53,7 @@ def index_documents():
             doc_id += 1
     save_inverted_index(inverted_index)
     save_mapping(mapping)
+    print()
 
 
 def search_for_query(query):
@@ -99,12 +100,11 @@ def train_ml_classifier():
         RandomForestClassifier(),
         KNeighborsClassifier(),
         LogisticRegression(),
-        SVC()
+        SVC(probability=True)  # Set probability to True
     ]
 
     # Train and evaluate each classifier
     for clf in classifiers:
-        # print(f"Training {clf.class.name}...")
         pipeline = Pipeline([('clf', clf)])
         pipeline.fit(X_train, y_train)
 
@@ -116,7 +116,7 @@ def train_ml_classifier():
         print(f"Test Confusion Matrix:\n{cm}\n")
 
     # Select the best performing classifier
-    best_clf = SVC()
+    best_clf = SVC(probability=True)  # Set probability to True
     pipeline = Pipeline([('clf', best_clf)])
     pipeline.fit(X, labels)
 
@@ -124,16 +124,24 @@ def train_ml_classifier():
     with open("classifier.model", "wb") as f:
         pickle.dump(pipeline, f)
 
+    # Save the vectorizer
+    with open("vectorizer.model", "wb") as f:
+        pickle.dump(vectorizer, f)
+
     print(f"Saved trained model as 'classifier.model'")
+    print(f"Saved trained vectorizer as 'vectorizer.model'")
 
 
-def predict_link(link):
+def predict_link(link="http://sten.astronomycafe.net/2023/03/"):
     # Crawl the content from the link
-    content, _ = crawl_and_extract_content(link)
+    content, internal_links = crawl_and_extract_content(link)
 
     if content is None or content == "":
         print("Could not fetch content from the provided link.")
         return
+
+    # Preprocess the content
+    preprocessed_content = remove_stopwords(content)
 
     # Load the pre-trained vectorizer and classifier
     with open("vectorizer.model", "rb") as file:
@@ -142,8 +150,8 @@ def predict_link(link):
     with open("classifier.model", "rb") as file:
         classifier = pickle.load(file)
 
-    # Vectorize the fetched content
-    transformed_text = vectorizer.transform([content])
+    # Vectorize the preprocessed content
+    transformed_text = vectorizer.transform([preprocessed_content])
 
     # Predict the label of the content
     label = classifier.predict(transformed_text)[0]
@@ -156,7 +164,7 @@ def predict_link(link):
 
 
 def your_story():
-    filename = "story.txt"
+    filename = "../story.txt"
 
     with open(filename, "r") as f:
         content = f.read()
