@@ -1,6 +1,7 @@
 import argparse
 from utilities import handlers
 
+
 def main(args):
     if args.option == 1:
         handlers.collect_new_documents()
@@ -17,6 +18,7 @@ def main(args):
     else:
         print("Invalid choice. Please enter a number between 1 and 6.")
 
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Search Engine options")
     parser.add_argument("option", type=int, help="Choose an option between 1 and 6.")
@@ -24,4 +26,3 @@ if __name__ == "__main__":
     parser.add_argument("--link", type=str, help="Link for option 5.", default="")
     args = parser.parse_args()
     main(args)
-
