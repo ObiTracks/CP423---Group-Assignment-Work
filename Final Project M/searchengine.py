@@ -1,37 +1,27 @@
+import argparse
 from utilities import handlers
 
-def main_menu():
-    print("Select an option:")
-    print("1- Collect new documents.")
-    print("2- Index documents.")
-    print("3- Search for a query.")
-    print("4- Train ML classifier.")
-    print("5- Predict a link.")
-    print("6- Your story!")
-    print("7- Exit")
-
-def main():
-    while True:
-        main_menu()
-        user_choice = int(input("Enter your choice (1-7): "))
-
-        if user_choice == 1:
-            handlers.collect_new_documents()
-        elif user_choice == 2:
-            handlers.index_documents()
-        elif user_choice == 3:
-            handlers.search_for_query()
-        elif user_choice == 4:
-            handlers.train_ml_classifier()
-        elif user_choice == 5:
-            handlers.predict_link()
-        elif user_choice == 6:
-            handlers.your_story()
-        elif user_choice == 7:
-            print("Exiting...")
-            break
-        else:
-            print("Invalid choice. Please enter a number between 1 and 7.")
+def main(args):
+    if args.option == 1:
+        handlers.collect_new_documents()
+    elif args.option == 2:
+        handlers.index_documents()
+    elif args.option == 3:
+        handlers.search_for_query(args.query)
+    elif args.option == 4:
+        handlers.train_ml_classifier()
+    elif args.option == 5:
+        handlers.predict_link(args.link)
+    elif args.option == 6:
+        handlers.your_story()
+    else:
+        print("Invalid choice. Please enter a number between 1 and 6.")
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(description="Search Engine options")
+    parser.add_argument("option", type=int, help="Choose an option between 1 and 6.")
+    parser.add_argument("--query", type=str, help="Query for option 3.", default="")
+    parser.add_argument("--link", type=str, help="Link for option 5.", default="")
+    args = parser.parse_args()
+    main(args)
+
